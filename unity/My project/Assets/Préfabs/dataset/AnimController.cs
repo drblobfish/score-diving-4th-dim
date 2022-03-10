@@ -13,7 +13,6 @@ public class AnimController : MonoBehaviour
     private bool animFinished1 = false;
     private bool animFinished2 = false;
     private bool animFinished3 = false;
-    private List<bool> conditionList;
     public Text timer;
     public float timerSetting;
     private float timeRemaining;
@@ -32,7 +31,6 @@ public class AnimController : MonoBehaviour
         speed = 1;
         timer.enabled = false;
         timeRemaining = timerSetting;
-        conditionList.ad
     }
 
     /*public void Pause()
