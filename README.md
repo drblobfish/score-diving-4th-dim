@@ -6,6 +6,8 @@ We want to develop custom software to perform experiments to assess the advantag
 
 Our protocol is available [here](https://docs.google.com/document/d/1nIPCcI1o5f8sB7eeenndRpnXQNSKvKGWUfrj1_Wj8oY/edit?usp=sharing).
 
+Our bibliography is available in [this zotero library](https://www.zotero.org/groups/4625494/score-4d-microscopy/library).
+
 ## Files
 
 - `unity` contains the unity project of our software for displaying datasets and recoring test subjects answers
