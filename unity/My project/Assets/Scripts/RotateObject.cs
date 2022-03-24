@@ -7,7 +7,7 @@ public class RotateObject : MonoBehaviour
     public Camera cam;
     public Transform target;
     public float distanceToTarget = 3;
-    public float panSpeed = 10f;
+    public float panSpeed = 20f;
     public GameObject camGameObject;
     private Vector3 cameraPos;
     private Vector3 previousPosition;
@@ -26,13 +26,13 @@ public class RotateObject : MonoBehaviour
             cam.transform.Translate(new Vector3(0, 0, -distanceToTarget));
         }
 
-        if (Input.GetMouseButtonDown(0) && !Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetMouseButtonDown(0))
         {
             isRotating = true;
             previousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetMouseButtonDown(1))
         {
             isPanning = true;
             previousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
@@ -56,16 +56,19 @@ public class RotateObject : MonoBehaviour
 
         if (isPanning)
         {
-            Vector3 pos =cam.ScreenToViewportPoint(Input.mousePosition - previousPosition);
+            Vector3 newPosition = cam.ScreenToViewportPoint(Input.mousePosition);
+            Vector3 pos = previousPosition - newPosition;
+            //Vector3 pos =cam.ScreenToViewportPoint(Input.mousePosition - previousPosition);
 
-            Vector3 move = new Vector3(pos.x * panSpeed, pos.y * panSpeed, 0);
-            transform.Translate(move, Space.Self);
+            Vector3 move = new Vector3(pos.x*panSpeed, pos.y*panSpeed, 0);
+            cam.transform.Translate(move, Space.World);
+            previousPosition = newPosition;
             Debug.Log("is panning");
         }
 
         // Disable movements on button release
 
-        if (!Input.GetMouseButton(0) || Input.GetKeyDown(KeyCode.LeftShift)) isRotating = false;
-        if (!Input.GetKeyDown(KeyCode.LeftShift)) isPanning = false;   
+        if (!Input.GetMouseButton(0)) isRotating = false;
+        if (!Input.GetMouseButton(1)) isPanning = false;   
     }
 }
