@@ -815,8 +815,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 357997868}
   target: {fileID: 838915135}
-  distanceToTarget: 10
-  panSpeed: 10
+  distanceToTarget: 3
+  panSpeed: 20
   camGameObject: {fileID: 0}
 --- !u!4 &438467066
 Transform:

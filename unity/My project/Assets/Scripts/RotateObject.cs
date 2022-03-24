@@ -32,7 +32,7 @@ public class RotateObject : MonoBehaviour
             previousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
         }
 
-        if (Input.GetMouseButtonDown(1))
+        if ( Input.GetMouseButtonDown(1))
         {
             isPanning = true;
             previousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
