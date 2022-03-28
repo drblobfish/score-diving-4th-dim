@@ -31,6 +31,7 @@ public class AnimController : MonoBehaviour
         timeRemaining = timerSetting;
     }
 
+    /*
     private void Player(int numberPlayed)
     {
 
@@ -71,11 +72,10 @@ public class AnimController : MonoBehaviour
                         animFinished3 = true;
                         mainMenu.SetActive(true);
                     }
-                    
                 }
             }
         }
-    }
+    }*/
 
     private void Update()
     {
