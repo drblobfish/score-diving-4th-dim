@@ -22,6 +22,8 @@ public class SequenceManager : MonoBehaviour
     public GameObject background;
     public Text timer;
     public Text sequenceIndicator;
+    public GameObject playButton;
+    public GameObject pauseButton;
 
 
     void Start()
@@ -61,10 +63,14 @@ public class SequenceManager : MonoBehaviour
     {
         datasetAnim.Play();
         isPaused = false;
+        pauseButton.SetActive(true);
+        playButton.SetActive(false);
     }
     public void OnButtonPauseClick()
     {
         datasetAnim.Pause();
         isPaused = true;
+        playButton.SetActive(true);
+        pauseButton.SetActive(false);
     }
 }
