@@ -47,7 +47,7 @@ public class AnimController : MonoBehaviour
                     timer.enabled = true;
                     timeRemaining -= Time.deltaTime;
                     background.SetActive(true);
-                    timer.text = "Time remaining before next sequence: " + timeRemaining.ToString();
+                    timer.text = "Time remaining before next sequence: " + timeRemaining.ToString("0.0");
                 }
 
                 else
@@ -79,7 +79,7 @@ public class AnimController : MonoBehaviour
 
     private void Update()
     {
-        sequenceIndicator.text = "Times Played: " + timesPlayed.ToString() + "/3";
+        sequenceIndicator.text = "Times Played: " + (timesPlayed+1).ToString() + "/3";
 
         //1st animation playing
         if (m_Animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !m_Animator.IsInTransition(0))
@@ -95,7 +95,7 @@ public class AnimController : MonoBehaviour
                     timer.enabled = true;
                     timeRemaining -= Time.deltaTime;
                     background.SetActive(true);
-                    timer.text = "Time remaining before next sequence: " + timeRemaining.ToString();
+                    timer.text = "Time remaining before next sequence: " + timeRemaining.ToString("0.0");
                 }
 
                 else
@@ -124,7 +124,7 @@ public class AnimController : MonoBehaviour
                     timer.enabled = true;
                     timeRemaining -= Time.deltaTime;
                     background.SetActive(true);
-                    timer.text = "Time remaining before next sequence: " + timeRemaining.ToString();
+                    timer.text = "Time remaining before next sequence: " + timeRemaining.ToString("0.0");
                 }
 
                 else
@@ -154,7 +154,7 @@ public class AnimController : MonoBehaviour
                     timer.enabled = true;
                     timeRemaining -= Time.deltaTime;
                     background.SetActive(true);
-                    timer.text = "Time remaining before next sequence: " + timeRemaining.ToString();
+                    timer.text = "Time remaining before next sequence: " + timeRemaining.ToString("0.0");
                 }
 
                 else
