@@ -33,7 +33,7 @@ public class SequenceManager : MonoBehaviour
         datasetAnim = dataset.GetComponent<DatasetAnim>();
     }
 
-    public void BeginSequences()
+    public void BeginSequences()//Start a new experiment of 3 sequences
     {
         timesPlayed = 0;
         PlaySequence();
@@ -43,47 +43,14 @@ public class SequenceManager : MonoBehaviour
     {
         timesPlayed++;
         sequenceIndicator.text = "Times Played: " + timesPlayed.ToString() + "/3";
-        Debug.Log("play sequence");
+        Debug.Log("play sequence " + timesPlayed.ToString());
         datasetAnim.StartAnim();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (timerrunning)
-        {
-            if (timeRemaining > 0) 
-            {
-                timeRemaining-= Time.deltaTime;
-                timer.text = "Time remaining before next sequence: " + timeRemaining.ToString("0.0");
-            }
-            else 
-            {
-                background.SetActive(false);
-                timer.enabled = false;
-                PlaySequence();
-                timerrunning = false;
-            }
-        }
-
-
-        if (Input.GetKeyDown(KeyCode.Space))  //Play
-        {
-            if (isPaused)
-            {
-                OnButtonPlayClick();
-
-            }  else
-            {
-                OnButtonPauseClick();
-            }
-        }
-    }
-
-    public void EndAnimation()
+    public void EndAnimation() // Once the animation is finished, DatasetAnim call this function
     {
         Debug.Log("End animation");
-        if (timesPlayed < nbSequence) 
+        if (timesPlayed < nbSequence) // play a timer if we still need to play a sequence
         {
             StartTimer();
         }
@@ -100,11 +67,48 @@ public class SequenceManager : MonoBehaviour
         timeRemaining = timerSetting;
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+        if (timerrunning) // decrease and show the value of the time
+        {
+            if (timeRemaining > 0) 
+            {
+                timeRemaining-= Time.deltaTime;
+                timer.text = "Time remaining before next sequence: " + timeRemaining.ToString("0.0");
+            }
+            else // at the end of the timer play a new sequence
+            {
+                //UI
+                background.SetActive(false);
+                timer.enabled = false;
+                // play new sequence
+                PlaySequence();
+                timerrunning = false;
+            }
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.Space))  //Play Pause
+        {
+            if (isPaused)
+            {
+                OnButtonPlayClick();
+
+            }  else
+            {
+                OnButtonPauseClick();
+            }
+        }
+    }
+
     // Pause and Play with buttons
     public void OnButtonPlayClick()
     {
         datasetAnim.Play();
         isPaused = false;
+
+        // UI
         pauseButton.SetActive(true);
         playButton.SetActive(false);
     }
@@ -112,6 +116,8 @@ public class SequenceManager : MonoBehaviour
     {
         datasetAnim.Pause();
         isPaused = true;
+
+        //UI
         playButton.SetActive(true);
         pauseButton.SetActive(false);
     }
