@@ -35,6 +35,8 @@ public class DatasetAnim : MonoBehaviour
     public void StartAnim()
     {
         m_Animator.SetTrigger("Play");
+        //m_Animator.Play("animState", -1,0.0f);
+        
         m_Animator.SetFloat ("speed", speed);
         Debug.Log("started playing");
     }
@@ -61,9 +63,12 @@ public class DatasetAnim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (m_Animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !m_Animator.IsInTransition(0)){
-            m_Animator.SetTrigger("Stop");
+
+    }
+
+    public void EndAnimation()
+    {
+        m_Animator.SetTrigger("Stop");
             sequenceManager.EndAnimation();
-        }
     }
 }

@@ -398,6 +398,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1693322184}
+        m_TargetAssemblyTypeName: SequenceManager, Assembly-CSharp
+        m_MethodName: BeginSequences
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &229101591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2645,7 +2657,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608401907}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
@@ -2701,6 +2713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3151f84c9063d38df98d962f021440f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nbSequence: 3
   dataset: {fileID: 602849422}
   timerSetting: 5
   mainMenu: {fileID: 602535344}
@@ -2979,6 +2992,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1908065710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908065708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fcd52137b68f0cd19a631af446453cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataset: {fileID: 602849422}
 --- !u!1 &1938260533
 GameObject:
   m_ObjectHideFlags: 0
