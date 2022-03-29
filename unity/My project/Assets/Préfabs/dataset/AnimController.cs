@@ -8,7 +8,7 @@ public class AnimController : MonoBehaviour
     Animator m_Animator;
     //Value from the slider, and it converts to speed level
     
-    float speed;
+    //float speed;
 
     private bool animFinished1 = false;
     private bool animFinished2 = false;
@@ -26,7 +26,7 @@ public class AnimController : MonoBehaviour
         //Get the animator, attached to the GameObject you are intending to animate.
         m_Animator = gameObject.GetComponent<Animator>();
         m_Animator.enabled = false;
-        speed = 1;
+        //speed = 1;
         timer.enabled = false;
         timeRemaining = timerSetting;
     }
