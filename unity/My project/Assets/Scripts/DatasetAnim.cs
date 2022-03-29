@@ -34,8 +34,7 @@ public class DatasetAnim : MonoBehaviour
 
     public void StartAnim()
     {
-        m_Animator.SetTrigger("Play");
-        //m_Animator.Play("animState", -1,0.0f);
+        m_Animator.Play("Play", -1,0.0f);
         
         m_Animator.SetFloat ("speed", speed);
         Debug.Log("started playing");
@@ -68,7 +67,7 @@ public class DatasetAnim : MonoBehaviour
 
     public void EndAnimation()
     {
-        m_Animator.SetTrigger("Stop");
-            sequenceManager.EndAnimation();
+        m_Animator.Play("idle", -1,0.0f);
+        sequenceManager.EndAnimation();
     }
 }

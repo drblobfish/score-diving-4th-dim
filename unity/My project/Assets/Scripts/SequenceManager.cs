@@ -62,6 +62,7 @@ public class SequenceManager : MonoBehaviour
                 background.SetActive(false);
                 timer.enabled = false;
                 PlaySequence();
+                timerrunning = false;
             }
         }
 
