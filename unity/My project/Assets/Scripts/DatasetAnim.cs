@@ -35,6 +35,7 @@ public class DatasetAnim : MonoBehaviour
     public void StartAnim()
     {
         m_Animator.SetTrigger("Play");
+        m_Animator.SetFloat ("speed", speed);
         Debug.Log("started playing");
     }
 

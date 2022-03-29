@@ -1438,7 +1438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mesh: {fileID: 1908065708}
   sequenceManagerEmpty: {fileID: 1693322183}
-  speed: 1
+  speed: 2
   placeHolderSlider: 0
 --- !u!4 &602849424
 Transform:
