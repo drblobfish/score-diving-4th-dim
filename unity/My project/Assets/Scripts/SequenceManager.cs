@@ -21,6 +21,7 @@ public class SequenceManager : MonoBehaviour
 
     // GUI
     public GameObject mainMenu;
+    public GameObject sortingButton;
     public GameObject background;
     public Text timer;
     public Text sequenceIndicator;
@@ -53,6 +54,11 @@ public class SequenceManager : MonoBehaviour
         if (timesPlayed < nbSequence) // play a timer if we still need to play a sequence
         {
             StartTimer();
+        }
+        else
+        {
+            mainMenu.SetActive(true);
+            sortingButton.SetActive(true);
         }
     }
 
