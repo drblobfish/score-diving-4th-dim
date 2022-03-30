@@ -6,21 +6,23 @@ public class AnswerManager : MonoBehaviour
 {
     [SerializeField] private float spacing = 10.0F;
     [SerializeField] private GameObject[] answersObjects;
+    private GameObject[] answers ;
     private Vector3[] grid;
     // Start is called before the first frame update
     void Start()
     {
+        answers = new GameObject[answersObjects.Length];
+
         grid = Grid(2,7);
         
         for (int i = 0; i < answersObjects.Length; i++)
         {
-            Instantiate(answersObjects[i],grid[i],gameObject.transform.rotation);
+            GameObject answerParent = Instantiate(answersObjects[i],grid[i],gameObject.transform.rotation,gameObject.transform);
+            GameObject child = answerParent.transform.GetChild(0).gameObject;
+            child.name = answerParent.name;
+            child.transform.parent = gameObject.transform;
+            Destroy(answerParent);
         }
-        /*
-        foreach (GameObject answerObject in answersObjects)
-        {
-            Instantiate(answerObject,);
-        }*/
     }
 
     private Vector3[] Grid(int n, int m)
