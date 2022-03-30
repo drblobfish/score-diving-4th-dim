@@ -29,6 +29,7 @@ public class DragDropRaycast : MonoBehaviour
  
             if (Physics.Raycast(ray, out hit))
             {
+				Debug.Log("hit");
                 if (hit.collider.tag == "Dataset")
                 {
                     selected = hit.collider.gameObject ;
@@ -36,6 +37,7 @@ public class DragDropRaycast : MonoBehaviour
                     selection = true;
                 }
             }
+			else{Debug.Log("nothit");}
 		}
 
 		if (Input.GetButtonUp("Fire1") && selection)
