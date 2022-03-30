@@ -55,10 +55,9 @@ public class SequenceManager : MonoBehaviour
         {
             StartTimer();
         }
-        else
+        else //end of the sequences
         {
-            mainMenu.SetActive(true);
-            sortingButton.SetActive(true);
+            EndSequences();
         }
     }
 
@@ -106,6 +105,12 @@ public class SequenceManager : MonoBehaviour
                 OnButtonPauseClick();
             }
         }
+    }
+
+    void EndSequences()
+    {
+        mainMenu.SetActive(true);
+        sortingButton.SetActive(true);
     }
 
     // Pause and Play with buttons
