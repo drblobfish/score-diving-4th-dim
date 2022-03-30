@@ -31,10 +31,8 @@ public class DragDropRaycast : MonoBehaviour
             {
                 if (hit.collider.tag == "Dataset")
                 {
-
-					Debug.Log("hit");
                     selected = hit.collider.gameObject ;
-                    distanceToDataSet = hit.transform.position.z - cam.transform.position.z ;
+                    distanceToDataSet = Vector3.Distance(hit.transform.position, cam.transform.position );
                     selection = true;
                 }
             }
