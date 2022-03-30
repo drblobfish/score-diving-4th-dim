@@ -38,7 +38,7 @@ public class RotateObject : MonoBehaviour
             previousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
         }
 
-        else if (isRotating)
+        else if (isRotating && target)
 
         {
             Vector3 newPosition = cam.ScreenToViewportPoint(Input.mousePosition);
