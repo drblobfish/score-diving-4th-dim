@@ -8,12 +8,15 @@ public class AnswerManager : MonoBehaviour
     [SerializeField] private GameObject[] answersObjects;
     private GameObject[] answers ;
     private Vector3[] grid;
+    private System.Random _random = new System.Random();
+
     // Start is called before the first frame update
     void Start()
     {
         answers = new GameObject[answersObjects.Length];
 
         grid = Grid(2,7);
+        Shuffle(grid);
         
         for (int i = 0; i < answersObjects.Length; i++)
         {
@@ -45,4 +48,15 @@ public class AnswerManager : MonoBehaviour
     {
         
     }
+    void Shuffle(Vector3[] array)
+    {
+        int p = array.Length;
+        for (int n = p - 1; n > 0; n--)
+        {
+            int r = _random.Next(0, n);
+            Vector3 t = array[r];
+            array[r] = array[n];
+            array[n] = t;
+    }
+}
 }
