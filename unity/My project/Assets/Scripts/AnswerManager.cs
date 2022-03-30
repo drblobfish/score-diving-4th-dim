@@ -22,6 +22,8 @@ public class AnswerManager : MonoBehaviour
             child.name = answerParent.name;
             child.transform.parent = gameObject.transform;
             Destroy(answerParent);
+            child.AddComponent<BoxCollider>();
+            answersObjects[i]=child;
         }
     }
 
