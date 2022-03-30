@@ -17,11 +17,11 @@ public class RotateObject : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetAxis("Mouse ScrollWheel") > 0f)
+        if (Input.GetAxis("Mouse ScrollWheel") > 0f && target)
         {
             cam.transform.Translate(new Vector3(0, 0, +distanceToTarget));
         }
-        if (Input.GetAxis("Mouse ScrollWheel") < 0f)
+        if (Input.GetAxis("Mouse ScrollWheel") < 0f && target)
         {
             cam.transform.Translate(new Vector3(0, 0, -distanceToTarget));
         }
