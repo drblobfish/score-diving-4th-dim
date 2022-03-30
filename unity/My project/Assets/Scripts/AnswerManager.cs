@@ -26,6 +26,7 @@ public class AnswerManager : MonoBehaviour
             child.transform.parent = gameObject.transform;
             Destroy(answerParent);
             child.AddComponent<BoxCollider>();
+            child.tag = "Dataset";
             answersObjects[i]=child;
         }
     }

@@ -29,15 +29,15 @@ public class DragDropRaycast : MonoBehaviour
  
             if (Physics.Raycast(ray, out hit))
             {
-				Debug.Log("hit");
                 if (hit.collider.tag == "Dataset")
                 {
+
+					Debug.Log("hit");
                     selected = hit.collider.gameObject ;
                     distanceToDataSet = hit.transform.position.z - cam.transform.position.z ;
                     selection = true;
                 }
             }
-			else{Debug.Log("nothit");}
 		}
 
 		if (Input.GetButtonUp("Fire1") && selection)
