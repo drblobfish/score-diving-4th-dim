@@ -63,7 +63,7 @@ public class RotateObject : MonoBehaviour
                 //Vector3 pos =cam.ScreenToViewportPoint(Input.mousePosition - previousPosition);
 
                 Vector3 move = new Vector3(pos.x*panSpeed, pos.y*panSpeed, 0);
-                cam.transform.Translate(move, Space.World);
+                cam.transform.Translate(move, Space.Self);
                 previousPosition = newPosition;
                 Debug.Log("is panning");
             }
