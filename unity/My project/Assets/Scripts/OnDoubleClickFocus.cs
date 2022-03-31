@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class OnDoubleClickFocus : MonoBehaviour
 {
+    // DOuble click
     float doubleClickTime = .2f, lastClickTime;
 
     [SerializeField] private Camera cam ;
-    [SerializeField] private GameObject focusPosition;
-    private RotateObject rotateObject;
+    [SerializeField] private GameObject focusPosition; // empty positioned where we want to put the object in focus
+    private RotateObject rotateObject; // script to rotate object
 
     private GameObject onfocusObject;
     private Vector3 previousPos;
@@ -23,7 +24,8 @@ public class OnDoubleClickFocus : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
+        // Detect Double click
         if (Input.GetMouseButtonDown(0))
         {
             float timeSinceLastClick = Time.time - lastClickTime;
@@ -43,20 +45,20 @@ public class OnDoubleClickFocus : MonoBehaviour
 
     void OnDoubleCLick()
     {
-        if (Onfocus)
+        if (Onfocus) // if already focusing, stop
         {
             rotateObject.target=null;
             Onfocus = false;
             onfocusObject.transform.position = previousPos;
         }
-        else
+        else // if not ray cast to finb an object
         {
             Onfocus = true;
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, 9))
-            {
+            { // put this object to foreground and activate rotation on it
                 rotateObject.target = hit.transform;
                 onfocusObject = hit.collider.gameObject;
                 previousPos = onfocusObject.transform.position;
