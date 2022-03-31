@@ -8,6 +8,7 @@ public class OnDoubleClickFocus : MonoBehaviour
     float doubleClickTime = .2f, lastClickTime;
 
     [SerializeField] private Camera cam ;
+    private Vector3 camBasePos ;
     [SerializeField] private GameObject focusPosition; // empty positioned where we want to put the object in focus
     private RotateObject rotateObject; // script to rotate object
 
@@ -20,6 +21,7 @@ public class OnDoubleClickFocus : MonoBehaviour
     void Start()
     {
         rotateObject = gameObject.GetComponent<RotateObject>();
+        camBasePos = cam.transform.position;
     }
 
     // Update is called once per frame
@@ -50,6 +52,7 @@ public class OnDoubleClickFocus : MonoBehaviour
             rotateObject.target=null;
             Onfocus = false;
             onfocusObject.transform.position = previousPos;
+            cam.transform.position = camBasePos;
         }
         else // if not ray cast to finb an object
         {
