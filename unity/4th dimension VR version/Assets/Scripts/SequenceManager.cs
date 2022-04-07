@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class SequenceManager : MonoBehaviour
 {
@@ -28,10 +27,31 @@ public class SequenceManager : MonoBehaviour
     public GameObject playButton;
     public GameObject pauseButton;
 
+    public InputActionProperty playPauseAction;
+
 
     void Start()
     {
         datasetAnim = dataset.GetComponent<DatasetAnim>();
+    }
+
+    private void Awake()
+    {
+        playPauseAction.action.performed += onPlayPausePerformed;
+    }
+
+    private void onPlayPausePerformed(InputAction.CallbackContext obj)
+    {
+        Debug.Log("Play/Pause");
+        if (isPaused)
+        {
+            OnButtonPlayClick();
+
+        }
+        else
+        {
+            OnButtonPauseClick();
+        }
     }
 
     public void BeginSequences()//Start a new experiment of 3 sequences
@@ -93,24 +113,13 @@ public class SequenceManager : MonoBehaviour
             }
         }
 
-
-        if (Input.GetKeyDown(KeyCode.Space))  //Play Pause
-        {
-            if (isPaused)
-            {
-                OnButtonPlayClick();
-
-            }  else
-            {
-                OnButtonPauseClick();
-            }
-        }
     }
 
     void EndSequences()
     {
         mainMenu.SetActive(true);
         sortingButton.SetActive(true);
+        dataset.SetActive(false);
     }
 
     // Pause and Play with buttons
