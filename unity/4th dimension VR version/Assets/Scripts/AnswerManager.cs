@@ -20,14 +20,18 @@ public class AnswerManager : MonoBehaviour
         
         for (int i = 0; i < answersObjects.Length; i++)
         {
+            // put out of the parent
             GameObject answerParent = Instantiate(answersObjects[i],grid[i],gameObject.transform.rotation,gameObject.transform);
             GameObject child = answerParent.transform.GetChild(0).gameObject;
             child.name = answerParent.name;
             child.transform.parent = gameObject.transform;
             Destroy(answerParent);
-            child.AddComponent<BoxCollider>();
+
+            //add box collider
+            //child.AddComponent<ScriptableObject>();
             child.tag = "Dataset";
             answersObjects[i]=child;
+            child.transform.localScale = new Vector3(0.05F, 0.05F, 0.05F);
         }
     }
 

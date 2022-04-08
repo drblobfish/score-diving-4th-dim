@@ -23,6 +23,7 @@ public class DatasetAnim : MonoBehaviour
     public void Pause()
     {
         Debug.Log("paused");
+        Debug.Log(m_Animator);
         m_Animator.SetFloat ("speed", 0);
     }
 
