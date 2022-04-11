@@ -34,7 +34,7 @@ public class RotateObject : MonoBehaviour
                 previousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
             }
 
-            if ( Input.GetMouseButtonDown(1))
+            if ( Input.GetMouseButtonDown(2))
             {
                 isPanning = true;
                 previousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
@@ -53,7 +53,7 @@ public class RotateObject : MonoBehaviour
                 target.transform.Rotate(new Vector3(0, 1, 0), rotationAroundYAxis, Space.World); 
 
                 previousPosition = newPosition;
-                Debug.Log("is rotating");
+                //Debug.Log("is rotating");
             }
 
             if (isPanning)
@@ -71,7 +71,7 @@ public class RotateObject : MonoBehaviour
             // Disable movements on button release
 
             if (!Input.GetMouseButton(0)) isRotating = false;
-            if (!Input.GetMouseButton(1)) isPanning = false;   
+            if (!Input.GetMouseButton(2)) isPanning = false;   
         }
     }
 }

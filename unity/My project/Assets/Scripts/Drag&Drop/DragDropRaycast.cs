@@ -7,13 +7,13 @@ namespace draganddrop.raycast
 	public class DragDropRaycast : MonoBehaviour
 	{
 
+		//Material of an occupied and inoccupied slot:
+		public Material slotMaterial ;
 		public Camera cam ;
 		public bool selection = false ;
 		GameObject selected ;
-		Obj selectedObj ;
 
 		GameObject empty ;
-		Obj emptyObj ;
 		Vector3 mousePosition3 ;
 
 		public int nb_datasets ;
@@ -28,42 +28,59 @@ namespace draganddrop.raycast
 			datasets = initializer.InitializeObj("Dataset", nb_datasets) ;
 		}
 
+		void PlaceInIndexedSlot(GameObject dataset, Obj[] datasetList, Obj[] slotList)
+		{
+			Obj datasetObj = null ;
+
+			foreach (Obj a in datasetList)
+	        {
+	            if (dataset.transform.position == a.obj.transform.position)
+	        	{
+	           		datasetObj = a ;
+	            }
+	        }
+	        foreach (Obj b in slotList)
+	        {
+	            if (datasetObj.index == b.index)
+	            {
+	                dataset.transform.position = b.obj.transform.position ;
+	            }
+	        }
+		}
+
 		void Update()
 		{
-			if (Input.GetButtonDown("Fire2") && !doubleClick.Onfocus)
+			if (Input.GetButtonDown("Fire2"))
 			{
 				Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-	            RaycastHit hit;
+	            RaycastHit hit, slotRay ;
 	 
 	            if (Physics.Raycast(ray, out hit))
 	            {
 	                if (hit.collider.tag == "Dataset")
 	                {
 	                    selected = hit.collider.gameObject ;
-	                    foreach (Obj a in datasets)
-	                    {
-	                    	if (selected.transform.position == a.obj.transform.position)
-	                    	{
-	                    		selectedObj = a ;
-	                    	}
-	                    }
-	                    foreach (Obj b in propositionSlots)
-	                    {
-	                    	if (selectedObj.index == b.index)
-	                    	{
-	                    		selected.transform.position = b.obj.transform.position ;
-	                    	}
-	                    }
+	                    PlaceInIndexedSlot(selected, datasets, propositionSlots) ;
 	                    selected = empty ;
-	                    selectedObj = emptyObj ;
 	                }
 	            }
+
+				//Check if the dataset was on a slot:
+				if (Physics.Raycast(ray, out slotRay, Mathf.Infinity, 9))
+	            {
+	                if (slotRay.collider.tag == "Slot")
+	                {
+						//Then change the color of the slot to inoccupied state:
+						slotMaterial = slotRay.collider.gameObject.GetComponent<Renderer>().material ;
+						slotMaterial.color = Color.red ;
+					}
+				}
 			}
 
 			if (Input.GetButtonDown("Fire1") && !doubleClick.Onfocus)
 			{
 				Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-	            RaycastHit hit;
+	            RaycastHit hit, slotRay ;
 	 
 	            if (Physics.Raycast(ray, out hit))
 	            {
@@ -73,9 +90,19 @@ namespace draganddrop.raycast
 	                    selection = true;
 	                }
 	            }
+				//Check if the dataset was on a slot:
+				if (Physics.Raycast(ray, out slotRay, Mathf.Infinity, 9))
+	            {
+	                if (slotRay.collider.tag == "Slot")
+	                {
+						//Then change the color of the slot to inoccupied state:
+						slotMaterial = slotRay.collider.gameObject.GetComponent<Renderer>().material ;
+						slotMaterial.color = Color.red ;
+					}
+				}
 			}
 
-			if (Input.GetButtonUp("Fire1") && selection)
+			if (Input.GetButtonUp("Fire1") && selection && !doubleClick.Onfocus)
 			{
 				Ray ray = cam.ScreenPointToRay(Input.mousePosition);
 	            RaycastHit hit;
@@ -84,42 +111,21 @@ namespace draganddrop.raycast
 	            {
 	                if (hit.collider.tag == "Slot")
 	                {
+						//Change the appearance of the slot when object is placed in it:
+						slotMaterial = hit.collider.gameObject.GetComponent<Renderer>().material ;
+						slotMaterial.color = Color.blue ; 
+
 	                    selected.transform.position = hit.transform.position ;
 	                    selection = false;
 						selected = empty ;
 	                }
-
 	            }
 	            else
 	           	{	
-					if (doubleClick.Onfocus)
-					{
-						foreach (Obj a in datasets)
-						{
-							if (selected.transform.position == a.obj.transform.position)
-							{
-								selectedObj = a ;
-							}
-						}
-						foreach (Obj b in propositionSlots)
-						{
-							if (selectedObj.index == b.index)
-							{
-								selected.transform.position = b.obj.transform.position ;
-							}
-						}
-						selected = empty ;
-						selectedObj = emptyObj ;
-						selection = false ;
-					}
-					if (!doubleClick.Onfocus)
-					{
-						mousePosition3 = new Vector3 (Input.mousePosition.x, Input.mousePosition.y, cam.transform.position.y) ;
-						selected.transform.position = cam.ScreenToWorldPoint(mousePosition3) ;
-						selected = empty ;
-						selectedObj = emptyObj ;
-						selection = false ;
-					}
+					mousePosition3 = new Vector3 (Input.mousePosition.x, Input.mousePosition.y, cam.transform.position.y) ;
+					selected.transform.position = cam.ScreenToWorldPoint(mousePosition3) ;
+					selected = empty ;
+					selection = false ;
 				}
 					
 			}

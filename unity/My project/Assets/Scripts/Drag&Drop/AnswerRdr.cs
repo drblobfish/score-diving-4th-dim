@@ -1,27 +1,27 @@
-﻿
+﻿using System.IO;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
 namespace draganddrop.answerrdr
 {
-
-    using System.Collections;
-    using System.Collections.Generic;
-    using UnityEngine;
-    using UnityEngine.UI;
 
     public class AnswerRdr : MonoBehaviour
     {
         //Ugliest function ever:
-        string[] Associations (GameObject[] _list1, GameObject[] _list2)
+        string[] Associations (Obj[] _list1, Obj[] _list2)
         {
             string[] answers = new string[_list1.Length] ;
 
             int index = 0 ;
-            foreach (GameObject go2 in _list2)
+            foreach (Obj obj2 in _list2)
             {
-                foreach (GameObject go1 in _list1)
+                foreach (Obj obj1 in _list1)
                 {
-                    if (go1.transform.position == go2.transform.position)
+                    if (obj1.obj.transform.position == obj2.obj.transform.position)
                     {
-                        answers[index] = go1.name + " was placed in " + go2.name ;
+                        answers[index] = obj1.obj.name + " was placed in " + obj2.obj.name + obj2.index ;
                     }
                 }
 
@@ -33,21 +33,23 @@ namespace draganddrop.answerrdr
 
         public Button verify ;
         string[] answerList ;
+        string path ;
         void SortOnClick()
         {
+            path = PlayerPrefs.GetString("filePath") ;
             answerList = Associations(datasets, slots) ;
             foreach (string proposition in answerList)
             {
-                System.IO.File.AppendAllText("/home/criuser/Desktop/SCORE/answers.txt","\n"+ proposition);
+                System.IO.File.AppendAllText(path,"\n"+ proposition);
             }
         }
 
-        GameObject[] datasets, slots ;
+        Obj[] datasets, slots ;
         DragDropInitializer initializer = new DragDropInitializer() ;
         void Start()
         {
-            datasets = initializer.InitializeWithTag("Dataset") ;
-            slots = initializer.InitializeWithTag("Slot") ;
+            datasets = initializer.InitializeObj("Dataset", 14) ;
+            slots = initializer.InitializeObj("Slot", 7) ;
  
             verify.onClick.AddListener(SortOnClick) ;
         }
