@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SequenceManager : MonoBehaviour
 {
@@ -20,13 +19,14 @@ public class SequenceManager : MonoBehaviour
     private float timeRemaining;
 
     // GUI
-    public GameObject mainMenu;
-    public GameObject sortingButton;
     public GameObject background;
     public Text timer;
     public Text sequenceIndicator;
     public GameObject playButton;
     public GameObject pauseButton;
+
+    //Scene Management
+    public string nextScene;
 
 
     void Start()
@@ -34,6 +34,10 @@ public class SequenceManager : MonoBehaviour
         datasetAnim = dataset.GetComponent<DatasetAnim>();
     }
 
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
     public void BeginSequences()//Start a new experiment of 3 sequences
     {
         timesPlayed = 0;
@@ -109,8 +113,7 @@ public class SequenceManager : MonoBehaviour
 
     void EndSequences()
     {
-        mainMenu.SetActive(true);
-        sortingButton.SetActive(true);
+        LoadScene(nextScene);
     }
 
     // Pause and Play with buttons
