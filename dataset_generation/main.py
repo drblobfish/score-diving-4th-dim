@@ -9,9 +9,9 @@ import os
 nbDataset = 2
 
 nbFrame = 50
-nbFreezeFrame = 3
+nbFreezeFrame = 7
 
-nbParticle = 10
+nbParticle = 100
 
 pathTextureCoordBasePos = mtu.Vector((0,0,0))
 
@@ -309,6 +309,6 @@ def main():
         exportMeshParticlesToCollada(str(i))
         print(f"mesh particles exported to dae. {i}/{nbDataset}")
         
-        pathTextureCoord.location += mtu.Vector((0,0,0))
+        pathTextureCoord.location += mtu.Vector((10,0,0))
     
 main()
