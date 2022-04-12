@@ -15,6 +15,13 @@ nbParticle = 100
 
 pathTextureCoordBasePos = mtu.Vector((0,0,0))
 
+# Set these to False if you don't want to key that property.
+KEYFRAME_LOCATION = True
+KEYFRAME_ROTATION = True
+KEYFRAME_SCALE = True
+KEYFRAME_VISIBILITY = False  # Viewport and render visibility.
+KEYFRAME_VISIBILITY_SCALE = True
+
 
 #=========================Global========================
 
@@ -164,13 +171,6 @@ def freeBakeParticles():
     bpy.ops.ptcache.free_bake(override)
 
 #=========================Particle To Mesh=========================
-
-# Set these to False if you don't want to key that property.
-KEYFRAME_LOCATION = True
-KEYFRAME_ROTATION = True
-KEYFRAME_SCALE = True
-KEYFRAME_VISIBILITY = False  # Viewport and render visibility.
-KEYFRAME_VISIBILITY_SCALE = True
 
 
 def create_objects_for_particles(ps, obj):
