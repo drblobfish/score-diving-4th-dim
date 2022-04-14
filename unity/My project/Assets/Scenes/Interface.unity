@@ -1303,7 +1303,7 @@ GameObject:
   - component: {fileID: 691947144}
   - component: {fileID: 691947143}
   m_Layer: 5
-  m_Name: Enter File Path
+  m_Name: Enter Experiment ID
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3078,7 +3078,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter file path
+  m_Text: Enter ID
 --- !u!222 &1883720892
 CanvasRenderer:
   m_ObjectHideFlags: 0

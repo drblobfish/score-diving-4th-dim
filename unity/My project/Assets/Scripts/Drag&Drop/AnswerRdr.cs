@@ -4,71 +4,91 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using draganddrop.raycast;
+using System;
 
 namespace draganddrop.answerrdr
 {
 
     public class AnswerRdr : MonoBehaviour
     {
-        //Ugliest function ever:
-        string[] Associations (Obj[] _list1, Obj[] _list2)
+        [Serializable]
+        public struct Result
         {
-            string[] answers = new string[_list1.Length] ;
+            public String time;
+            public String experimentID;
+            public List<Pair> Pairs;
+        }
+        [Serializable]
+        public struct Pair
+        {
+            public String slot;
+            public String answer;
+        }
 
-            int index = 0 ;
+        //Ugliest function ever:
+        Result Associations(Obj[] _list1, Obj[] _list2, String experimentID)
+        {
+            DateTime now = DateTime.Now;
+            Result answers = new Result();
+            answers.experimentID = experimentID;
+            answers.time = now.ToString();
+            answers.Pairs = new List<Pair>();
+            int index = 0;
             foreach (Obj obj2 in _list2)
             {
                 foreach (Obj obj1 in _list1)
                 {
                     if (obj1.obj.transform.position == obj2.obj.transform.position)
                     {
-                        answers[index] = obj1.obj.name + " was placed in " + obj2.obj.name + obj2.index ;
+                        Pair pair = new Pair();
+                        pair.slot = obj1.obj.name;
+                        pair.answer = obj2.obj.name;
+                        answers.Pairs.Add(pair);
                     }
                 }
-
-                index += 1 ;
+                index += 1;
             }
-            return answers ;
+            return answers;
         }
 
 
-        public Button verify ;
-        public GameObject buttonManager ;
-        string[] answerList ;
-        string path ;
+        public Button verify;
+        public GameObject buttonManager;
+        Result result;
+        String jsonResult;
+        String experimentID;
         void SortOnClick()
         {
-            path = PlayerPrefs.GetString("filePath") ;
-            answerList = Associations(datasets, slots) ;
-            foreach (string proposition in answerList)
-            {
-                System.IO.File.AppendAllText(path,"\n"+ proposition);
-            }
+            experimentID = PlayerPrefs.GetString("experiment_ID");
+            result = Associations(datasets, slots,experimentID);
+            jsonResult = JsonUtility.ToJson(result, true);
+            System.IO.File.WriteAllText(Application.persistentDataPath + "/"+experimentID+".json", jsonResult);
+            Debug.Log(Application.persistentDataPath);
         }
 
-        Obj[] datasets, slots ;
-        DragDropInitializer initializer = new DragDropInitializer() ;
+        Obj[] datasets, slots;
+        DragDropInitializer initializer = new DragDropInitializer();
         void Start()
         {
-            datasets = initializer.InitializeObj("Dataset", 14) ;
-            slots = initializer.InitializeObj("Slot", 7) ;
+            datasets = initializer.InitializeObj("Dataset", 14);
+            slots = initializer.InitializeObj("Slot", 7);
 
-            verify.onClick.AddListener(SortOnClick) ;
-            buttonManager.SetActive(false) ;
+            verify.onClick.AddListener(SortOnClick);
+            buttonManager.SetActive(false);
         }
 
         //Show or not the buttons. Although this could be executed in DragDropRaycast.cs, these steps are done here,
         //causing extra script communication, for the sake of reading clarity.
-        public DragDropRaycast dragdropManager ;
+        public DragDropRaycast dragdropManager;
         void Update()
         {
             if (dragdropManager.showButtons)
             {
-                buttonManager.SetActive(true) ;
+                buttonManager.SetActive(true);
             }
             else
             {
-                buttonManager.SetActive(false) ;
+                buttonManager.SetActive(false);
             }
         }
     }
