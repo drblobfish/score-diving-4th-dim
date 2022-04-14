@@ -11,12 +11,14 @@ namespace draganddrop.raycast
 		public Material slotMaterial ;
 		public Camera cam ;
 		public bool selection = false ;
-		GameObject selected ;
-
+		private GameObject selected ;
+		
 		GameObject empty ;
 		Vector3 mousePosition3 ;
 
 		public int nb_datasets ;
+		private int sortedDatasets ;
+		public bool showButtons ;
 		Obj[] propositionSlots ;
 		Obj[] datasets ;
 		DragDropInitializer initializer = new DragDropInitializer() ;
@@ -73,16 +75,17 @@ namespace draganddrop.raycast
 						//Then change the color of the slot to inoccupied state:
 						slotMaterial = slotRay.collider.gameObject.GetComponent<Renderer>().material ;
 						slotMaterial.color = Color.red ;
+						sortedDatasets -= (sortedDatasets!=0)?1:0 ;
 					}
 				}
 			}
 
-			if (Input.GetButtonDown("Fire1") && !doubleClick.Onfocus)
+			if (Input.GetButtonDown("Fire1"))
 			{
 				Ray ray = cam.ScreenPointToRay(Input.mousePosition);
 	            RaycastHit hit, slotRay ;
 	 
-	            if (Physics.Raycast(ray, out hit))
+	            if (Physics.Raycast(ray, out hit) && !doubleClick.Onfocus)
 	            {
 	                if (hit.collider.tag == "Dataset")
 	                {
@@ -98,11 +101,12 @@ namespace draganddrop.raycast
 						//Then change the color of the slot to inoccupied state:
 						slotMaterial = slotRay.collider.gameObject.GetComponent<Renderer>().material ;
 						slotMaterial.color = Color.red ;
+						sortedDatasets -= (sortedDatasets!=0)?1:0 ;
 					}
 				}
 			}
 
-			if (Input.GetButtonUp("Fire1") && selection && !doubleClick.Onfocus)
+			if (Input.GetButtonUp("Fire1") && selection)
 			{
 				Ray ray = cam.ScreenPointToRay(Input.mousePosition);
 	            RaycastHit hit;
@@ -114,11 +118,18 @@ namespace draganddrop.raycast
 						//Change the appearance of the slot when object is placed in it:
 						slotMaterial = hit.collider.gameObject.GetComponent<Renderer>().material ;
 						slotMaterial.color = Color.blue ; 
+						sortedDatasets += (sortedDatasets<8)?1:0 ;
 
 	                    selected.transform.position = hit.transform.position ;
-	                    selection = false;
+	                    selection = false ;
 						selected = empty ;
 	                }
+					if (hit.collider.tag == "Proposition_Slot")
+					{
+						PlaceInIndexedSlot(selected, datasets, propositionSlots) ;
+						selection = false ;
+						selected = empty ;
+					}
 	            }
 	            else
 	           	{	
@@ -135,6 +146,9 @@ namespace draganddrop.raycast
 				mousePosition3 = new Vector3 (Input.mousePosition.x, Input.mousePosition.y, cam.transform.position.y) ;
 				selected.transform.position = cam.ScreenToWorldPoint(mousePosition3) ;
 			}
+			//When all datasets placed in our 7 slots.
+			showButtons = sortedDatasets == 7 ;
+			Debug.Log(sortedDatasets) ;
 		}
 	    
 	}

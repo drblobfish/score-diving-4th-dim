@@ -11,8 +11,9 @@ namespace draganddrop.raycast
 
         public Camera cam ;
         private Vector3 camBasePos ;
-        [SerializeField] private GameObject focusPosition; // empty positioned where we want to put the object in focus
         private RotateObject rotateObject; // script to rotate object
+        [SerializeField] private GameObject focusPosition ; //Empty where to move double clicked dataset.
+
 
         private GameObject onfocusObject;
         private Vector3 previousPos;
@@ -36,24 +37,19 @@ namespace draganddrop.raycast
 
                 if (timeSinceLastClick <= doubleClickTime)
                 {
-                    Debug.Log("Double click");
-                    OnDoubleCLick();
+                    OnDoubleCLick("Dataset");
                 }
-                    
-                else
-                    Debug.Log("Normal click");
 
                 lastClickTime = Time.time;
             }
         }
 
-        void OnDoubleCLick()
+        void OnDoubleCLick(string tag)
         {
             if (Onfocus) // if already focusing, stop
             {
                 rotateObject.target=null;
                 Onfocus = false;
-                //onfocusObject.transform.position = previousPos;
                 cam.transform.position = camBasePos;
             }
             else // if not ray cast to find an object
@@ -63,11 +59,15 @@ namespace draganddrop.raycast
                 RaycastHit hit;
 
                 if (Physics.Raycast(ray, out hit))
-                { // put this object to foreground and activate rotation on it
-                    rotateObject.target = hit.transform;
-                    onfocusObject = hit.collider.gameObject;
-                    previousPos = onfocusObject.transform.position;
-                    onfocusObject.transform.position = focusPosition.transform.position;
+                { 
+                    // Put this object to foreground and activate rotation on it
+                    if (hit.collider.tag == tag)
+                    {
+                        rotateObject.target = hit.transform;
+                        onfocusObject = hit.collider.gameObject;
+                        previousPos = onfocusObject.transform.position;
+                        onfocusObject.transform.position = focusPosition.transform.position;
+                    }
                 }
             }
         }

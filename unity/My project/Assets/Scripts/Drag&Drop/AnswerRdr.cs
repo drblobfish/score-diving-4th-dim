@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using draganddrop.raycast;
 
 namespace draganddrop.answerrdr
 {
@@ -32,6 +33,7 @@ namespace draganddrop.answerrdr
 
 
         public Button verify ;
+        public GameObject buttonManager ;
         string[] answerList ;
         string path ;
         void SortOnClick()
@@ -50,8 +52,24 @@ namespace draganddrop.answerrdr
         {
             datasets = initializer.InitializeObj("Dataset", 14) ;
             slots = initializer.InitializeObj("Slot", 7) ;
- 
+
             verify.onClick.AddListener(SortOnClick) ;
+            buttonManager.SetActive(false) ;
+        }
+
+        //Show or not the buttons. Although this could be executed in DragDropRaycast.cs, these steps are done here,
+        //causing extra script communication, for the sake of reading clarity.
+        public DragDropRaycast dragdropManager ;
+        void Update()
+        {
+            if (dragdropManager.showButtons)
+            {
+                buttonManager.SetActive(true) ;
+            }
+            else
+            {
+                buttonManager.SetActive(false) ;
+            }
         }
     }
 }
