@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class AnswerManager : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class AnswerManager : MonoBehaviour
     private GameObject[] answers ;
     private Vector3[] grid;
     private System.Random _random = new System.Random();
+    public GameObject answerManager;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +34,11 @@ public class AnswerManager : MonoBehaviour
             child.tag = "Dataset";
             answersObjects[i]=child;
             child.transform.localScale = new Vector3(0.05F, 0.05F, 0.05F);
+            child.AddComponent<XRGrabInteractable>() ;
+            child.AddComponent<SphereCollider>();
         }
+
+        answerManager.transform.Rotate(-90, 0, 0);
     }
 
     private Vector3[] Grid(int n, int m)
