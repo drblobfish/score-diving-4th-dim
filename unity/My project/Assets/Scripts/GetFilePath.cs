@@ -7,7 +7,7 @@ public class GetFilePath : MonoBehaviour
     // Start is called before the first frame update
     void StoreFilePath()
     {
-        PlayerPrefs.SetString("filePath",iField.text) ;
+        PlayerPrefs.SetString("experiment_ID",iField.text) ;
     }
     public Button enterFilePath ;
     void Start()
