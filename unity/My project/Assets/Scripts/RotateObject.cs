@@ -9,12 +9,19 @@ public class RotateObject : MonoBehaviour
     public Transform target;
     public float distanceToTarget = 3;
     public float panSpeed = 20f;
-    public GameObject camGameObject;
+    //public GameObject camGameObject;
     private Vector3 cameraPos;
     private Vector3 previousPosition;
     private bool isPanning;     // Is the camera being panned?
     private bool isRotating;    // Is the camera being rotated?
-    public DragDropRaycast dragdropController;
+
+    [SerializeField] private GameObject dragdropController;
+    private DragDropRaycast dragdropRaycast;
+
+    void Start()
+    {
+        dragdropRaycast = dragdropController.GetComponent<DragDropRaycast>();
+    }
 
 
     void Update()
@@ -42,8 +49,7 @@ public class RotateObject : MonoBehaviour
                 previousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
             }
 
-            else if (isRotating && dragdropController.selection)
-
+            else if (isRotating)// && dragdropRaycast.selection)
             {
                 Vector3 newPosition = cam.ScreenToViewportPoint(Input.mousePosition);
                 Vector3 direction = previousPosition - newPosition;
@@ -55,7 +61,7 @@ public class RotateObject : MonoBehaviour
                 target.transform.Rotate(new Vector3(0, 0, 1), rotationAroundZAxis, Space.World); 
 
                 previousPosition = newPosition;
-                //Debug.Log("is rotating");
+                Debug.Log("is rotating");
             }
 
             if (isPanning)
@@ -67,7 +73,7 @@ public class RotateObject : MonoBehaviour
                 Vector3 move = new Vector3(pos.x*panSpeed, pos.y*panSpeed, 0);
                 cam.transform.Translate(move, Space.Self);
                 previousPosition = newPosition;
-                Debug.Log("is panning");
+                //Debug.Log("is panning");
             }
 
             // Disable movements on button release
