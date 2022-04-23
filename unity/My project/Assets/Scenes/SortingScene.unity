@@ -660,7 +660,6 @@ MonoBehaviour:
   slotMaterial: {fileID: 2100000, guid: ac0d112cc19899882b42114e4f96d879, type: 2}
   cam: {fileID: 1842072169}
   selection: 0
-  focusPosition: {fileID: 177019120}
   nb_datasets: 14
   showButtons: 0
   doubleClick: {fileID: 1602151516}
@@ -2020,7 +2019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   verify: {fileID: 809056054}
   buttonManager: {fileID: 816958921}
-  dragdropManager: {fileID: 157817589}
+  dragdropManager: {fileID: 0}
 --- !u!1 &1625023881
 GameObject:
   m_ObjectHideFlags: 0

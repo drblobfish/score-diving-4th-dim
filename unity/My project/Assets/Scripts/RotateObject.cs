@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using draganddrop.raycast;
 
 public class RotateObject : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class RotateObject : MonoBehaviour
     private Vector3 previousPosition;
     private bool isPanning;     // Is the camera being panned?
     private bool isRotating;    // Is the camera being rotated?
+    public DragDropRaycast dragdropController;
 
 
     void Update()
@@ -34,23 +36,23 @@ public class RotateObject : MonoBehaviour
                 previousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
             }
 
-            if ( Input.GetMouseButtonDown(2))
+            if (Input.GetMouseButtonDown(2))
             {
                 isPanning = true;
                 previousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
             }
 
-            else if (isRotating)
+            else if (isRotating && dragdropController.selection)
 
             {
                 Vector3 newPosition = cam.ScreenToViewportPoint(Input.mousePosition);
                 Vector3 direction = previousPosition - newPosition;
 
-                float rotationAroundYAxis = direction.x * 180; // object moves horizontally
+                float rotationAroundZAxis = direction.x * 180; // object moves horizontally
                 float rotationAroundXAxis = -direction.y * 180; // object moves vertically
 
                 target.transform.Rotate(new Vector3(1, 0, 0), rotationAroundXAxis, Space.World);
-                target.transform.Rotate(new Vector3(0, 1, 0), rotationAroundYAxis, Space.World); 
+                target.transform.Rotate(new Vector3(0, 0, 1), rotationAroundZAxis, Space.World); 
 
                 previousPosition = newPosition;
                 //Debug.Log("is rotating");

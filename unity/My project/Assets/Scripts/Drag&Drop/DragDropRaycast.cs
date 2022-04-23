@@ -64,6 +64,7 @@ namespace draganddrop.raycast
 	                    selected = hit.collider.gameObject ;
 	                    PlaceInIndexedSlot(selected, datasets, propositionSlots) ;
 	                    selected = empty ;
+						selection = false ;
 	                }
 	            }
 
@@ -72,7 +73,7 @@ namespace draganddrop.raycast
 	            {
 	                if (slotRay.collider.tag == "Slot")
 	                {
-						//Then change the color of the slot to inoccupied state:
+						//Then change the color of the slot to unoccupied state:
 						slotMaterial = slotRay.collider.gameObject.GetComponent<Renderer>().material ;
 						slotMaterial.color = Color.red ;
 						sortedDatasets -= (sortedDatasets!=0)?1:0 ;
@@ -98,7 +99,7 @@ namespace draganddrop.raycast
 	            {
 	                if (slotRay.collider.tag == "Slot")
 	                {
-						//Then change the color of the slot to inoccupied state:
+						//Then change the color of the slot to unoccupied state:
 						slotMaterial = slotRay.collider.gameObject.GetComponent<Renderer>().material ;
 						slotMaterial.color = Color.red ;
 						sortedDatasets -= (sortedDatasets!=0)?1:0 ;
@@ -148,7 +149,7 @@ namespace draganddrop.raycast
 			}
 			//When all datasets placed in our 7 slots.
 			showButtons = sortedDatasets == 7 ;
-			//Debug.Log(sortedDatasets) ;
+
 		}
 	    
 	}
