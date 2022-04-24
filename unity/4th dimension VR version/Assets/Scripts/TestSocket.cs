@@ -5,24 +5,28 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class TestSocket : MonoBehaviour
 {
+    public string selectedObjectName;
     public void OnSocketHoverEnter(HoverEnterEventArgs args)
     {
-        Debug.LogFormat("Socket Hovered by: {0}", args.interactable.gameObject.GetComponent<identity>().name);
+        Debug.LogFormat("Socket Hovered by: {0}", args.interactable.gameObject.name);
+        
         //Debug.Log(args.interactorObject);
     }
 
-    public void OnSocketHoverExit()
+    public void OnSocketHoverExit(HoverExitEventArgs args)
     {
-        Debug.Log("Socket Hovered Exited");
+        Debug.Log("Socket Hovered Exited:"+ args.interactable.gameObject.name);
     }
 
-    public void OnSocketSelectEnter()
+    public void OnSocketSelectEnter(SelectEnterEventArgs args)
     {
-        Debug.Log("Socket Selected");
+        selectedObjectName = args.interactable.gameObject.name;
+        Debug.Log("Socket Selected: "+ selectedObjectName);
     }
 
     public void OnSocketSelectExit()
     {
-        Debug.Log("Socket Seclted Exit");
+        Debug.Log("Socket Selected Exit: "+selectedObjectName);
+        selectedObjectName = "";
     }
 }
