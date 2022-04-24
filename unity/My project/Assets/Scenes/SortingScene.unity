@@ -623,7 +623,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 157817588}
-  - component: {fileID: 157817589}
+  - component: {fileID: 157817587}
   m_Layer: 0
   m_Name: Drag and Drop controller
   m_TagString: Untagged
@@ -631,21 +631,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &157817588
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 157817586}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &157817589
+--- !u!114 &157817587
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -663,6 +649,20 @@ MonoBehaviour:
   nb_datasets: 14
   showButtons: 0
   doubleClick: {fileID: 1602151516}
+--- !u!4 &157817588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157817586}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &177019120
 GameObject:
   m_ObjectHideFlags: 0
@@ -1628,8 +1628,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1036561082}
   - component: {fileID: 1036561081}
+  - component: {fileID: 1036561083}
   m_Layer: 0
-  m_Name: AnswerObjectSpawner
+  m_Name: AnswerHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1701,6 +1702,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1036561083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036561080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7e734d1f3b9e9c780fbb607412210d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  verify: {fileID: 809056054}
+  buttonManager: {fileID: 816958921}
+  dragdropManager: {fileID: 157817587}
 --- !u!4 &1089747867 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0dc24d48d5f5f3f2c9ea3c1dbad89b3a, type: 3}
@@ -1951,7 +1967,6 @@ GameObject:
   - component: {fileID: 1602151515}
   - component: {fileID: 1602151516}
   - component: {fileID: 1602151514}
-  - component: {fileID: 1602151517}
   m_Layer: 0
   m_Name: Cam Controller
   m_TagString: Untagged
@@ -1976,6 +1991,7 @@ MonoBehaviour:
   distanceToTarget: 3
   panSpeed: 20
   camGameObject: {fileID: 0}
+  dragdropController: {fileID: 157817587}
 --- !u!4 &1602151515
 Transform:
   m_ObjectHideFlags: 0
@@ -2005,21 +2021,6 @@ MonoBehaviour:
   cam: {fileID: 1842072169}
   focusPosition: {fileID: 177019120}
   Onfocus: 0
---- !u!114 &1602151517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1602151513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c7e734d1f3b9e9c780fbb607412210d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  verify: {fileID: 809056054}
-  buttonManager: {fileID: 816958921}
-  dragdropManager: {fileID: 0}
 --- !u!1 &1625023881
 GameObject:
   m_ObjectHideFlags: 0

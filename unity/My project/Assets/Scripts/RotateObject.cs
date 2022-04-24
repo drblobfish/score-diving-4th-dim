@@ -42,7 +42,7 @@ public class RotateObject : MonoBehaviour
                 previousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
             }
 
-            else if (isRotating && dragdropController.selection)
+            else if (isRotating)
 
             {
                 Vector3 newPosition = cam.ScreenToViewportPoint(Input.mousePosition);
