@@ -1990,8 +1990,7 @@ MonoBehaviour:
   target: {fileID: 0}
   distanceToTarget: 3
   panSpeed: 20
-  camGameObject: {fileID: 0}
-  dragdropController: {fileID: 157817587}
+  dragdropRaycast: {fileID: 157817587}
 --- !u!4 &1602151515
 Transform:
   m_ObjectHideFlags: 0

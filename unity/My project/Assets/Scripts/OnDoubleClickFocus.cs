@@ -51,6 +51,10 @@ namespace draganddrop.raycast
                 rotateObject.target=null;
                 Onfocus = false;
                 cam.transform.position = camBasePos;
+                Debug.Log("Defocus");
+                if (onfocusObject){
+                    onfocusObject.transform.position = previousPos;
+                }
             }
             else // if not ray cast to find an object
             {
