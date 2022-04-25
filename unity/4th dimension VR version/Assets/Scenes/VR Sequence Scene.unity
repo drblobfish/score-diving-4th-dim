@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -618,7 +618,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d763676b8db91db4e966b5db564d7731, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: red
 --- !u!1 &240535933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1085,6 +1084,7 @@ GameObject:
   - component: {fileID: 569613079}
   - component: {fileID: 569613078}
   - component: {fileID: 569613077}
+  - component: {fileID: 569613080}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1230,6 +1230,24 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &569613080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569613075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Device: 0
+  m_PoseSource: 2
+  m_PoseProviderComponent: {fileID: 0}
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_UseRelativeTransform: 0
 --- !u!1 &573138726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1911,7 +1929,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 0}
+  m_ModelPrefab: {fileID: 1382672868}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
@@ -3994,7 +4012,7 @@ MonoBehaviour:
   m_Camera: {fileID: 569613079}
   m_OriginBaseGameObject: {fileID: 1581439777}
   m_CameraFloorOffsetObject: {fileID: 484669121}
-  m_RequestedTrackingOriginMode: 0
+  m_RequestedTrackingOriginMode: 2
   m_CameraYOffset: 1.1176
 --- !u!4 &1581439779
 Transform:
@@ -4547,7 +4565,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 0}
+  m_ModelPrefab: {fileID: 894830485}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
@@ -5171,7 +5189,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d763676b8db91db4e966b5db564d7731, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: blue
 --- !u!114 &2108881718
 MonoBehaviour:
   m_ObjectHideFlags: 0
