@@ -1,0 +1,22 @@
+Subject: [VR experiment] Questionnaire to fill before the experiment
+
+Hi {{nom}}.
+
+
+We are contacting you about the scientific experiment on virtual reality you registered for.
+
+Please answer the questionnaire found with the link below before participating in the experiment.
+
+This questionnaire takes less than 10 minutes to be filled and is anonymous.
+Please verify that the question about your identifier is correctly filled with your identifier : {{id}}.
+
+{{link_eng}}{{id}}
+
+We thank you again for participating in our experiment and recall you that for any questions or concern about this study, you can reach us via email ({{sender_mail}})
+
+
+Best regards,
+
+The "Diving into the fourth dimension" SCORE team
+
+P.S. this is an automatic email. We are sorry if something doesn't work as intended.
