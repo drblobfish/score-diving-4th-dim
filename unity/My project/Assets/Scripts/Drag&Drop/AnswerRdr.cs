@@ -26,7 +26,6 @@ namespace draganddrop.answerrdr
             public String answer;
         }
 
-        //Ugliest function ever:
         Result Associations(Obj[] _list1, Obj[] _list2, String experimentID)
         {
             DateTime now = DateTime.Now;
@@ -81,16 +80,16 @@ namespace draganddrop.answerrdr
         //Show or not the buttons. Although this could be executed in DragDropRaycast.cs, these steps are done here,
         //causing extra script communication, for the sake of reading clarity.
         public DragDropRaycast dragdropManager ;
-        // void Update()
-        // {
-        //     if (dragdropManager.showButtons)
-        //     {
-        //         buttonManager.SetActive(true);
-        //     }
-        //     else
-        //     {
-        //         buttonManager.SetActive(false);
-        //     }
-        // }
+        void Update()
+        {
+            if (dragdropManager.showButtons)
+            {
+                buttonManager.SetActive(true);
+            }
+            else
+            {
+                buttonManager.SetActive(false);
+            }
+        }
     }
 }
