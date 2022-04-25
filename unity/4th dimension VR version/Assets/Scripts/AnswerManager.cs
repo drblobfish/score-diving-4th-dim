@@ -34,8 +34,8 @@ public class AnswerManager : MonoBehaviour
             child.tag = "Dataset";
             answersObjects[i]=child;
             child.transform.localScale = new Vector3(0.05F, 0.05F, 0.05F);
-            child.AddComponent<XRGrabInteractable>() ;
             child.AddComponent<SphereCollider>();
+            child.AddComponent<XRGrabInteractable>() ;
         }
 
         answerManager.transform.Rotate(-90, 0, 0);
