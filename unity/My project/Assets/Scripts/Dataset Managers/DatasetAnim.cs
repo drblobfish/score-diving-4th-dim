@@ -9,7 +9,7 @@ namespace sequence.anim
         [SerializeField] private GameObject mesh;
         private Animator m_Animator;
 
-        [SerializeField] private GameObject sequenceManagerEmpty;
+        [SerializeField] private GameObject sequenceManagerGO;
         private SequenceManager sequenceManager;
         [SerializeField] private float speed;
 
@@ -19,7 +19,7 @@ namespace sequence.anim
         void Start()
         {
             m_Animator = mesh.GetComponent<Animator>();
-            sequenceManager = sequenceManagerEmpty.GetComponent<SequenceManager>();
+            sequenceManager = sequenceManagerGO.GetComponent<SequenceManager>();
         }
 
         public void Pause()

@@ -34,53 +34,8 @@ namespace sequence
         //Measurements
         public float pauseTime;
         public bool animationEnded ;
+        public ButtonManager btnManager ;
 
-        void Start()
-        {
-            datasetAnim = dataset.GetComponent<DatasetAnim>();
-            animationEnded = false;
-        }
-
-        public void LoadScene(string sceneName)
-        {
-            SceneManager.LoadScene(sceneName);
-        }
-        public void BeginSequences()//Start a new experiment of 3 sequences
-        {
-            timesPlayed = 0;
-            PlaySequence();
-        }
-
-        void PlaySequence()
-        {
-            timesPlayed++;
-            sequenceIndicator.text = "Times Played: " + timesPlayed.ToString() + "/3";
-            datasetAnim.StartAnim();
-        }
-
-        public void EndAnimation() // Once the animation is finished, DatasetAnim call this function
-        {
-            if (timesPlayed < nbSequence) // play a timer if we still need to play a sequence
-            {
-                StartTimer();
-            }
-            else //end of the sequences
-            {
-                PlayerPrefs.SetFloat("Pause Time", pauseTime) ;
-                EndSequences();
-            }
-        }
-
-        void StartTimer()
-        {
-            //UI
-            timer.enabled = true;
-            background.SetActive(true);
-
-            // timer
-            timerrunning = true;
-            timeRemaining = timerSetting;
-        }
 
         // Update is called once per frame
         void Update()
@@ -90,7 +45,7 @@ namespace sequence
                 if (timeRemaining > 0) 
                 {
                     timeRemaining-= Time.deltaTime;
-                    timer.text = "Time remaining before next sequence: " + timeRemaining.ToString("0.0");
+                    timer.text = "Time remaining before next sequence: " + timeRemaining.ToString("0");
                 }
                 else // at the end of the timer play a new sequence
                 {
@@ -102,13 +57,11 @@ namespace sequence
                     timerrunning = false;
                 }
             }
-
             if (Input.GetKeyDown(KeyCode.Space))  //Play Pause
             {
                 if (isPaused)
                 {
                     OnButtonPlayClick();
-
                 }  
                 else
                 {
@@ -118,10 +71,56 @@ namespace sequence
             //Measure time spent in pause mode.
             pauseTime += isPaused?Time.deltaTime:0;
         }
+        void PlaySequence()
+        {
+            try
+            {
+                dataset = btnManager.studiedDataset;
+                datasetAnim = dataset.GetComponent<DatasetAnim>();
+                animationEnded = false;
+                timesPlayed++;
+                sequenceIndicator.text = "Times Played: " + timesPlayed.ToString() + "/3";
+                datasetAnim.StartAnim();
+            }
+            catch (UnassignedReferenceException)
+            {
+                dataset = null ;
+            }
+        }
+        public void BeginSequences()//Start a new experiment of 3 sequences
+        {
+            timesPlayed = 0;
+            PlaySequence();
+        }
+        void StartTimer()
+        {
+            //UI
+            timer.enabled = true;
+            background.SetActive(true);
 
+            // timer
+            timerrunning = true;
+            timeRemaining = timerSetting;
+        }
+        public void LoadScene(string sceneName)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
         void EndSequences()
         {
             LoadScene(nextScene);
+        }
+        public void EndAnimation() // Once the animation is finished, DatasetAnim call this function
+        {
+            if (timesPlayed < nbSequence) // play a timer if we still need to play a sequence
+            {
+                StartTimer();
+            }
+            else //end of the sequences
+            {
+                PlayerPrefs.SetFloat("Pause Time", pauseTime) ;
+                EndSequences();
+            }
         }
 
         // Pause and Play with buttons

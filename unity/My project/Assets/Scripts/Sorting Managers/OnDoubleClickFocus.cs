@@ -6,28 +6,21 @@ namespace draganddrop.raycast
 {  
     public class OnDoubleClickFocus : MonoBehaviour
     {
-        // Double click
         float doubleClickTime = .2f, lastClickTime;
-
         public Camera cam ;
         private Vector3 camBasePos ;
         private RotateObject rotateObject; // script to rotate object
         [SerializeField] private GameObject focusPosition ; //Empty where to move double clicked dataset.
-
-
         private GameObject onfocusObject;
         private Vector3 previousPos;
-
         public bool Onfocus = false ;
 
-        // Start is called before the first frame update
         void Start()
         {
             rotateObject = gameObject.GetComponent<RotateObject>();
             camBasePos = cam.transform.position;
         }
 
-        // Update is called once per frame
         void Update()
         {   
             // Detect Double click

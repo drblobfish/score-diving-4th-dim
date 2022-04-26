@@ -1650,6 +1650,21 @@ MonoBehaviour:
   spacing: 20
   zOffset: 30
   answersObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  answersObjects1:
   - {fileID: 919132149155446097, guid: ffedbbce7d325587db2750820f76da9a, type: 3}
   - {fileID: 919132149155446097, guid: c1813db9a2bd94a448ad8d94826a88b8, type: 3}
   - {fileID: 919132149155446097, guid: dbc58988f065c0c80b5bb830fcaecfdc, type: 3}
@@ -1664,6 +1679,21 @@ MonoBehaviour:
   - {fileID: 919132149155446097, guid: a821e8d40e3b538e7a2e07e1472a6452, type: 3}
   - {fileID: 919132149155446097, guid: 41ef1681b44ee8d57845674cffb1334d, type: 3}
   - {fileID: 919132149155446097, guid: 33ec5b3c2b6c339efb1639f911d7333d, type: 3}
+  answersObjects2:
+  - {fileID: 919132149155446097, guid: 968bf2f180e9fa18ba7d1cafc334f816, type: 3}
+  - {fileID: 919132149155446097, guid: 49351030222d3aef29c392a084804a11, type: 3}
+  - {fileID: 919132149155446097, guid: b1460381df792e8ff99ec6bb2b05bba8, type: 3}
+  - {fileID: 919132149155446097, guid: 24de03116edc18df891ef7125cb11117, type: 3}
+  - {fileID: 919132149155446097, guid: 852bdd7e8bdb0c4199ded6ac2280b533, type: 3}
+  - {fileID: 919132149155446097, guid: 3633e19358462282db5468d87b657766, type: 3}
+  - {fileID: 919132149155446097, guid: 134fa3eaf3ba7059f8bb71a24129906f, type: 3}
+  - {fileID: 919132149155446097, guid: b076b392d783ebb97b6be799145ddae7, type: 3}
+  - {fileID: 919132149155446097, guid: 0a6ec5c868a5b46e6b18eea877a49fa9, type: 3}
+  - {fileID: 919132149155446097, guid: e66dbf1fdbd38dd4186e5c3bc78af33e, type: 3}
+  - {fileID: 919132149155446097, guid: 3da585cc033a1e04384bc8cd6eb9ee2c, type: 3}
+  - {fileID: 919132149155446097, guid: aafce6cc43d0bd180af9c4834a20bce8, type: 3}
+  - {fileID: 919132149155446097, guid: 84f92643d56898d6397a661393d5e67e, type: 3}
+  - {fileID: 919132149155446097, guid: 34606d7ca8bcc46efa2b212e10cb0077, type: 3}
   propSlotObjects:
   - {fileID: 6261589069067111950, guid: 8c51b1e4abab50b9c9b8c0e0f745e8e6, type: 3}
   - {fileID: 6261589069067111950, guid: 8c51b1e4abab50b9c9b8c0e0f745e8e6, type: 3}

@@ -6,7 +6,7 @@ using UnityEngine;
     {
         [SerializeField] private float spacing = 10.0F;
         [Range(0,50)] public int zOffset ;
-        [SerializeField] private GameObject[] answersObjects ;
+        [SerializeField] private GameObject[] answersObjects, answersObjects1, answersObjects2 ;
         [SerializeField] private GameObject[] propSlotObjects ;
         [SerializeField] private GameObject[] slotObjects ;
         private GameObject[] answers ;
@@ -18,6 +18,16 @@ using UnityEngine;
         // Start is called before the first frame update
         void Start()
         {
+            switch (PlayerPrefs.GetInt("studied_dataset"))
+            {
+                case 1:
+                    answersObjects = answersObjects1;
+                    break;
+                 case 2:
+                    answersObjects = answersObjects2;
+                    break;
+            }
+
             answers = new GameObject[answersObjects.Length];
             propSlots = new GameObject[propSlotObjects.Length] ;
             slots = new GameObject[slotObjects.Length] ;

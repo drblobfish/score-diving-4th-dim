@@ -71,7 +71,6 @@ namespace draganddrop.answerrdr
                 inspctTime.observationTime = obj1.inspectionTime;
                 answers.InspectionTimes.Add(inspctTime);
             }
-            Debug.Log(answers) ;
             return answers;
         }
 
