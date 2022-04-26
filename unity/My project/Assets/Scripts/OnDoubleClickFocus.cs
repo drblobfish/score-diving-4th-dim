@@ -68,30 +68,24 @@ namespace draganddrop.raycast
         {
             if (Onfocus) // if already focusing, stop
             {
-                rotateObject.target=null;
-                Onfocus = false;
-                cam.transform.position = camBasePos;
-                if (onfocusObject)
-                {
-                    onfocusObject.transform.position = previousPos;
-                }
+                rotateObject.target = null ;
+                Onfocus = false ;
+                cam.transform.position = camBasePos ;
             }
             else // if not ray cast to find an object
             {
-                Onfocus = true;
                 Ray ray = cam.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hit;
 
-                if (Physics.Raycast(ray, out hit))
+                if (Physics.Raycast(ray, out hit) && hit.collider.tag == tag)
                 { 
+                    //Enable the focusing mechanism.
+                    Onfocus = true;
                     // Put this object to foreground and activate rotation on it
-                    if (hit.collider.tag == tag)
-                    {
-                        rotateObject.target = hit.transform;
-                        onfocusObject = hit.collider.gameObject;
-                        previousPos = onfocusObject.transform.position;
-                        onfocusObject.transform.position = focusPosition.transform.position;
-                    }
+                    rotateObject.target = hit.transform;
+                    onfocusObject = hit.collider.gameObject;
+                    previousPos = onfocusObject.transform.position;
+                    onfocusObject.transform.position = focusPosition.transform.position;
                 }
             }
         }

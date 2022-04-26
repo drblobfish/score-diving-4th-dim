@@ -15,7 +15,6 @@ namespace draganddrop.raycast
 		private GameObject selected ;
 		private Obj selectedObj ;
 		
-		private static Obj emptyObj = new Obj(null, 0, 0) ;
 		Vector3 mousePosition3 ;
 
 		public int nb_datasets ;
@@ -41,7 +40,6 @@ namespace draganddrop.raycast
 			selectedObj = null ;
 		}
 		
-
 		void Update()
 		{
 			//If a dataset is right clicked, move it to its associated slot and change the latter's color.
@@ -58,6 +56,8 @@ namespace draganddrop.raycast
 					slotMaterial.color = Color.red ;
 					sortedDatasets -= (sortedDatasets!=0)?1:0 ;
 				}
+				//Change focus to false if the object was focused on:
+				doubleClick.Onfocus = doubleClick.Onfocus?false:true ;
 			}
 
 			//If a dataset is left clicked, enable dragging and change its slot's color.
@@ -103,7 +103,6 @@ namespace draganddrop.raycast
 				}
 			}
 			
-
 			//If an object is selected, make it follow the mouse's world position.
 			if (dragging && !doubleClick.Onfocus)
 			{
@@ -119,8 +118,7 @@ namespace draganddrop.raycast
 			}
 			//When all datasets placed in our 7 slots.
 			showButtons = sortedDatasets == 7 ;
-			// Debug.Log("Test: " + Selection("Fire1", true, "Dataset", "", 9)) ;
-			// Debug.Log("Dragging: " + dragging) ;
+			Debug.Log("Nb of sorted datasets: " + sortedDatasets) ;
 		}
 	}
 }
