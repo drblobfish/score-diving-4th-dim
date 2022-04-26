@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 using TMPro;
 
+
+
 public class SequenceManager : MonoBehaviour
 {
     [SerializeField] private int nbSequence=3;
