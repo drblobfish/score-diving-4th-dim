@@ -26,14 +26,17 @@ using UnityEngine;
                  case 2:
                     answersObjects = answersObjects2;
                     break;
+                case 0:
+                    answersObjects = answersObjects;
+                    break;
             }
 
             answers = new GameObject[answersObjects.Length];
             propSlots = new GameObject[propSlotObjects.Length] ;
             slots = new GameObject[slotObjects.Length] ;
 
-            grid = Grid(2,7, Vector3.zero);
-            slotgrid = Grid(1,7, Vector3.forward*(-zOffset));
+            grid = Grid(2,answersObjects.Length/2, Vector3.zero);
+            slotgrid = Grid(1,slotObjects.Length, Vector3.forward*(-zOffset));
             Shuffle(grid);
             
             for (int i = 0; i < answersObjects.Length; i++)
