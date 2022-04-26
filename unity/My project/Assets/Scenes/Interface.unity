@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: df8b792d68e497bcbba367cea8cbfbd8, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -732,7 +732,6 @@ MonoBehaviour:
   target: {fileID: 1838235348}
   distanceToTarget: 3
   panSpeed: 20
-  camGameObject: {fileID: 0}
 --- !u!4 &438467066
 Transform:
   m_ObjectHideFlags: 0
@@ -1116,7 +1115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mesh: {fileID: 1908065708}
   sequenceManagerEmpty: {fileID: 1693322183}
-  speed: 1
+  speed: 15
   placeHolderSlider: 0
 --- !u!4 &602849424
 Transform:
@@ -2047,9 +2046,8 @@ GameObject:
   - component: {fileID: 1108388909}
   - component: {fileID: 1108388908}
   - component: {fileID: 1108388907}
-  - component: {fileID: 1108388910}
   m_Layer: 5
-  m_Name: File Path
+  m_Name: ID
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2183,20 +2181,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108388905}
   m_CullTransparentMesh: 1
---- !u!114 &1108388910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1108388905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f4fc9e7ed3dab1829f59ab1f333f149, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  iField: {fileID: 1108388907}
-  enterFilePath: {fileID: 691947143}
 --- !u!1 &1164304371
 GameObject:
   m_ObjectHideFlags: 0
@@ -2734,6 +2718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1693322185}
   - component: {fileID: 1693322184}
+  - component: {fileID: 1693322186}
   m_Layer: 0
   m_Name: SequenceManagerEmpty
   m_TagString: Untagged
@@ -2762,6 +2747,8 @@ MonoBehaviour:
   playButton: {fileID: 927344280}
   pauseButton: {fileID: 9396355}
   nextScene: SortingScene
+  pauseTime: 0
+  animationEnded: 0
 --- !u!4 &1693322185
 Transform:
   m_ObjectHideFlags: 0
@@ -2776,6 +2763,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1693322186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693322183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f4fc9e7ed3dab1829f59ab1f333f149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iField: {fileID: 1108388907}
+  manager: {fileID: 1693322184}
+  enterFilePath: {fileID: 691947143}
 --- !u!1 &1707871649
 GameObject:
   m_ObjectHideFlags: 0

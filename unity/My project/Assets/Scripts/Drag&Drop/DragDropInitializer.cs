@@ -8,11 +8,13 @@ namespace draganddrop
     {
         public GameObject obj ;
         public int index ;
+        public float inspectionTime ;
 
-        public Obj(GameObject _obj, int _index)
+        public Obj(GameObject _obj, int _index, float _inspectionTime)
         {
             obj = _obj ;
             index = _index ;
+            inspectionTime = _inspectionTime ;
         }
     }
     
@@ -32,7 +34,7 @@ namespace draganddrop
 
             foreach (GameObject go in gameobjects)
             {
-                objList[index] = new Obj(go, index) ;
+                objList[index] = new Obj(go, index, 0f) ;
                 index += 1 ;
             }
 

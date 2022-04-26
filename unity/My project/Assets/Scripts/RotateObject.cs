@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using draganddrop.raycast;
 
 public class RotateObject : MonoBehaviour
 {
@@ -14,8 +13,6 @@ public class RotateObject : MonoBehaviour
     private Vector3 previousPosition;
     private bool isPanning;     // Is the camera being panned?
     private bool isRotating;    // Is the camera being rotated?
-
-    public DragDropRaycast dragdropRaycast;
 
     void Update()
     {

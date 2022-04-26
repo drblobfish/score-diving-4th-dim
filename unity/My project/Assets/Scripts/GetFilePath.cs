@@ -1,18 +1,21 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GetFilePath : MonoBehaviour
+namespace sequence
 {
-    public InputField iField ;
-    // Start is called before the first frame update
-    void StoreFilePath()
+    public class GetFilePath : MonoBehaviour
     {
-        PlayerPrefs.SetString("experiment_ID",iField.text) ;
+        public InputField iField ;
+        public SequenceManager manager ;
+        // Start is called before the first frame update
+        void StoreFilePath()
+        {
+            PlayerPrefs.SetString("experiment_ID",iField.text) ;
+        }
+        public Button enterFilePath ;
+        void Start()
+        {
+            enterFilePath.onClick.AddListener(StoreFilePath) ;
+        } 
     }
-    public Button enterFilePath ;
-    void Start()
-    {
-        enterFilePath.onClick.AddListener(StoreFilePath) ;
-    }
-   
 }
