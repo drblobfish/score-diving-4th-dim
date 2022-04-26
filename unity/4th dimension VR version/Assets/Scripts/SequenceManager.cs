@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class SequenceManager : MonoBehaviour
 {
@@ -21,14 +23,15 @@ public class SequenceManager : MonoBehaviour
     // GUI
     public GameObject mainMenu;
     public GameObject sortingButton;
-    public GameObject background;
-    public Text timer;
+    public GameObject timerCanvas;
+    public TextMeshProUGUI message;
+    public TextMeshProUGUI timer;
     public Text sequenceIndicator;
     public GameObject playButton;
     public GameObject pauseButton;
+    private bool nextScene = false;
 
     public InputActionProperty playPauseAction;
-
 
     void Start()
     {
@@ -83,13 +86,17 @@ public class SequenceManager : MonoBehaviour
 
     void StartTimer()
     {
-        //UI
-        timer.enabled = true;
-        background.SetActive(true);
-
-        // timer
+        dataset.SetActive(false);
+        timerCanvas.SetActive(true);
         timerrunning = true;
         timeRemaining = timerSetting;
+    }
+
+    void StopTimer()
+    {
+        dataset.SetActive(true);
+        timerCanvas.SetActive(false);
+        timerrunning = false;
     }
 
     // Update is called once per frame
@@ -100,26 +107,39 @@ public class SequenceManager : MonoBehaviour
             if (timeRemaining > 0) 
             {
                 timeRemaining-= Time.deltaTime;
-                timer.text = "Time remaining before next sequence: " + timeRemaining.ToString("0.0");
+                timer.text = timeRemaining.ToString("0.0");
             }
             else // at the end of the timer play a new sequence
             {
                 //UI
-                background.SetActive(false);
-                timer.enabled = false;
+                StopTimer();
                 // play new sequence
-                PlaySequence();
-                timerrunning = false;
+                if (nextScene)
+                {
+                    LoadSortingScene();
+                } else
+                {
+                    PlaySequence();
+                }
             }
         }
-
     }
 
     void EndSequences()
     {
-        mainMenu.SetActive(true);
-        sortingButton.SetActive(true);
+        mainMenu.SetActive(false);
+        sortingButton.SetActive(false);
         dataset.SetActive(false);
+        timerCanvas.SetActive(true);
+        message.text = "You will be asked to sort the shapes in order in:";
+        timerrunning = true;
+        timeRemaining = 5;
+        nextScene = true;
+    }
+
+    void LoadSortingScene()
+    {
+        SceneManager.LoadScene("VR Sorting Scene");
     }
 
     // Pause and Play with buttons

@@ -7,8 +7,7 @@ public class DatasetAnim : MonoBehaviour
     [SerializeField] private GameObject mesh;
     private Animator m_Animator;
 
-    [SerializeField] private GameObject sequenceManagerEmpty;
-    private SequenceManager sequenceManager;
+    [SerializeField] private SequenceManager sequenceManager;
     [SerializeField] private float speed;
 
     // values for a placefolder slider
@@ -17,7 +16,6 @@ public class DatasetAnim : MonoBehaviour
     void Start()
     {
         m_Animator = mesh.GetComponent<Animator>();
-        sequenceManager = sequenceManagerEmpty.GetComponent<SequenceManager>();
     }
 
     public void Pause()

@@ -23,7 +23,7 @@ public class AnswerManager : MonoBehaviour
         for (int i = 0; i < answersObjects.Length; i++)
         {
             // put out of the parent
-            GameObject answerParent = Instantiate(answersObjects[i],grid[i],gameObject.transform.rotation,gameObject.transform);
+            GameObject answerParent = Instantiate(answersObjects[i], grid[i], gameObject.transform.rotation, gameObject.transform);
             GameObject child = answerParent.transform.GetChild(0).gameObject;
             child.name = answerParent.name;
             child.transform.parent = gameObject.transform;
@@ -35,7 +35,15 @@ public class AnswerManager : MonoBehaviour
             answersObjects[i]=child;
             child.transform.localScale = new Vector3(0.05F, 0.05F, 0.05F);
             child.AddComponent<SphereCollider>();
-            child.AddComponent<XRGrabInteractable>() ;
+            child.AddComponent<XRGrabInteractable>();
+            Rigidbody rigidbody = child.GetComponent<Rigidbody>();
+            rigidbody.isKinematic = true;
+            GameObject grabPoint = new GameObject();
+            grabPoint.name = "grabPoint";
+            grabPoint.transform.SetParent(child.transform);
+            grabPoint.transform.localScale = new Vector3(1, 1, 1);
+            grabPoint.transform.localPosition = new Vector3(0, 0, -12);
+            child.GetComponent<XRGrabInteractable>().attachTransform = grabPoint.transform;
         }
 
         answerManager.transform.Rotate(-90, 0, 0);
