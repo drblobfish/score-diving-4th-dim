@@ -5,7 +5,10 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class TestSocket : MonoBehaviour
 {
+    
     public string selectedObjectName;
+    public GameObject selectionParent ;
+
     public void OnSocketHoverEnter(HoverEnterEventArgs args)
     {
         Debug.LogFormat("Socket Hovered by: {0}", args.interactable.gameObject.name);
@@ -21,12 +24,16 @@ public class TestSocket : MonoBehaviour
     public void OnSocketSelectEnter(SelectEnterEventArgs args)
     {
         selectedObjectName = args.interactable.gameObject.name;
+        selectionParent.GetComponent<SocketComplete>().IncrementCount();
         Debug.Log("Socket Selected: "+ selectedObjectName);
+        Debug.Log("Count: " + selectionParent.GetComponent<SocketComplete>().socketCount);
     }
 
     public void OnSocketSelectExit()
     {
+        selectionParent.GetComponent<SocketComplete>().DecrementCount(); ; 
         Debug.Log("Socket Selected Exit: "+selectedObjectName);
+        Debug.Log("Count: " + selectionParent.GetComponent<SocketComplete>().socketCount);
         selectedObjectName = "";
     }
 }

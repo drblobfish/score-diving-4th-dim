@@ -1,0 +1,21 @@
+Subject: [Expérience VR] Questionnaire à remplir avant l'expérience.
+
+Bonjour {{nom}}.
+
+
+Nous vous contactons au sujet de l’expérience scientifique sur la réalité virtuelle à laquelle vous avez planifié de participer.
+
+Nous vous demandons de bien vouloir remplir le questionnaire accessible par le lien ci-dessous avant de participer à l'expérience.
+
+Le questionnaire prend moins de 10 minutes à remplir et est anonyme.
+Merci de vérifier sur le questionnaire que le champ à propos de votre identifiant est bien rempli avec votre identifiant : {{id}}.
+
+{{link_fra}}{{id}}
+
+Nous vous remercions de participer à notre expérience et vous rappelons que pour toute question ou préoccupation à propos de ce projet, vous pouvez nous contacter par mail ({{sender_mail}})
+
+Bien Cordialement,
+
+L’équipe SCORE "Diving into the fourth dimension"
+
+P.S. : ceci est un mail automatique, toutes nos excuses si quelque chose ne fonctionne pas comme prévu.
