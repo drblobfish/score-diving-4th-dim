@@ -57,7 +57,7 @@ namespace draganddrop.raycast
 					sortedDatasets -= (sortedDatasets!=0)?1:0 ;
 				}
 				//Change focus to false if the object was focused on:
-				doubleClick.Onfocus = doubleClick.Onfocus?false:true ;
+				doubleClick.Onfocus = doubleClick.Onfocus?false:false ;
 			}
 
 			//If a dataset is left clicked, enable dragging and change its slot's color.
@@ -118,7 +118,7 @@ namespace draganddrop.raycast
 			}
 			//When all datasets placed in our 7 slots.
 			showButtons = sortedDatasets == 7 ;
-			Debug.Log("Nb of sorted datasets: " + sortedDatasets) ;
+			Debug.Log("doubleClick " + doubleClick.Onfocus) ;
 		}
 	}
 }

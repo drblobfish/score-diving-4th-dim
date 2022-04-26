@@ -42,7 +42,7 @@ namespace draganddrop.raycast
 
                 lastClickTime = Time.time;
             }
-            if (Input.GetMouseButtonDown(2))
+            if (Input.GetMouseButtonDown(1))
             {
                 OnRightClick("Dataset") ;
             }
@@ -53,15 +53,12 @@ namespace draganddrop.raycast
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
-            if (Onfocus && Physics.Raycast(ray, out hit))
+            if (Onfocus && Physics.Raycast(ray, out hit) && hit.collider.tag == tag)
             { 
                 // Put this object to foreground and activate rotation on it
-                if (hit.collider.tag == tag)
-                {
-                    rotateObject.target = null ;
-                    Onfocus = false ;
-                    onfocusObject = null ;
-                }
+                rotateObject.target = null ;
+                Onfocus = false ;
+                onfocusObject = null ;
             }
         }
         void OnDoubleCLick(string tag)
