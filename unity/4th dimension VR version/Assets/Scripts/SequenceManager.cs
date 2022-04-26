@@ -22,6 +22,8 @@ public class SequenceManager : MonoBehaviour
     [SerializeField] private float timerSetting;
     private float timeRemaining;
 
+    float pauseTime;
+
     // GUI
     public GameObject mainMenu;
     public GameObject sortingButton;
@@ -125,6 +127,8 @@ public class SequenceManager : MonoBehaviour
                 }
             }
         }
+        //Measure time spent in pause mode.
+        pauseTime += isPaused ? Time.deltaTime : 0;
     }
 
     void EndSequences()
@@ -141,6 +145,7 @@ public class SequenceManager : MonoBehaviour
 
     void LoadSortingScene()
     {
+        PlayerPrefs.SetFloat("Pause Time", pauseTime);
         SceneManager.LoadScene("VR Sorting Scene");
     }
 

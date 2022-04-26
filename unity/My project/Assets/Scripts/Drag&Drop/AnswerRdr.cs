@@ -62,7 +62,7 @@ namespace draganddrop.answerrdr
             experimentID = PlayerPrefs.GetString("experiment_ID");
             result = Associations(datasets, slots,experimentID);
             jsonResult = JsonUtility.ToJson(result, true);
-            System.IO.File.WriteAllText(Application.persistentDataPath + "/"+experimentID+".json", jsonResult);
+            System.IO.File.WriteAllText(Application.persistentDataPath + "/"+ DateTime.Now.ToString("dd-MM-HH-mm") + ".json", jsonResult);
             Debug.Log(Application.persistentDataPath);
         }
 
