@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SocketComplete : MonoBehaviour
 {
+    [SerializeField] private int nbSocket;
     public int socketCount;
     public GameObject canvasComplete;
 
@@ -21,7 +22,7 @@ public class SocketComplete : MonoBehaviour
 
     public void CheckSortingComplete()
     {
-        if (socketCount==7)
+        if (socketCount== nbSocket)
         {
             canvasComplete.SetActive(true);
         }
