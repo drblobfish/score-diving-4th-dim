@@ -10,18 +10,24 @@ public class SocketComplete : MonoBehaviour
     public void IncrementCount()
     {
         socketCount++;
+        CheckSortingComplete();
     }
 
     public void DecrementCount()
     {
         socketCount--;
+        CheckSortingComplete();
     }
 
-    public void Update()
+    public void CheckSortingComplete()
     {
         if (socketCount==7)
         {
             canvasComplete.SetActive(true);
+        }
+        else
+        {
+            canvasComplete.SetActive(false);
         }
     }
 }
