@@ -584,7 +584,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -2196,6 +2196,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081338183}
   m_CullTransparentMesh: 1
+--- !u!1 &1109571866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8723998167411252459, guid: 2bc3e8e5192c19d4da47a43403630b97,
+    type: 3}
+  m_PrefabInstance: {fileID: 8723998168181928232}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1163074562
 GameObject:
   m_ObjectHideFlags: 0
@@ -2656,7 +2662,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1473716032}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1592303412}
+        m_TargetAssemblyTypeName: AnswerRdr, Assembly-CSharp
+        m_MethodName: SortOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1473716032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2705,6 +2723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1592303411}
   - component: {fileID: 1592303410}
+  - component: {fileID: 1592303412}
   m_Layer: 0
   m_Name: AnswerManager
   m_TagString: Untagged
@@ -2755,6 +2774,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1592303412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592303409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e156cb5633f64e48a008218c433eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotGameObjects:
+  - {fileID: 66564815}
+  - {fileID: 356439066}
+  - {fileID: 449609808}
+  - {fileID: 993236140}
+  - {fileID: 2018719638}
+  - {fileID: 2007625249}
+  - {fileID: 1109571866}
 --- !u!1 &1597931496
 GameObject:
   m_ObjectHideFlags: 0
