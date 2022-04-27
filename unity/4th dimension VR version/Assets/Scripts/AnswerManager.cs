@@ -6,7 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class AnswerManager : MonoBehaviour
 {
     [SerializeField] private float spacing = 10.0F;
-    [SerializeField] private GameObject[] answersObjects;
+    [SerializeField] private GameObject[] answersObjects, answersObjects1, answersObjects2;
     private GameObject[] answers ;
     private Vector3[] grid;
     private System.Random _random = new System.Random();
@@ -15,6 +15,18 @@ public class AnswerManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        switch (PlayerPrefs.GetInt("studied_dataset"))
+        {
+            case 1:
+                answersObjects = answersObjects1;
+                break;
+            case 2:
+                answersObjects = answersObjects2;
+                break;
+            case 0:
+                break;
+        }
+
         answers = new GameObject[answersObjects.Length];
 
         grid = Grid(2,7);
@@ -23,7 +35,7 @@ public class AnswerManager : MonoBehaviour
         for (int i = 0; i < answersObjects.Length; i++)
         {
             // put out of the parent
-            GameObject answerParent = Instantiate(answersObjects[i],grid[i],gameObject.transform.rotation,gameObject.transform);
+            GameObject answerParent = Instantiate(answersObjects[i], grid[i], gameObject.transform.rotation, gameObject.transform);
             GameObject child = answerParent.transform.GetChild(0).gameObject;
             child.name = answerParent.name;
             child.transform.parent = gameObject.transform;
@@ -35,7 +47,15 @@ public class AnswerManager : MonoBehaviour
             answersObjects[i]=child;
             child.transform.localScale = new Vector3(0.05F, 0.05F, 0.05F);
             child.AddComponent<SphereCollider>();
-            child.AddComponent<XRGrabInteractable>() ;
+            child.AddComponent<XRGrabInteractable>();
+            Rigidbody rigidbody = child.GetComponent<Rigidbody>();
+            rigidbody.isKinematic = true;
+            GameObject grabPoint = new GameObject();
+            grabPoint.name = "grabPoint";
+            grabPoint.transform.SetParent(child.transform);
+            grabPoint.transform.localScale = new Vector3(1, 1, 1);
+            grabPoint.transform.localPosition = new Vector3(0, 0, -12);
+            child.GetComponent<XRGrabInteractable>().attachTransform = grabPoint.transform;
         }
 
         answerManager.transform.Rotate(-90, 0, 0);

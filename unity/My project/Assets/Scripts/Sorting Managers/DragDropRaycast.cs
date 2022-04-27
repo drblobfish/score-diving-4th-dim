@@ -119,6 +119,7 @@ namespace draganddrop.raycast
 			}
 			//When all datasets placed in our 7 slots.
 			showButtons = sortedDatasets == 7 ;
+			Debug.Log(sortedDatasets) ;
 		}
 	}
 }

@@ -4,24 +4,31 @@ using UnityEngine;
 
 public class SocketComplete : MonoBehaviour
 {
+    [SerializeField] private int nbSocket;
     public int socketCount;
     public GameObject canvasComplete;
 
     public void IncrementCount()
     {
         socketCount++;
+        CheckSortingComplete();
     }
 
     public void DecrementCount()
     {
         socketCount--;
+        CheckSortingComplete();
     }
 
-    public void Update()
+    public void CheckSortingComplete()
     {
-        if (socketCount==7)
+        if (socketCount== nbSocket)
         {
             canvasComplete.SetActive(true);
+        }
+        else
+        {
+            canvasComplete.SetActive(false);
         }
     }
 }
