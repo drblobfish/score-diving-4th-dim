@@ -84,11 +84,6 @@ public class SequenceManager : MonoBehaviour
         {
             dataset = null;
         }
-
-        timesPlayed++;
-        sequenceIndicator.text = "Times Played: " + timesPlayed.ToString() + "/3";
-        Debug.Log("play sequence " + timesPlayed.ToString());
-        datasetAnim.StartAnim();
     }
 
     public void EndAnimation() // Once the animation is finished, DatasetAnim call this function
