@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 3f065770f64594bd9b5b5228821fcad1, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -890,7 +890,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1142046296
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1398,6 +1398,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.3, z: 0.15}
   m_Center: {x: 0, y: 0, z: 0.07}
+--- !u!114 &1163057130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163057127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ab56a3a793d6e0a832f46686e6b651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mesh: {fileID: 1163057127}
+  sequenceManagerGO: {fileID: 1304524056}
+  speed: 1
 --- !u!1 &1164380736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,6 +1491,8 @@ GameObject:
   - component: {fileID: 1304524059}
   - component: {fileID: 1304524058}
   - component: {fileID: 1304524057}
+  - component: {fileID: 1304524062}
+  - component: {fileID: 1304524061}
   m_Layer: 5
   m_Name: Anim&Button Controller
   m_TagString: Untagged
@@ -1566,6 +1583,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1304524061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304524056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70478299f68fef3c59785d31a6aeff9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playButton: {fileID: 1142046297}
+  pauseButton: {fileID: 430433087}
+  menuButton: {fileID: 1037335000}
+  vidManager: {fileID: 1304524062}
+  kitty: {fileID: 1163057127}
+--- !u!114 &1304524062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304524056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc6d692fedee20b8b9771eda6ba4b55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnManager: {fileID: 1304524061}
+  isPaused: 0
 --- !u!1 &1336079140
 GameObject:
   m_ObjectHideFlags: 0

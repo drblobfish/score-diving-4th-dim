@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mesh: {fileID: 971522316}
   sequenceManagerGO: {fileID: 1693322183}
-  speed: 8
+  speed: 0.4
   placeHolderSlider: 0
 --- !u!1 &139326753
 GameObject:
@@ -367,7 +367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &353215309
 RectTransform:
   m_ObjectHideFlags: 0
@@ -431,7 +431,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 353215311}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1693322184}
+        m_TargetAssemblyTypeName: sequence.SequenceManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Interface
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &353215311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1054,7 +1066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mesh: {fileID: 1908065708}
   sequenceManagerGO: {fileID: 1693322183}
-  speed: 8
+  speed: 0.4
   placeHolderSlider: 0
 --- !u!4 &602849424
 Transform:
@@ -1152,7 +1164,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 633550590}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1693322184}
+        m_TargetAssemblyTypeName: sequence.SequenceManager, Assembly-CSharp
+        m_MethodName: OnButtonPauseClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &633550590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1925,7 +1949,7 @@ Animator:
   m_GameObject: {fileID: 971522316}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 06be8be3575855a9abc51c72f8e76df0, type: 2}
+  m_Controller: {fileID: 9100000, guid: f85b90afd3c94af339c3e80211d1efbb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2320,7 +2344,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1270804253}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1693322184}
+        m_TargetAssemblyTypeName: sequence.SequenceManager, Assembly-CSharp
+        m_MethodName: OnButtonPlayClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1270804253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2792,11 +2828,11 @@ MonoBehaviour:
   nbSequence: 3
   dataset: {fileID: 0}
   timerSetting: 5
-  background: {fileID: 478945545}
   timer: {fileID: 1608401910}
   sequenceIndicator: {fileID: 921285943}
-  playButton: {fileID: 1270804250}
-  pauseButton: {fileID: 633550587}
+  playButton: {fileID: 1270804252}
+  pauseButton: {fileID: 633550589}
+  background: {fileID: 322956482}
   nextScene: SortingScene
   pauseTime: 0
   animationEnded: 0
@@ -2838,6 +2874,7 @@ MonoBehaviour:
   dataset1btn: {fileID: 946728845}
   dataset2btn: {fileID: 1535385704}
   storeInformation: {fileID: 2009202457}
+  tutorialBtn: {fileID: 1366904447}
 --- !u!1 &1838235347
 GameObject:
   m_ObjectHideFlags: 0

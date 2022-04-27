@@ -647,6 +647,7 @@ MonoBehaviour:
   cam: {fileID: 1842072169}
   nb_datasets: 14
   showButtons: 0
+  datasetsGO: []
   doubleClick: {fileID: 1602151516}
 --- !u!4 &157817588
 Transform:
@@ -1710,13 +1711,14 @@ MonoBehaviour:
   - {fileID: 6261589069067111950, guid: 8c51b1e4abab50b9c9b8c0e0f745e8e6, type: 3}
   - {fileID: 6261589069067111950, guid: 8c51b1e4abab50b9c9b8c0e0f745e8e6, type: 3}
   slotObjects:
-  - {fileID: 2049761264898488266, guid: 2d4bf5b21ddaa6709b04d997a06851aa, type: 3}
-  - {fileID: 2049761264898488266, guid: 2d4bf5b21ddaa6709b04d997a06851aa, type: 3}
-  - {fileID: 2049761264898488266, guid: 2d4bf5b21ddaa6709b04d997a06851aa, type: 3}
-  - {fileID: 2049761264898488266, guid: 2d4bf5b21ddaa6709b04d997a06851aa, type: 3}
-  - {fileID: 2049761264898488266, guid: 2d4bf5b21ddaa6709b04d997a06851aa, type: 3}
-  - {fileID: 2049761264898488266, guid: 2d4bf5b21ddaa6709b04d997a06851aa, type: 3}
-  - {fileID: 2049761264898488266, guid: 2d4bf5b21ddaa6709b04d997a06851aa, type: 3}
+  - {fileID: 2049761264898488266, guid: c7608e89f48f46b27838443826ef7ede, type: 3}
+  - {fileID: 2049761264898488266, guid: 6c6290ec6184c6e888de694fee9d4859, type: 3}
+  - {fileID: 2049761264898488266, guid: bcb7ace320a6b18d79a40c2bc47e7db8, type: 3}
+  - {fileID: 2049761264898488266, guid: 0bec17cb82ed5ef1abdb284651e0dd09, type: 3}
+  - {fileID: 2049761264898488266, guid: e5c7eb6884a640e9ca8dbc16ab81938d, type: 3}
+  - {fileID: 2049761264898488266, guid: 09d0fe16e846a14ad8c0c9fd3f059533, type: 3}
+  - {fileID: 2049761264898488266, guid: 7a415422c589928e38b1505a4e4ea8e2, type: 3}
+  slots: []
 --- !u!4 &1036561082
 Transform:
   m_ObjectHideFlags: 0
@@ -1744,6 +1746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dragdropManager: {fileID: 157817587}
+  answerManager: {fileID: 1036561081}
   verify: {fileID: 809056054}
   buttonManager: {fileID: 816958921}
 --- !u!4 &1089747867 stripped

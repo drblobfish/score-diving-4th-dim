@@ -12,12 +12,14 @@ namespace draganddrop.answerrdr
     public class AnswerRdr : MonoBehaviour
     {
         public DragDropRaycast dragdropManager ;
+        public AnswerManager answerManager ;
 
         [Serializable]
         public struct Result
         {
             public String time;
             public String experimentID;
+            public int chosenDataset;
             public List<Pair> Pairs;
             public List<InspectionTime> InspectionTimes;
             public float pauseTime;
@@ -44,6 +46,7 @@ namespace draganddrop.answerrdr
             DateTime now = DateTime.Now;
             Result answers = new Result();
             answers.experimentID = experimentID;
+            answers.chosenDataset = PlayerPrefs.GetInt("studied_dataset");
             answers.time = now.ToString();
             answers.Pairs = new List<Pair>();
             answers.InspectionTimes = new List<InspectionTime>();
@@ -85,13 +88,13 @@ namespace draganddrop.answerrdr
         {
             //Initialize object arrays with new values (i.e inspection time) ; 
             datasets = dragdropManager.datasets ;
-            slots = initializer.InitializeObj("Slot", 7);
+            slots = initializer.InitializeObj("Slot", 7, answerManager.slots);
 
             experimentID = PlayerPrefs.GetString("experiment_ID");
             pauseDuration = PlayerPrefs.GetFloat("Pause Time");
             result = Associations(datasets, slots,experimentID,pauseDuration, timeFromLoad);
             jsonResult = JsonUtility.ToJson(result, true);
-            System.IO.File.WriteAllText(Application.persistentDataPath + "/"+experimentID+".json", jsonResult);
+            System.IO.File.WriteAllText(Application.persistentDataPath + "/" + DateTime.Now.ToString("dd-MM-HH-mm") + ".json", jsonResult);
         }
 
         float timeFromLoad;

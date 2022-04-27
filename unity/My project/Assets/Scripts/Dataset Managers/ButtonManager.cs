@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 namespace sequence
 {
@@ -50,13 +51,22 @@ namespace sequence
 
             studiedDataset = chosenDataset==1?GameObject.Find("dataset_1"):GameObject.Find("dataset_2") ;
         }
-        public Button enterID, dataset1btn, dataset2btn, storeInformation ;
+
+        void loadTutorial()
+        {
+            SceneManager.LoadScene("Tutorial") ;
+        }
+        public Button enterID, dataset1btn, dataset2btn, storeInformation, tutorialBtn ;
         void Start()
         {
             enterID.onClick.AddListener(GetID) ;
             dataset1btn.onClick.AddListener(ChoseDataset1) ;
             dataset2btn.onClick.AddListener(ChoseDataset2) ;
             storeInformation.onClick.AddListener(StoreInfo_StartExp) ;
+            tutorialBtn.onClick.AddListener(loadTutorial) ;
+
+            manager.playButton.onClick.AddListener(manager.OnButtonPlayClick) ;
+            manager.pauseButton.onClick.AddListener(manager.OnButtonPauseClick) ;
         } 
     }
 }

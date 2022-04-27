@@ -22,11 +22,10 @@ namespace sequence
         private float timeRemaining;
 
         // GUI
-        public GameObject background;
         public Text timer;
         public Text sequenceIndicator;
-        public GameObject playButton;
-        public GameObject pauseButton;
+        public Button playButton, pauseButton ;
+        public GameObject background;
 
         //Scene Management
         public string nextScene;
@@ -50,7 +49,7 @@ namespace sequence
                 else // at the end of the timer play a new sequence
                 {
                     //UI
-                    background.SetActive(false);
+                    background.gameObject.SetActive(false);
                     timer.enabled = false;
                     //Play new sequence
                     PlaySequence();
@@ -130,8 +129,8 @@ namespace sequence
             isPaused = false;
 
             // UI
-            pauseButton.SetActive(true);
-            playButton.SetActive(false);
+            pauseButton.gameObject.SetActive(true);
+            playButton.gameObject.SetActive(false);
         }
         public void OnButtonPauseClick()
         {
@@ -139,8 +138,8 @@ namespace sequence
             isPaused = true;
 
             //UI
-            playButton.SetActive(true);
-            pauseButton.SetActive(false);
+            playButton.gameObject.SetActive(true);
+            pauseButton.gameObject.SetActive(false);
         }
     }
 }

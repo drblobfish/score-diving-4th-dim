@@ -20,6 +20,7 @@ namespace draganddrop.raycast
 		public int nb_datasets ;
 		private int sortedDatasets ;
 		public bool showButtons ;
+		public GameObject[] datasetsGO ;
 		Obj[] propositionSlots ;
 		public Obj[] datasets ;
 		DragDropInitializer initializer = new DragDropInitializer() ;
@@ -29,8 +30,8 @@ namespace draganddrop.raycast
 		
 		void Start()
 		{
-			propositionSlots = initializer.InitializeObj("Proposition_Slot", nb_datasets) ;
-			datasets = initializer.InitializeObj("Dataset", nb_datasets) ;
+			propositionSlots = initializer.InitializeObj("Proposition_Slot", nb_datasets, null) ;
+			datasets = initializer.InitializeObj("Dataset", nb_datasets, null) ;
 		}
 
 		void SetToNull()

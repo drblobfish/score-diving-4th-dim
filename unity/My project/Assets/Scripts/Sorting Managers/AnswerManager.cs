@@ -8,10 +8,10 @@ using UnityEngine;
         [Range(0,50)] public int zOffset ;
         [SerializeField] private GameObject[] answersObjects, answersObjects1, answersObjects2 ;
         [SerializeField] private GameObject[] propSlotObjects ;
-        [SerializeField] private GameObject[] slotObjects ;
+        public GameObject[] slotObjects ;
         private GameObject[] answers ;
         private GameObject[] propSlots ;
-        private GameObject[] slots ;
+        public GameObject[] slots ;
         private Vector3[] grid,slotgrid;
         private System.Random _random = new System.Random();
 

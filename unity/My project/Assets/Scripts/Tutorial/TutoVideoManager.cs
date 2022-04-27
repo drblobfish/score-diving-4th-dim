@@ -2,17 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TutoVideoManager : MonoBehaviour
+namespace tutorial
 {
-    // Start is called before the first frame update
-    void Start()
+    public class TutoVideoManager : MonoBehaviour
     {
-        
-    }
+        public TutoButtonManager btnManager;
+        public bool isPaused = false;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Space))  //Play Pause
+            {
+                if (isPaused)
+                {
+                    btnManager.OnButtonPlayClick();
+                }  
+                else
+                {
+                    btnManager.OnButtonPauseClick();
+                }
+            }
+        }
     }
 }

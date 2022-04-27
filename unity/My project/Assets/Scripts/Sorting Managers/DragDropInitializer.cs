@@ -26,9 +26,12 @@ namespace draganddrop
             return _gameobject ;
         }
 
-        public Obj[] InitializeObj(string _tag, int _nb_elements)
+        public Obj[] InitializeObj(string _tag, int _nb_elements, GameObject[] gameobjects)
         {
-            GameObject[] gameobjects = InitializeWithTag(_tag) ;
+            if (gameobjects == null)
+			{
+				gameobjects = InitializeWithTag(_tag) ;
+			}
             Obj[] objList = new Obj[_nb_elements] ;
             int index = 0 ;
 
