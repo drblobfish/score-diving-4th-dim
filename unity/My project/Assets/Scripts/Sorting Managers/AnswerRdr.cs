@@ -1,10 +1,11 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using draganddrop.raycast;
-using System;
 
 namespace draganddrop.answerrdr
 {
@@ -95,6 +96,8 @@ namespace draganddrop.answerrdr
             result = Associations(datasets, slots,experimentID,pauseDuration, timeFromLoad);
             jsonResult = JsonUtility.ToJson(result, true);
             System.IO.File.WriteAllText(Application.persistentDataPath + "/" + DateTime.Now.ToString("dd-MM-HH-mm") + ".json", jsonResult);
+
+            SceneManager.LoadScene("Interface") ;
         }
 
         float timeFromLoad;

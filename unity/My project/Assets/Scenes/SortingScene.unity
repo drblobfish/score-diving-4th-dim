@@ -2018,6 +2018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af30cbb18aceea547bbeff7493a53dcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isWatching: 0
   cam: {fileID: 1842072169}
   target: {fileID: 0}
   distanceToTarget: 3
