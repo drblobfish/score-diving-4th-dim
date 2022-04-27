@@ -12,6 +12,7 @@ public class SequenceManager : MonoBehaviour
     private int timesPlayed;
 
     // Animation
+    [SerializeField] private ButtonManager btnManager;
     [SerializeField] private GameObject dataset;
     private DatasetAnim datasetAnim;
 
@@ -69,6 +70,19 @@ public class SequenceManager : MonoBehaviour
 
     void PlaySequence()
     {
+        try
+        {
+            dataset = btnManager.studiedDataset;
+            datasetAnim = dataset.GetComponent<DatasetAnim>();
+            timesPlayed++;
+            sequenceIndicator.text = "Times Played: " + timesPlayed.ToString() + "/3";
+            datasetAnim.StartAnim();
+        }
+        catch (UnassignedReferenceException)
+        {
+            dataset = null;
+        }
+
         timesPlayed++;
         sequenceIndicator.text = "Times Played: " + timesPlayed.ToString() + "/3";
         Debug.Log("play sequence " + timesPlayed.ToString());
