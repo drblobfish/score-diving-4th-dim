@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RotateObject : MonoBehaviour
 {
+    [SerializeField] private bool isWatching ;
     public Camera cam;
     public Transform target;
     public float distanceToTarget = 3;
@@ -44,12 +45,19 @@ public class RotateObject : MonoBehaviour
                 Vector3 newPosition = cam.ScreenToViewportPoint(Input.mousePosition);
                 Vector3 direction = previousPosition - newPosition;
 
-                float rotationAroundZAxis = direction.x * 180; // object moves horizontally
+                float rotationAroundZYAxis = direction.x * 180; // object moves horizontally
                 float rotationAroundXAxis = -direction.y * 180; // object moves vertically
 
                 target.transform.Rotate(new Vector3(1, 0, 0), rotationAroundXAxis, Space.World);
-                target.transform.Rotate(new Vector3(0, 0, 1), rotationAroundZAxis, Space.World); 
-
+                if (isWatching)
+                {
+                    target.transform.Rotate(new Vector3(0, 1, 0), rotationAroundZYAxis, Space.World); 
+                }
+                else if (!isWatching)
+                {
+                    target.transform.Rotate(new Vector3(0, 0, 1), rotationAroundZYAxis, Space.World); 
+                }
+                
                 previousPosition = newPosition;
             }
 
