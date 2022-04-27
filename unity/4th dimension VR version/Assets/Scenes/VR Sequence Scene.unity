@@ -1379,7 +1379,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583789934}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1449287796}
@@ -3155,7 +3155,7 @@ Animator:
   m_GameObject: {fileID: 1361350133}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 06be8be3575855a9abc51c72f8e76df0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5830c515577672d47a182c95fc9950fc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4005,8 +4005,11 @@ MonoBehaviour:
   storeInformation: {fileID: 767926007}
   mainMenu: {fileID: 421063733}
   sequenceUI: {fileID: 936397695}
+  Dataset1: {fileID: 1449287795}
+  Dataset2: {fileID: 35180457}
   studiedDataset: {fileID: 0}
   sequenceManager: {fileID: 1971767439}
+  rotateGroup: {fileID: 583789934}
   chosenDataset: 0
   experiment_ID: 
 --- !u!1 &1983913550

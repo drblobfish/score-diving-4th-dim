@@ -11,9 +11,13 @@ public class ButtonManager : MonoBehaviour
 
     [SerializeField] private GameObject mainMenu, sequenceUI;
 
+    [SerializeField] private GameObject Dataset1, Dataset2;
+
     public GameObject studiedDataset;
 
     [SerializeField] private SequenceManager sequenceManager;
+
+    [SerializeField] private GameObject rotateGroup;
 
 
     public int chosenDataset;
@@ -63,20 +67,21 @@ public class ButtonManager : MonoBehaviour
             switch (chosenDataset)
             {
                 case 1:
-                    studiedDataset = GameObject.Find("dataset_1");
-                    GameObject.Find("dataset_2").SetActive(false);
+                    studiedDataset = Dataset1;
+                    Dataset2.SetActive(false);
                     break;
                 case 2:
-                    studiedDataset = GameObject.Find("dataset_2");
-                    GameObject.Find("dataset_1").SetActive(false);
+                    studiedDataset = Dataset2;
+                    Dataset1.SetActive(false);
                     break;
             }
+            rotateGroup.transform.position = new Vector3(0.0F,1.0F,0.0F);
+            studiedDataset.SetActive(true);
 
             sequenceManager.BeginSequences();
             sequenceManager.OnButtonPauseClick();
             mainMenu.SetActive(false);
             sequenceUI.SetActive(true);
-            studiedDataset.SetActive(true);
         }
     }
 }
