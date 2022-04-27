@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: a8c93e2989291be868d537682eff63c0, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -645,9 +645,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotMaterial: {fileID: 2100000, guid: ac0d112cc19899882b42114e4f96d879, type: 2}
   cam: {fileID: 1842072169}
-  selection: 0
   nb_datasets: 14
   showButtons: 0
+  datasetsGO: []
   doubleClick: {fileID: 1602151516}
 --- !u!4 &157817588
 Transform:
@@ -1651,6 +1651,21 @@ MonoBehaviour:
   spacing: 20
   zOffset: 30
   answersObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  answersObjects1:
   - {fileID: 919132149155446097, guid: ffedbbce7d325587db2750820f76da9a, type: 3}
   - {fileID: 919132149155446097, guid: c1813db9a2bd94a448ad8d94826a88b8, type: 3}
   - {fileID: 919132149155446097, guid: dbc58988f065c0c80b5bb830fcaecfdc, type: 3}
@@ -1665,6 +1680,21 @@ MonoBehaviour:
   - {fileID: 919132149155446097, guid: a821e8d40e3b538e7a2e07e1472a6452, type: 3}
   - {fileID: 919132149155446097, guid: 41ef1681b44ee8d57845674cffb1334d, type: 3}
   - {fileID: 919132149155446097, guid: 33ec5b3c2b6c339efb1639f911d7333d, type: 3}
+  answersObjects2:
+  - {fileID: 919132149155446097, guid: 968bf2f180e9fa18ba7d1cafc334f816, type: 3}
+  - {fileID: 919132149155446097, guid: 49351030222d3aef29c392a084804a11, type: 3}
+  - {fileID: 919132149155446097, guid: b1460381df792e8ff99ec6bb2b05bba8, type: 3}
+  - {fileID: 919132149155446097, guid: 24de03116edc18df891ef7125cb11117, type: 3}
+  - {fileID: 919132149155446097, guid: 852bdd7e8bdb0c4199ded6ac2280b533, type: 3}
+  - {fileID: 919132149155446097, guid: 3633e19358462282db5468d87b657766, type: 3}
+  - {fileID: 919132149155446097, guid: 134fa3eaf3ba7059f8bb71a24129906f, type: 3}
+  - {fileID: 919132149155446097, guid: b076b392d783ebb97b6be799145ddae7, type: 3}
+  - {fileID: 919132149155446097, guid: 0a6ec5c868a5b46e6b18eea877a49fa9, type: 3}
+  - {fileID: 919132149155446097, guid: e66dbf1fdbd38dd4186e5c3bc78af33e, type: 3}
+  - {fileID: 919132149155446097, guid: 3da585cc033a1e04384bc8cd6eb9ee2c, type: 3}
+  - {fileID: 919132149155446097, guid: aafce6cc43d0bd180af9c4834a20bce8, type: 3}
+  - {fileID: 919132149155446097, guid: 84f92643d56898d6397a661393d5e67e, type: 3}
+  - {fileID: 919132149155446097, guid: 34606d7ca8bcc46efa2b212e10cb0077, type: 3}
   propSlotObjects:
   - {fileID: 6261589069067111950, guid: 8c51b1e4abab50b9c9b8c0e0f745e8e6, type: 3}
   - {fileID: 6261589069067111950, guid: 8c51b1e4abab50b9c9b8c0e0f745e8e6, type: 3}
@@ -1681,13 +1711,14 @@ MonoBehaviour:
   - {fileID: 6261589069067111950, guid: 8c51b1e4abab50b9c9b8c0e0f745e8e6, type: 3}
   - {fileID: 6261589069067111950, guid: 8c51b1e4abab50b9c9b8c0e0f745e8e6, type: 3}
   slotObjects:
-  - {fileID: 2049761264898488266, guid: 2d4bf5b21ddaa6709b04d997a06851aa, type: 3}
-  - {fileID: 2049761264898488266, guid: 2d4bf5b21ddaa6709b04d997a06851aa, type: 3}
-  - {fileID: 2049761264898488266, guid: 2d4bf5b21ddaa6709b04d997a06851aa, type: 3}
-  - {fileID: 2049761264898488266, guid: 2d4bf5b21ddaa6709b04d997a06851aa, type: 3}
-  - {fileID: 2049761264898488266, guid: 2d4bf5b21ddaa6709b04d997a06851aa, type: 3}
-  - {fileID: 2049761264898488266, guid: 2d4bf5b21ddaa6709b04d997a06851aa, type: 3}
-  - {fileID: 2049761264898488266, guid: 2d4bf5b21ddaa6709b04d997a06851aa, type: 3}
+  - {fileID: 2049761264898488266, guid: c7608e89f48f46b27838443826ef7ede, type: 3}
+  - {fileID: 2049761264898488266, guid: 6c6290ec6184c6e888de694fee9d4859, type: 3}
+  - {fileID: 2049761264898488266, guid: bcb7ace320a6b18d79a40c2bc47e7db8, type: 3}
+  - {fileID: 2049761264898488266, guid: 0bec17cb82ed5ef1abdb284651e0dd09, type: 3}
+  - {fileID: 2049761264898488266, guid: e5c7eb6884a640e9ca8dbc16ab81938d, type: 3}
+  - {fileID: 2049761264898488266, guid: 09d0fe16e846a14ad8c0c9fd3f059533, type: 3}
+  - {fileID: 2049761264898488266, guid: 7a415422c589928e38b1505a4e4ea8e2, type: 3}
+  slots: []
 --- !u!4 &1036561082
 Transform:
   m_ObjectHideFlags: 0
@@ -1714,9 +1745,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c7e734d1f3b9e9c780fbb607412210d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dragdropManager: {fileID: 157817587}
+  answerManager: {fileID: 1036561081}
   verify: {fileID: 809056054}
   buttonManager: {fileID: 816958921}
-  dragdropManager: {fileID: 157817587}
 --- !u!4 &1089747867 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0dc24d48d5f5f3f2c9ea3c1dbad89b3a, type: 3}
@@ -1990,7 +2022,6 @@ MonoBehaviour:
   target: {fileID: 0}
   distanceToTarget: 3
   panSpeed: 20
-  dragdropRaycast: {fileID: 157817587}
 --- !u!4 &1602151515
 Transform:
   m_ObjectHideFlags: 0

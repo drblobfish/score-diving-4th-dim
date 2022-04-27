@@ -1,0 +1,3 @@
+# Ignore 3d files (too heavy for upload on github)
+*.dae
+*.obj
