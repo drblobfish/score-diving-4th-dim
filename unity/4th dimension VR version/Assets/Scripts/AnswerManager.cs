@@ -6,7 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class AnswerManager : MonoBehaviour
 {
     [SerializeField] private float spacing = 10.0F;
-    [SerializeField] private GameObject[] answersObjects;
+    [SerializeField] private GameObject[] answersObjects, answersObjects1, answersObjects2;
     private GameObject[] answers ;
     private Vector3[] grid;
     private System.Random _random = new System.Random();
@@ -15,6 +15,18 @@ public class AnswerManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        switch (PlayerPrefs.GetInt("studied_dataset"))
+        {
+            case 1:
+                answersObjects = answersObjects1;
+                break;
+            case 2:
+                answersObjects = answersObjects2;
+                break;
+            case 0:
+                break;
+        }
+
         answers = new GameObject[answersObjects.Length];
 
         grid = Grid(2,7);

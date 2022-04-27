@@ -4007,7 +4007,7 @@ MonoBehaviour:
   sequenceUI: {fileID: 936397695}
   Dataset1: {fileID: 1449287795}
   Dataset2: {fileID: 35180457}
-  studiedDataset: {fileID: 0}
+  studiedDataset: {fileID: 1449287795}
   sequenceManager: {fileID: 1971767439}
   rotateGroup: {fileID: 583789934}
   chosenDataset: 0

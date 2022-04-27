@@ -14,6 +14,7 @@ public class AnswerRdr : MonoBehaviour
     {
         public String time;
         public String experimentID;
+        public int chosenDataset;
         public List<Pair> Pairs;
         public List<InspectionTime> InspectionTimes;
         public float pauseTime;
@@ -59,6 +60,7 @@ public class AnswerRdr : MonoBehaviour
         answers.time = now.ToString();
 
         answers.experimentID = PlayerPrefs.GetString("experiment_ID");
+        answers.chosenDataset = PlayerPrefs.GetInt("studied_dataset");
 
         answers.pauseTime = PlayerPrefs.GetFloat("Pause Time");
 

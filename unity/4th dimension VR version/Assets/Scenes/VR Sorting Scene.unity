@@ -2757,6 +2757,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spacing: 1
   answersObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  answersObjects1:
   - {fileID: 919132149155446097, guid: 004a8e859b509a84eb4ff4baf0d0d7ba, type: 3}
   - {fileID: 919132149155446097, guid: 0573e3be428157548b20ae4cb066c0cb, type: 3}
   - {fileID: 919132149155446097, guid: 031d708f6a67367479ec9226f953f3ae, type: 3}
@@ -2771,6 +2786,21 @@ MonoBehaviour:
   - {fileID: 919132149155446097, guid: 46dbd210237d71846a8ea1c691b9a569, type: 3}
   - {fileID: 919132149155446097, guid: c56e04bbc0efcee43964f3d7ca7adb1c, type: 3}
   - {fileID: 919132149155446097, guid: bfb109cd39f1725458532f4a88204cf8, type: 3}
+  answersObjects2:
+  - {fileID: 919132149155446097, guid: 87e80dd8dbddf5f4880c6372a8666d99, type: 3}
+  - {fileID: 919132149155446097, guid: d58af761f7c754f47a0619e685423bf8, type: 3}
+  - {fileID: 919132149155446097, guid: cab8afa671b018a4ebf81518690534e1, type: 3}
+  - {fileID: 919132149155446097, guid: 0f0400de9f1331343ba1cd71ae507c01, type: 3}
+  - {fileID: 919132149155446097, guid: 7c0d9d51a008daf4fae395b0f7c8a7da, type: 3}
+  - {fileID: 919132149155446097, guid: 05904da7c6b198449b5a7654a510678a, type: 3}
+  - {fileID: 919132149155446097, guid: a7f3069f24974c243a7285cd4b1eee7e, type: 3}
+  - {fileID: 919132149155446097, guid: 6b89935063614f44f82d0c160af7cfe1, type: 3}
+  - {fileID: 919132149155446097, guid: 6972708153c962542af5809f824d7b3c, type: 3}
+  - {fileID: 919132149155446097, guid: 3288e18f88d561b4eb460d713cd0f3d0, type: 3}
+  - {fileID: 919132149155446097, guid: 4a9f35ce04a8c5b4bb88d9e83286f88f, type: 3}
+  - {fileID: 919132149155446097, guid: ee11e4571c228d148999a32596c80563, type: 3}
+  - {fileID: 919132149155446097, guid: 69353a0ffee641e49bc9b221d87a45af, type: 3}
+  - {fileID: 919132149155446097, guid: e1f572ca42c09eb458ce821e87c6550a, type: 3}
   answerManager: {fileID: 1592303409}
 --- !u!4 &1592303411
 Transform:
