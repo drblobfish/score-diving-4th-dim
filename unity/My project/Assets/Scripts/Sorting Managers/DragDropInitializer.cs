@@ -48,7 +48,7 @@ namespace draganddrop
 
     public class DragDropSelection
     {
-        //Give information about object 1 and object 2 it was placed upon. 
+		//Give information about object 1 and object 2 it was placed upon. 
 		//This function does not work as a standalone. It only is a subpart of ClickedSelection().
 		public GameObject[] Selected(string buttonCode, string tag1, string tag2, int layer, Camera cam)
 		{

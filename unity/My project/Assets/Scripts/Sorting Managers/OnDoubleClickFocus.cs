@@ -56,8 +56,11 @@ namespace draganddrop.raycast
         }
         void OnDoubleCLick(string tag)
         {
-            if (Onfocus) // if already focusing, stop
-            {
+            Ray rayFocusTrue = cam.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hitFocusTrue;
+
+            if (Physics.Raycast(rayFocusTrue, out hitFocusTrue) && hitFocusTrue.collider.gameObject == onfocusObject && Onfocus)
+            { 
                 rotateObject.target = null ;
                 Onfocus = false ;
                 cam.transform.position = camBasePos ;
@@ -67,7 +70,7 @@ namespace draganddrop.raycast
                 Ray ray = cam.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hit;
 
-                if (Physics.Raycast(ray, out hit) && hit.collider.tag == tag)
+                if (Physics.Raycast(ray, out hit) && hit.collider.tag == tag && !Onfocus)
                 { 
                     //Enable the focusing mechanism.
                     Onfocus = true;
