@@ -36,7 +36,8 @@ public class SequenceManager : MonoBehaviour
     public GameObject pauseButton;
     private bool nextScene = false;
 
-    public InputActionProperty playPauseAction;
+    public InputActionProperty LeftPlayPauseAction;
+    public InputActionProperty RightPlayPauseAction;
 
     void Start()
     {
@@ -45,7 +46,8 @@ public class SequenceManager : MonoBehaviour
 
     private void Awake()
     {
-        playPauseAction.action.performed += onPlayPausePerformed;
+        LeftPlayPauseAction.action.performed += onPlayPausePerformed;
+        RightPlayPauseAction.action.performed += onPlayPausePerformed;
     }
 
     private void onPlayPausePerformed(InputAction.CallbackContext obj)

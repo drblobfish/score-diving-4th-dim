@@ -1459,6 +1459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nbSequence: 10
+  btnManager: {fileID: 0}
   dataset: {fileID: 1869348048}
   timerSetting: 0.1
   mainMenu: {fileID: 844619075}
@@ -1469,18 +1470,31 @@ MonoBehaviour:
   sequenceIndicator: {fileID: 513693536}
   playButton: {fileID: 526943985}
   pauseButton: {fileID: 320396913}
-  playPauseAction:
+  LeftPlayPauseAction:
     m_UseReference: 1
     m_Action:
-      m_Name: Play Pause
+      m_Name: Left Play Pause
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: f66904eb-514a-402a-b2bc-8f1f2ab1fe5d
+      m_Id: 4ceddb54-2b4f-47a9-86f7-5056274a87ad
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -2837746240632994702, guid: da2b439d1a2de5c46a4f428f8cf4fe19,
+    m_Reference: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  RightPlayPauseAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Play Pause
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 1f73db90-07eb-4247-94fe-aa95422be35a
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
 --- !u!4 &688807345
 Transform:
@@ -1688,8 +1702,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You can end the sufferings of the bugging cat  by pointing the controller
-    towards the Play/Pause button and pressing the Trigger '
+  m_text: 'You can end the sufferings of the bugging cat  by pressing Grip button
+    or pointing the controller towards the Play/Pause button and pressing the Trigger '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

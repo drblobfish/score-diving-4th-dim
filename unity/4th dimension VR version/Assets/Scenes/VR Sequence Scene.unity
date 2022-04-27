@@ -957,8 +957,8 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.020469915, g: 0.8679245, b: 0.06966438, a: 1}
+    m_SelectedColor: {r: 0.023529412, g: 0.87058824, b: 0.07058824, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -2471,7 +2471,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -3553,8 +3553,8 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.023529412, g: 0.87058824, b: 0.07058824, a: 1}
+    m_SelectedColor: {r: 0.023529412, g: 0.87058824, b: 0.07058824, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -3959,18 +3959,31 @@ MonoBehaviour:
   sequenceIndicator: {fileID: 846757206}
   playButton: {fileID: 830071077}
   pauseButton: {fileID: 1322443435}
-  playPauseAction:
+  LeftPlayPauseAction:
     m_UseReference: 1
     m_Action:
-      m_Name: Play Pause
+      m_Name: Left Play Pause
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: f66904eb-514a-402a-b2bc-8f1f2ab1fe5d
+      m_Id: c3fcc9f7-3818-4edc-874a-60c00166682f
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -2837746240632994702, guid: da2b439d1a2de5c46a4f428f8cf4fe19,
+    m_Reference: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  RightPlayPauseAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Play Pause
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 0a186c55-0683-499e-9ee8-e69a13670899
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
 --- !u!4 &1971767440
 Transform:
