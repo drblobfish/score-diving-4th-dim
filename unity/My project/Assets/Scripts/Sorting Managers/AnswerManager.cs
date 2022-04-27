@@ -27,7 +27,6 @@ using UnityEngine;
                     answersObjects = answersObjects2;
                     break;
                 case 0:
-                    answersObjects = answersObjects;
                     break;
             }
 
