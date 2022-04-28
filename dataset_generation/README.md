@@ -2,6 +2,8 @@
 
 This blend file allows to automate the generation of datasets similar to the one used in the study.
 
+Works with `Blender 2.82 (sub 7)` an [open 3d software](https://www.blender.org/).
+
 ## Workflow
 
 1. Open `boids_in_morphing_shape.blend`
