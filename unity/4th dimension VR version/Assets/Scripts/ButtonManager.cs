@@ -60,6 +60,10 @@ public class ButtonManager : MonoBehaviour
         {
             Debug.Log("Please enter your ID");
         }
+        else if (chosenDataset != 1 & chosenDataset != 2)
+        {
+            Debug.Log("Please choose a dataset");
+        }
         else
         {
             PlayerPrefs.SetString("experiment_ID", experiment_ID);
@@ -69,10 +73,12 @@ public class ButtonManager : MonoBehaviour
                 case 1:
                     studiedDataset = Dataset1;
                     Dataset2.SetActive(false);
+                    Debug.Log("Set dataset2 active false");
                     break;
                 case 2:
                     studiedDataset = Dataset2;
                     Dataset1.SetActive(false);
+                    Debug.Log("Set dataset1 active false");
                     break;
             }
             rotateGroup.transform.position = new Vector3(0.0F,1.0F,0.0F);
