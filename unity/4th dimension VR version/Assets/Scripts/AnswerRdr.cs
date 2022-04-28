@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
 using System;
@@ -89,6 +90,8 @@ public class AnswerRdr : MonoBehaviour
         jsonResult = JsonUtility.ToJson(answers, true);
         Debug.Log(Application.persistentDataPath + "/" + "experimentID" + "_VR.json");
         System.IO.File.WriteAllText(Application.persistentDataPath + "/" + DateTime.Now.ToString("dd-MM-HH-mm") + "_VR.json", jsonResult);
+
+        SceneManager.LoadScene("VR Sequence Scene");
     }
 
     private void Update()
