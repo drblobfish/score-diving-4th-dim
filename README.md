@@ -10,9 +10,15 @@ Our bibliography is available in [this zotero library](https://www.zotero.org/gr
 
 ## Files
 
-- `unity` contains the unity project of our software for displaying datasets and recoring test subjects answers
-
-- `dataset_generation` contains the blender and python files used to generate the datasets
+```
+.
+├── dataset_generation           # Blender files and python script to generate the datasets
+├── Mail Sending                 # Python script to send automatic mail to participants
+├── Unity                        # unity projects
+│   └── 4th dimension VR version # unity code for the software to do the experiment in VR
+│   └── My Project               # unity code for the software to do the experiment on a 2d screen
+└── README.md
+```
 
 ## Context
 
