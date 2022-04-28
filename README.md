@@ -2,11 +2,13 @@
 
 We want to develop custom software to perform experiments to assess the advantages to the use of Virtual Reality for 4D datasets analysis (3D objects changing with time) compared to datasets diplayed on computer screen.
 
-## Protocol
+## Links
 
 Our protocol is available [here](https://docs.google.com/document/d/1nIPCcI1o5f8sB7eeenndRpnXQNSKvKGWUfrj1_Wj8oY/edit?usp=sharing).
 
 Our bibliography is available in [this zotero library](https://www.zotero.org/groups/4625494/score-4d-microscopy/library).
+
+More information can be found on our [CRI project page](https://projects.cri-paris.org/projects/rRiHhgY3/summary)
 
 ## Files
 
