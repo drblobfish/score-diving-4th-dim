@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg102406"
+   inkscape:version="1.1.2 (1:1.1+202202050950+0a00cf5339)"
+   sodipodi:docname="palette-matplotlib.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview102408"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.43651796"
+     inkscape:cx="396.31817"
+     inkscape:cy="562.40527"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs102403" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g11738"
+       transform="translate(15.788038,213.46715)">
+      <rect
+         style="fill:#1b6cb7;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-miterlimit:10;paint-order:markers fill stroke;stop-color:#000000"
+         id="rect971"
+         width="10.583333"
+         height="10.583333"
+         x="15.874999"
+         y="-26.458334" />
+      <rect
+         style="fill:#ff7600;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-miterlimit:10;paint-order:markers fill stroke;stop-color:#000000"
+         id="rect2516"
+         width="10.583333"
+         height="10.583333"
+         x="26.458332"
+         y="-26.458334" />
+      <rect
+         style="fill:#00b12a;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-miterlimit:10;paint-order:markers fill stroke;stop-color:#000000"
+         id="rect2518"
+         width="10.583333"
+         height="10.583333"
+         x="37.041668"
+         y="-26.458334" />
+      <rect
+         style="fill:#1b6cb7;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-miterlimit:10;paint-order:markers fill stroke;stop-color:#000000"
+         id="rect2520"
+         width="10.583333"
+         height="10.583333"
+         x="47.625"
+         y="-26.458334" />
+      <rect
+         style="fill:#1b6cb7;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-miterlimit:10;paint-order:markers fill stroke;stop-color:#000000"
+         id="rect2522"
+         width="10.583333"
+         height="10.583333"
+         x="58.208328"
+         y="-26.458334" />
+    </g>
+  </g>
+</svg>
