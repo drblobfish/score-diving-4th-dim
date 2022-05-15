@@ -24,16 +24,16 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="in"
      showgrid="false"
-     inkscape:zoom="0.51497594"
-     inkscape:cx="626.24285"
-     inkscape:cy="1195.2015"
+     inkscape:zoom="0.08"
+     inkscape:cx="2487.5"
+     inkscape:cy="1193.75"
      inkscape:window-width="1366"
      inkscape:window-height="704"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer16"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      inkscape:lockguides="false">
     <inkscape:grid
@@ -733,7 +733,7 @@
      id="layer3"
      inkscape:label="palette"
      sodipodi:insensitive="true"
-     style="display:inline">
+     style="display:none">
     <image
        preserveAspectRatio="none"
        inkscape:svg-dpi="96"
@@ -863,23 +863,23 @@
          y="0"><tspan
            x="3355.4947"
            y="159.01234"
-           id="tspan470894"><tspan
+           id="tspan167049"><tspan
              style="line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle"
-             id="tspan470892">Benjamin Lelouch¹, Corentin Bodson¹, Jules Herrmann¹. Mentored by Leo Blondel²
+             id="tspan167047">Benjamin Lelouch¹, Corentin Bodson¹, Jules Herrmann¹. Mentored by Leo Blondel²
 </tspan></tspan><tspan
            x="3482.8574"
            y="209.01233"
-           id="tspan470898"><tspan
+           id="tspan167053"><tspan
              style="font-weight:300;font-size:40px;line-height:1;font-family:Roboto;-inkscape-font-specification:'Roboto Light'"
-             id="tspan470896"> ¹ Frontiers of Life Bachelor, Paris Cité University, Center for Research and Interdisciplinarity (CRI)
+             id="tspan167051"> ¹ Frontiers of Life Bachelor, Paris Cité University, Center for Research and Interdisciplinarity (CRI)
 </tspan></tspan><tspan
            x="3964.6836"
            y="249.01233"
-           id="tspan470904"><tspan
+           id="tspan167059"><tspan
              style="font-weight:300;font-size:40px;line-height:1;font-family:Roboto;-inkscape-font-specification:'Roboto Light'"
-             id="tspan470900">² </tspan><tspan
+             id="tspan167055">² </tspan><tspan
              style="font-weight:300;font-size:40px;line-height:1;font-family:Roboto;-inkscape-font-specification:'Roboto Light'"
-             id="tspan470902">Université de Paris, INSERM U1284, CRI </tspan></tspan></text>
+             id="tspan167057">Université de Paris, INSERM U1284, CRI </tspan></tspan></text>
     </g>
     <g
        inkscape:groupmode="layer"
@@ -905,9 +905,9 @@
          y="0"><tspan
            x="2040.8786"
            y="231.46195"
-           id="tspan470908"><tspan
+           id="tspan167063"><tspan
              style="font-weight:600;font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow Semi-Bold';text-align:center;text-anchor:middle"
-             id="tspan470906">Virtual reality to memorize complex 3D shapes </tspan></tspan></text>
+             id="tspan167061">Virtual reality to memorize complex 3D shapes </tspan></tspan></text>
     </g>
     <path
        style="display:inline;fill:none;stroke:#5d5d5d;stroke-width:0.762;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -922,15 +922,15 @@
     <text
        xml:space="preserve"
        id="text96163"
-       style="display:inline;font-size:93.3333px;line-height:1;font-family:sans-serif;white-space:pre;shape-inside:url(#rect96165)"
+       style="font-size:93.3333px;line-height:1;font-family:sans-serif;white-space:pre;shape-inside:url(#rect96165);display:inline"
        x="507.94714"
        y="0"
        transform="matrix(0.26458333,0,0,0.26458333,0,-19.050002)"><tspan
          x="3308.7241"
          y="595.99419"
-         id="tspan470912"><tspan
+         id="tspan167067"><tspan
            style="font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;text-anchor:middle"
-           id="tspan470910">Other extraneous factors</tspan></tspan></text>
+           id="tspan167065">Other extraneous factors</tspan></tspan></text>
     <g
        id="g275834">
       <image
@@ -1114,24 +1114,24 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:1.1;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:justify;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect34189);display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"><tspan
          x="3040.8379"
          y="1219.5037"
-         id="tspan470918"><tspan
+         id="tspan167073"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 0 0 2.5044031 0 0 2.5044031 0 0 0 0 0 0 0 0 2.5044031 0 0 0 0 0 0 2.5044031 0 0 0 0 2.5044031 0 0 0 0 0 0 0 2.5044031 0 0 2.5044031 0 0 0 2.5044031 0 0 0 0 0 0 0 0 0 0 0 2.5044031 0 0 0 0 0 0 0 0 0 0 2.5044031 0 0 0 0 2.5044031 0 0 2.504281 0 0 0 2.5044031 0 0 2.5044031 0 0 0 -0.00011062622 0.00010681152"
            style="font-weight:500;-inkscape-font-specification:'Roboto Medium'"
-           id="tspan470914">Distribution of veracity scores with respect to the participant experience with VR and 3D softwares.</tspan><tspan
+           id="tspan167069">Distribution of veracity scores with respect to the participant experience with VR and 3D softwares.</tspan><tspan
            dx="0 2.5044026 0 0.00010108948"
            style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-           id="tspan470916"> No </tspan></tspan><tspan
+           id="tspan167071"> No </tspan></tspan><tspan
          x="3040.8379"
          y="1251.7704"
-         id="tspan470922"><tspan
+         id="tspan167077"><tspan
            dx="0 0 0 0 0 0.98331118 0 0 0 0.98330736 0 0 0 0 0 0.98331499 0 0 0 0 0 0 0 0.98331499 0 0 0 0 0 0.98331499 0 0 0 0 0 0 0 0 0 0 0.98334551 0 0 0 0 0 0 0 0 0.98328447 0 0 0 0.98328447 0 0 0 0 0 0 0.98334551 0 0 0 0.98328447 0 0 0 0 0 0 0.98328447 0 0 0 0 0 0 0 0.98328447 0 0 0 0 0 0 0 0 0 0 0 0 0.98328447 0 0 0 0 0.98328447 0 0 0.98328447"
            style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-           id="tspan470920">link was found between these variables. However, our sample was biased towards participants with no or </tspan></tspan><tspan
+           id="tspan167075">link was found between these variables. However, our sample was biased towards participants with no or </tspan></tspan><tspan
          x="3040.8379"
          y="1284.037"
-         id="tspan470926"><tspan
+         id="tspan167081"><tspan
            style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-           id="tspan470924">very little experience with VR : only 2 participants (10%) had used VR more than 5h in their life.</tspan></tspan></text>
+           id="tspan167079">very little experience with VR : only 2 participants (10%) had used VR more than 5h in their life.</tspan></tspan></text>
     <g
        id="g276824">
       <text
@@ -1143,18 +1143,18 @@
          y="0"><tspan
            x="3040.8379"
            y="3116.9446"
-           id="tspan470932"><tspan
+           id="tspan167087"><tspan
              style="font-size:65%;baseline-shift:super"
-             id="tspan470928">2</tspan><tspan
-             dx="0 3.4366136 0 0 3.4366136 0 0 0 0 0 0 0 0 3.4366155 0 0 0 0 0 0 0 0 3.4366155 0 0 0 0 0 0 0 0 0 3.4365849 0 0 0 0 0 0 0 0 0 0 0 0 3.4366155 0 0 0 0 0 0 0 3.436646 0 0 0 0 0 0 0 0 3.436646 0 0 0 0 0 0 0 3.436646 0 0 0 0 0 0 0 0 0 3.436646 0 0 0 0 0 0 3.436646 0 0 0 0 0 0 3.4365849 0 0 0 3.436646 0 0 0 0 0 0 0 0 0 0.00010204315 0 0 0 3.436707 0 0.00015354156 0 0 0.00015354156 0 0.00010299683 3.4365849 0.00014686584 0 0 0.00010633469 0 0 0 0.00010204315 3.4365849 0.00015544891 0 0 0.00010204315 0.00010204315 0 0 0.00014305115"
+             id="tspan167083">2</tspan><tspan
+             dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0001001358 0 0 0 0 0 0 0 0 0 0 0.00010681152"
              style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-             id="tspan470930"> El Beheiry, Mohamed, Sébastien Doutreligne, Clément Caporal, Cécilia Ostertag, Maxime Dahan, and Jean-Baptiste Masson. “Virtual Reality: </tspan></tspan><tspan
+             id="tspan167085"> El Beheiry, Mohamed, Sébastien Doutreligne, Clément Caporal, Cécilia Ostertag, Maxime Dahan, and Jean-Baptiste Masson. “Virtual Reality: </tspan></tspan><tspan
            x="3040.8379"
            y="3138.4864"
-           id="tspan470936"><tspan
+           id="tspan167091"><tspan
              dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0001001358 0 0 0 0 0 0 0 0 0 0 0.0001001358"
              style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-             id="tspan470934">Beyond Visualization.” Journal of Molecular Biology 431, no. 7 (March 29, 2019): 1315–21. https://doi.org/10.1016/j.jmb.2019.01.033.</tspan></tspan></text>
+             id="tspan167089">Beyond Visualization.” Journal of Molecular Biology 431, no. 7 (March 29, 2019): 1315–21. https://doi.org/10.1016/j.jmb.2019.01.033.</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,1.7695029e-8,-39.698514)"
@@ -1164,23 +1164,23 @@
          y="0"><tspan
            x="3040.8379"
            y="3116.7363"
-           id="tspan470942"><tspan
+           id="tspan167097"><tspan
              style="font-size:65%;baseline-shift:super"
-             id="tspan470938">3</tspan><tspan
+             id="tspan167093">3</tspan><tspan
              dx="0 4.2671494 0 0 4.2671475 0 0 0 0 0 0 0 0 4.2671514 0 0 0 0 0 0 0 0 4.2671609 0 0 0 0 0 0 4.2671208 0 0 0 0 0 0 0 0 0 4.2671208 0 0 0 0 0 0 4.2671514 0 0 0 0 0 0 0 4.2671514 0 0 0 0 0 0 4.2671514 0 0 0 0 0 0 0 0 0 0 4.2671514 0 0 0 0 0 4.2670903 0 0 0 0 0 0 0 4.2671514 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4.2672124 0 0.0001115799 0 0 0 0 4.2672734 0 0.00011253357 0 0.0001115799 4.2671514 0 0 0 0 0.00010204315 0 0 0 4.2672734 0 0 4.2672734 0 0 0.00010299683 4.2671514 0.00014686584 0 0.00010538101 0.0001115799"
              style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-             id="tspan470940"> El Beheiry, Mohamed, Thomas Gaillard, Noémie Girard, Lauren Darrigues, Marie Osdoit, Jean-Guillaume Feron, Anne Sabaila, et al. “Breast </tspan></tspan><tspan
+             id="tspan167095"> El Beheiry, Mohamed, Thomas Gaillard, Noémie Girard, Lauren Darrigues, Marie Osdoit, Jean-Guillaume Feron, Anne Sabaila, et al. “Breast </tspan></tspan><tspan
            x="3040.8379"
            y="3138.0696"
-           id="tspan470946"><tspan
+           id="tspan167101"><tspan
              dx="0 0 0 0 0 0 0 0 0 0.87913561 0 0 0 0 0 0 0 0 0 0.87912798 0 0 0 0 0 0.87912798 0 0 0 0 0 0 0 0 0.87912798 0 0 0 0.87912798 0 0 0 0 0 0 0 0 0.87912798 0 0 0 0 0 0.8791585 0 0 0 0 0 0 0 0.8791585 0 0 0 0 0 0 0 0 0.8791585 0 0.8791585 0 0 0 0 0 0 0 0 0 0 0 0.87909746 0 0 0 0 0 0 0 0.8791585 0 0 0 0.8791585 0 0 0 0 0 0 0 0 0.8791585 0 0 0 0 0 0 0.8791585 0 0 0 0 0 0 0 0 0 0 0 0 0.8791585 0 0 0 0.8791585 0 0.8791585"
              style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-             id="tspan470944">Magnetic Resonance Image Analysis for Surgeons Using Virtual Reality: A Comparative Study.” JCO Clinical Cancer Informatics, no. 5 (December </tspan></tspan><tspan
+             id="tspan167099">Magnetic Resonance Image Analysis for Surgeons Using Virtual Reality: A Comparative Study.” JCO Clinical Cancer Informatics, no. 5 (December </tspan></tspan><tspan
            x="3040.8379"
            y="3159.4028"
-           id="tspan470950"><tspan
+           id="tspan167105"><tspan
              style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-             id="tspan470948">1, 2021): 1127–33. https://doi.org/10.1200/CCI.21.00048.
+             id="tspan167103">1, 2021): 1127–33. https://doi.org/10.1200/CCI.21.00048.
 </tspan></tspan></text>
       <text
          xml:space="preserve"
@@ -1191,17 +1191,17 @@
          y="0"><tspan
            x="3040.8379"
            y="3116.7363"
-           id="tspan470956"><tspan
+           id="tspan167111"><tspan
              style="font-size:65%;baseline-shift:super"
-             id="tspan470952">4</tspan><tspan
+             id="tspan167107">4</tspan><tspan
              dx="0 4.4822545 0 0 0 0 4.4822545 0 0 0 0 0 0 0 4.4822392 0 0 0 4.4822545 0 0 0 0 4.4822545 0 0 0 0 0 0 0 0 4.4822698 0 0 0 0 4.4822392 0 0 0 0 0 4.4822392 0 0 4.4822392 0 0 0 0 0 0 0 0 0 4.4822183 0 0 0 0 0 0 0 0 0 0 4.4822392 0 0 0 0 0 0 0 0 0 4.4822392 0 4.4822392 0 0 0 0 0 0 0 0 0 0 4.4822392 0 0 0 0 0 0 0 0 0 0 4.4823003 0 0 0.00016403198 0 0.00015354156 0 0.0001115799 0 0 4.4822392 0.00010204315 0 4.4823613 0 0.00015354156 0 0 0 4.4823613 0 0 0 0 0.00011062622 0.00010204315 0 0 4.4822392 0 0.00015354156"
              style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-             id="tspan470954"> Suh, Ayoung, and Jane Prophet. “The State of Immersive Technology Research: A Literature Analysis.” Computers in Human Behavior 86 </tspan></tspan><tspan
+             id="tspan167109"> Suh, Ayoung, and Jane Prophet. “The State of Immersive Technology Research: A Literature Analysis.” Computers in Human Behavior 86 </tspan></tspan><tspan
            x="3040.8379"
            y="3138.0696"
-           id="tspan470960"><tspan
+           id="tspan167115"><tspan
              style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-             id="tspan470958">(September 1, 2018): 77–90. https://doi.org/10.1016/j.chb.2018.04.019.</tspan></tspan></text>
+             id="tspan167113">(September 1, 2018): 77–90. https://doi.org/10.1016/j.chb.2018.04.019.</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,-0.36217803,596.93621)"
@@ -1211,9 +1211,9 @@
          y="0"><tspan
            x="3518.3702"
            y="565.25923"
-           id="tspan470964"><tspan
+           id="tspan167119"><tspan
              style="font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;text-anchor:middle"
-             id="tspan470962">Selected bibliography</tspan></tspan></text>
+             id="tspan167117">Selected bibliography</tspan></tspan></text>
       <g
          id="g173876"
          transform="translate(0,-15.875)">
@@ -1226,9 +1226,9 @@
            y="0"><tspan
              x="3540.61"
              y="595.99419"
-             id="tspan470968"><tspan
+             id="tspan167123"><tspan
                style="font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;text-anchor:middle"
-               id="tspan470966">Discussion</tspan></tspan></text>
+               id="tspan167121">Discussion</tspan></tspan></text>
         <text
            xml:space="preserve"
            transform="matrix(0.26458333,0,0,0.26458333,0,304.95546)"
@@ -1236,24 +1236,24 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:1.1;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:justify;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect43639);display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"><tspan
              x="3040.8379"
              y="1219.5037"
-             id="tspan470974"><tspan
+             id="tspan167129"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 0.68627262 0 0 0 0 0 0 0.68625736 0 0 0.68625736 0 0 0 0.68625736 0 0 0 0.68625736 0 0 0 0 0 0 0 0 0.68625736"
                style="font-weight:500;-inkscape-font-specification:'Roboto Medium'"
-               id="tspan470970">Correlation matrix of all the measured variables.</tspan><tspan
+               id="tspan167125">Correlation matrix of all the measured variables.</tspan><tspan
                dx="0 0.6862874 0 0 0.68622637 0 0 0 0 0.68622637 0 0 0 0 0.6862874 0 0 0 0.68622637 0 0 0 0 0 0 0 0 0 0 0 0.6862874 0 0 0 0 0 0 0 0 0 0 0 0.6862874 0 0 0 0 0 0 0 0 0.6862874"
                style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-               id="tspan470972"> We only kept the significant correlation (p&lt;0.05, Pearson </tspan></tspan><tspan
+               id="tspan167127"> We only kept the significant correlation (p&lt;0.05, Pearson </tspan></tspan><tspan
              x="3040.8379"
              y="1251.7704"
-             id="tspan470978"><tspan
+             id="tspan167133"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0 7.8415303 0 0 0 7.8415456 0 0 0 0 0 0 0 7.8415303 0 0 0 0 0 0 0 0 0 7.8415303 0 0 0 7.8415303 0 0 0 0 0 7.8414998 0 0 0 0 0 0 0 0 7.8415608 0 0 0 0 0 0 0 0 0 0 0 7.8414998 0 0 0 7.8415608 0 0 0 0 0 0 0 0 0 0 0 7.8415608 0 0 0 0 0 0 0 0 0 0 0 7.8414788 0 0 0 7.8415608"
                style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-               id="tspan470976">correlation for ordinal variables and point biserial correlation for dichotomous variables). The score </tspan></tspan><tspan
+               id="tspan167131">correlation for ordinal variables and point biserial correlation for dichotomous variables). The score </tspan></tspan><tspan
              x="3040.8379"
              y="1284.037"
-             id="tspan470982"><tspan
+             id="tspan167137"><tspan
                style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-               id="tspan470980">functions are coherently correlated.
+               id="tspan167135">functions are coherently correlated.
 </tspan></tspan></text>
         <text
            xml:space="preserve"
@@ -1262,42 +1262,57 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:1.1;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:justify;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect46133);display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"><tspan
              x="3040.8379"
              y="1219.5037"
-             id="tspan470986"><tspan
-               dx="0 0 0 0 0.34932756 0 0 0 0 0.34933519 0 0 0.34934282 0 0 0 0 0 0.34932756 0 0 0 0 0 0 0 0.34931231 0 0 0.34934282 0 0 0 0 0 0 0.34931231 0 0 0 0.34934282 0 0 0.34937334 0 0 0 0.34931231 0 0 0 0 0 0 0 0 0 0 0.34931231 0 0 0.34931231 0 0 0 0.34931231 0 0 0 0 0 0 0 0 0 0 0 0 0 0.34937334 0 0 0 0 0 0.34935236 0 0 0.34925127 0.0001001358 0 -0.00010490417 0 0 0 0.34937334 0 0 0 0 0.34925127 0.00010299683 0 0.34925127 0 0 0 0 0 0 0 0.34937334"
-               id="tspan470984">Our lack of clear results is mostly due to the difficulty of the participants’ task. To assert that VR permits a </tspan></tspan><tspan
+             id="tspan167145"><tspan
+               dx="0 0 0 0 0.21970415 0 0 0 0 0.21971178 0 0 0.21970415 0 0 0 0 0 0.21970415 0 0 0 0 0 0 0 0.21970415 0 0 0.21970415 0 0 0 0 0 0 0.21970415 0 0 0 0.21970415 0 0 0.21973467"
+               id="tspan167139">Our lack of clear results is mostly due to the </tspan><tspan
+               dx="0.21967363"
+               style="font-weight:500;-inkscape-font-specification:'Roboto Medium'"
+               id="tspan167141">difficulty</tspan><tspan
+               dx="0 0.21973467 0 0 0.21967363 0 0 0 0.21967363 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21973467 0 0 0 0 0 0.21977472 0 0 0.21973467 0 0 0 0 0 0 0.2196126 0 0 0.0001001358 0 0.21967363 0 0 0.2197957 0 0 0 0 0.00010967255 0 0 0.21973467"
+               id="tspan167143"> of the participants’ task. To assert that VR permits a </tspan></tspan><tspan
              x="3040.8379"
              y="1251.7704"
-             id="tspan470990"><tspan
+             id="tspan167149"><tspan
                dx="0 0 0 0 0 0 0 5.0720143 0 0 0 0 0 0 0 0 0 0 0 0 5.0719991 0 0 0 5.0720296 0 0 0 0 0 0 5.0719991 0 0 5.0719991 0 0 0 5.0719991 0 0 0 0 0 0 5.0720296 0 0 0 0 0 5.0720296 0 0 5.0720296 0 0 5.0720296 0 0 0 0 0 0 0 0 0 0 0 0 0 5.0720296 0 0 0 0 0 0 0 0 5.0720296 -0.00011062622 0 0 0 5.0720296 -0.00010490417 0 0 -0.00010299683 0 5.0720296 0 0 0 0 0 0 5.0720296 -0.00010299683"
-               id="tspan470988">better memorisation and recall of the global shape of 3D time-evolving datasets this study should be </tspan></tspan><tspan
+               id="tspan167147">better memorisation and recall of the global shape of 3D time-evolving datasets this study should be </tspan></tspan><tspan
              x="3040.8379"
              y="1284.037"
-             id="tspan470994"><tspan
-               dx="0 0 0 0 0 0 0 0 0 0 1.7829823 0 0 0 0 1.7829976 0 0 0 0 0 1.7829976 0 0 0 0 0 0 0 1.7829976 0 0 0 0 0 0 0 0 0 1.7830281 0 0 1.7829671 0 0 0 0 0 0 0 0 1.7830281 0 1.7829671 0 0 0 0 0 0 1.7830281 0 0 0 0 0 0 0 0 0 0 0 1.7830281 0 0 0 0 0 0 0 1.7829671 0 0 0 1.7830892 0 -0.00010299683 0 0 0 1.7829671 0 0 0 1.7829671"
-               id="tspan470992">performed anew using simpler datasets. We observed a better progression between the first and second </tspan></tspan><tspan
+             id="tspan167157"><tspan
+               dx="0 0 0 0 0 0 0 0 0 0 1.6632924 0 0 0 0 1.6632924"
+               id="tspan167151">performed anew using </tspan><tspan
+               dx="1.6632771 0 0 0 0 0 0 0 1.6633081"
+               style="font-weight:500;-inkscape-font-specification:'Roboto Medium'"
+               id="tspan167153">simpler datasets</tspan><tspan
+               dx="0 0 1.6632771 0 0 1.6632771 0 0 0 0 0 0 0 0 1.6633382 0 1.6633382 0 0 0 0 0 0 1.6633382 0 0 0 0 0 0 0 0 0 0 0 1.6633382 0 0 0 0 0 0 0 1.6632771 0 -0.00010299683 0 1.6633382 0 -0.00010299683 0 0 0 1.6632771 0 0 0 1.6632771"
+               id="tspan167155">. We observed a better progression between the first and second </tspan></tspan><tspan
              x="3040.8379"
              y="1316.3036"
-             id="tspan470998"><tspan
+             id="tspan167161"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 0.21613359 0 0 0.21611834 0 0 0.21611834 0 0 0 0 0.21613359 0 0 0 0 0.21613359 0 0 0.21613359 0 0 0 0 0 0 0 0 0.21614313 0 0 0 0 0.21613359 0 0 0 0 0 0.21613359 0 0 0.21613359 0 0 0 0 0 0 0.21613359 0 0 0.21613359 0 0 0 0.21613359 0 0 0 0 0.21613359 0 0 0 0 0.21613359 0 0 0 0.21607256 0 0 0 0 0 0 0 0 0.21607256 0 0 0.21619463 0 -0.00010299683 0 0.21607256 0 -0.00010490417 0 0 0 0.21607256"
-               id="tspan470996">experiment in VR than with 2D screens. This could be caused by the fact that the majority of the users had </tspan></tspan><tspan
+               id="tspan167159">experiment in VR than with 2D screens. This could be caused by the fact that the majority of the users had </tspan></tspan><tspan
              x="3040.8379"
              y="1348.5702"
-             id="tspan471002"><tspan
+             id="tspan167165"><tspan
                dx="0 0 0 0 0 0 0 0 0 3.7993779 0 0 0 0 3.7993855 0 0 0 0 3.7994008 0 3.7993855 0 0 3.7993855 0 0 0 3.7993855 0 0 0 0 0 0 3.7993855 0 0 0 3.7993855 0 0 0 0 0 3.7993855 0 0 0 0 0 0 3.7993855 0 0 0 0 3.7993855 0 0 0 0 3.7993855 0 0 0 3.7993855 0 0 0 0 0 0 0 0 3.7993245 0 0 3.7994466 0 3.7993245 0 0 0 0 0 0 0.0001001358 0 3.7994466 -0.00010299683 0 0 0 0 0 3.7994866"
-               id="tspan471000">scarcely ever used a VR set before and hence needed more time and practice in a tutorial phase. This </tspan></tspan><tspan
+               id="tspan167163">scarcely ever used a VR set before and hence needed more time and practice in a tutorial phase. This </tspan></tspan><tspan
              x="3040.8379"
              y="1380.8368"
-             id="tspan471006"><tspan
+             id="tspan167169"><tspan
                dx="0 0 0 0 0 0 2.8634953 0 0 0 0 2.8634877 0 0 0 0 2.863503 2.8634877 0 0 0 0 2.863503 0 0 0 0 2.863503 0 0 0 0 0 0 0 0 2.863503 0 0 0 0 0 0 2.8635335 0 0 0 0 0 2.8635335 0 0 0 0 0 0 0 0 2.8634725 0 0 0 0 2.8634725 0 0 2.8634725 0 0 2.8635335 0 0 0 0 2.8635335 0 0 0 0 0 0 0 0 0 0 0 2.8635335 0 0 0 0 2.8635335 0 0 0 0 0 0 0 0 -0.00010299683"
-               id="tspan471004">might also mean  that this learning effect might continue with VR if more experiments were performed. </tspan></tspan><tspan
+               id="tspan167167">might also mean  that this learning effect might continue with VR if more experiments were performed. </tspan></tspan><tspan
              x="3040.8379"
              y="1413.1034"
-             id="tspan471010"><tspan
-               dx="0 0 0 0 0 1.7605634 0 0 0 0 0 1.7605672 0 0 0 0 0 0 0 1.7605672 0 1.7605672 0 0 0 0 0 0 1.7605672 0 0 0 0 0 0 0 0 0 0 0 0 1.7605672 0 0 0 0 0 0 1.7605672 0 0 0 0 0 1.7605672 0 0 0 0 0 0 0 0 0 0 0 0 1.7605672 0 0 0 0 0 1.7605672 0 0 1.7605672 0 0 0 0 0 0 0 1.7605062 0 0 1.7605062 0 1.7606282 0 0 0 0 0 0 1.7605062"
-               id="tspan471008">This would require a longer experimental setup, where participants would be exposed to a larger number </tspan></tspan><tspan
+             id="tspan167177"><tspan
+               dx="0 0 0 0 0 1.4989362 0 0 0 0 0 1.49894 0 0 0 0 0 0 0 1.49894"
+               id="tspan167171">This would require a </tspan><tspan
+               dx="1.4989095 0 0 0 0 0 0 1.4989405 0 0 0 0 0 0 0 0 0 0 0 0 1.49891"
+               style="font-weight:500;-inkscape-font-specification:'Roboto Medium'"
+               id="tspan167173">longer experimental setup</tspan><tspan
+               dx="0 0 1.4989095 0 0 0 0 0 1.4989095 0 0 0 0 0 0 0 0 0 0 0 0 1.4989095 0 0 0 0 0 1.4989705 0 0 1.4989095 0 0 0 0 0 0 0 1.4990315 0 0 1.4989095 0 1.4990315 0 0 0 0 0 0 1.4989095"
+               id="tspan167175">, where participants would be exposed to a larger number </tspan></tspan><tspan
              x="3040.8379"
              y="1445.37"
-             id="tspan471012">of datasets.
+             id="tspan167179">of datasets.
 </tspan></text>
       </g>
       <text
@@ -1309,15 +1324,15 @@
          y="0"><tspan
            x="3040.8379"
            y="3116.7363"
-           id="tspan471020"><tspan
+           id="tspan167187"><tspan
              style="font-size:65%;baseline-shift:super"
-             id="tspan471014">5</tspan><tspan
+             id="tspan167181">5</tspan><tspan
              dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0001115799 0 0 0 0 0 0.00011253357 0 0 0.0001115799"
              style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-             id="tspan471016"> Blondel, Leo. “Computational Approaches to Developmental Biology,” January 20, 2021. https://dash.harvard.edu/handle/</tspan><tspan
+             id="tspan167183"> Blondel, Leo. “Computational Approaches to Developmental Biology,” January 20, 2021. https://dash.harvard.edu/handle/</tspan><tspan
              dx="0 0 0 0.0001001358 0 0 0 0 0.0001001358 0.0001001358"
              style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-             id="tspan471018">1/37369473.
+             id="tspan167185">1/37369473.
 </tspan></tspan></text>
       <text
          xml:space="preserve"
@@ -1328,72 +1343,18 @@
          y="0"><tspan
            x="3040.8379"
            y="3116.7363"
-           id="tspan471026"><tspan
+           id="tspan167193"><tspan
              style="font-size:65%;baseline-shift:super"
-             id="tspan471022">1</tspan><tspan
+             id="tspan167189">1</tspan><tspan
              dx="0 0.98679399 0 0 0 0 0 0 0 0.98679399 0 0 0 0 0.98679399 0 0 0 0.98678637 0 0 0 0 0 0.98678637 0 0 0 0 0 0 0 0 0.98678637 0 0 0 0 0 0 0.98675585 0 0 0.98678637 0 0 0 0 0 0 0 0.98678637 0 0 0 0.98678637 0 0 0 0 0 0.98681688 0 0 0 0 0 0 0 0 0 0 0 0 0 0.98675585 0 0 0 0 0 0 0 0 0 0 0 0 0.98681688 0 0 0 0 0 0 0 0 0 0 0 0.98675585 0 0.9867959 0 0 0 0 0 0 0 0 0 0.00010633469 0.98675585 0.00015640259 0 0.00011062622 0 0.00011253357 0 0 0 0.98687792 0.00010204315 0 0.98687792 0 0 0 0 0.00015258789 0 0.98687792 0 0.00011253357 0 0.98675585 0.00011539459 0 0 0 0 0.00011253357 0 0.00015258789"
              style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-             id="tspan471024"> Olarte, Omar E., Jordi Andilla, Emilio J. Gualda, and Pablo Loza-Alvarez. “Light-Sheet Microscopy: A Tutorial.” Advances in Optics and Photonics </tspan></tspan><tspan
+             id="tspan167191"> Olarte, Omar E., Jordi Andilla, Emilio J. Gualda, and Pablo Loza-Alvarez. “Light-Sheet Microscopy: A Tutorial.” Advances in Optics and Photonics </tspan></tspan><tspan
            x="3040.8379"
            y="3138.0696"
-           id="tspan471030"><tspan
+           id="tspan167197"><tspan
              style="baseline-shift:baseline;vector-effect:none;stop-color:#000000;stop-opacity:1"
-             id="tspan471028">10, no. 1 (March 31, 2018): 111–79. https://doi.org/10.1364/AOP.10.000111.
+             id="tspan167195">10, no. 1 (March 31, 2018): 111–79. https://doi.org/10.1364/AOP.10.000111.
 </tspan></tspan></text>
-    </g>
-    <g
-       id="g43759"
-       transform="translate(-47.625002)">
-      <g
-         id="g273777"
-         transform="translate(-4.7844567)">
-        <text
-           xml:space="preserve"
-           transform="matrix(0.26458333,0,0,0.26458333,-632.01422,-19.054729)"
-           id="text14716"
-           style="font-size:24px;line-height:1;font-family:sans-serif;white-space:pre;shape-inside:url(#rect14718)"><tspan
-             x="3040.8379"
-             y="3118.9707"
-             id="tspan471034"><tspan
-               style="font-family:Roboto;-inkscape-font-specification:Roboto"
-               id="tspan471032">https://github.com/drblobfish/score-diving-4th-dim
-</tspan></tspan><tspan
-             x="3040.8379"
-             y="3143.2051"
-             id="tspan471038"><tspan
-               style="font-family:Roboto;-inkscape-font-specification:Roboto"
-               id="tspan471036">https://www.zotero.org/groups/4625494/score-4d-microscopy/library
-</tspan></tspan><tspan
-             x="3040.8379"
-             y="3167.4395"
-             id="tspan471042"><tspan
-               style="font-family:Roboto;-inkscape-font-specification:Roboto"
-               id="tspan471040">https://projects.learningplanetinstitute.org/projects/rRiHhgY3/summary</tspan></tspan></text>
-        <text
-           xml:space="preserve"
-           transform="matrix(0.26458333,0,0,0.26458333,-674.34758,-19.054729)"
-           id="text26320"
-           style="font-size:24px;line-height:1;font-family:sans-serif;white-space:pre;shape-inside:url(#rect26322)"
-           x="115.63523"
-           y="0"><tspan
-             x="3128.457"
-             y="3118.9707"
-             id="tspan471046"><tspan
-               style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:end;text-anchor:end"
-               id="tspan471044">Code : 
-</tspan></tspan><tspan
-             x="3052.2383"
-             y="3143.2051"
-             id="tspan471050"><tspan
-               style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:end;text-anchor:end"
-               id="tspan471048">Bibliography : 
-</tspan></tspan><tspan
-             x="3067.2617"
-             y="3167.4395"
-             id="tspan471054"><tspan
-               style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:end;text-anchor:end"
-               id="tspan471052">CRI project :  </tspan></tspan></text>
-      </g>
     </g>
   </g>
   <g
@@ -1408,20 +1369,20 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:1.1;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:justify;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect118725);display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"><tspan
          x="1525.9395"
          y="2268.0819"
-         id="tspan471058"><tspan
+         id="tspan167201"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 1.3676386 0 0 1.3676386 0 0 0 1.3676386 0 0 0 0 0 0 0 0 0 0 0 0 1.3676538 0 0 1.3676233 0 0 0 1.3676538 0 0 0 0 0 0 1.3676844 0 0 1.3676233 0 0 0 0 1.3676844 0 0 0 0 0 0 0 1.3676233 0 0 0 0 1.3676233 0 1.3676844 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.3676844 0 0 0 0 0 0 0.00010108948 0 0 0 0 0 1.3676844 0 0 0 0 0 0 1.3675623"
            style="font-weight:500;-inkscape-font-specification:'Roboto Medium'"
-           id="tspan471056">Comparison of the distribution of the number of true answers with a hypergeometric distribution (N=14, K=7, </tspan></tspan><tspan
+           id="tspan167199">Comparison of the distribution of the number of true answers with a hypergeometric distribution (N=14, K=7, </tspan></tspan><tspan
          x="1525.9395"
          y="2300.3485"
-         id="tspan471064"><tspan
+         id="tspan167207"><tspan
            style="font-weight:500;-inkscape-font-specification:'Roboto Medium'"
-           id="tspan471060">n=7)</tspan><tspan
+           id="tspan167203">n=7)</tspan><tspan
            dx="0 0 8.3839607 0 0 8.3839607 0 0 0 0 0 0 0 0 0 0 0 8.3839607 0 0 0 0 0 0 0 0 0 0 0 8.3839455 0 0 0 0 8.383976 0 0 0 0 0 0 8.3839855 0 0 0 0 8.3839455 0 0 0 0 0 8.3840065 0 0 0 0 8.3840065 0 0 0 8.3839455 0 0 0 0 0 0 0 0 0 0 8.3840675 0 0.00012683868 0 8.3840675 0 0 0 8.3840675 0 0 0 0 0 0.00012588501 0 0 0 8.3840675 0 0 0 8.3839455"
-           id="tspan471062">. No significant differences were found. This shows that the experiment was too difficult and that </tspan></tspan><tspan
+           id="tspan167205">. No significant differences were found. This shows that the experiment was too difficult and that </tspan></tspan><tspan
          x="1525.9395"
          y="2332.6151"
-         id="tspan471066">participants mainly guessed rather than used their memory.</tspan></text>
+         id="tspan167209">participants mainly guessed rather than used their memory.</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,0,156.61753)"
@@ -1429,20 +1390,20 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:1.1;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:justify;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect23767);display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"><tspan
          x="1525.9395"
          y="2268.0819"
-         id="tspan471072"><tspan
+         id="tspan167215"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 4.8312159 0 0 4.8312159 0 0 0 0 0 0 0 0 4.8312159 0 0 0 0 0 4.8312159 0 0 0 0 0 0 0 4.8311853 0 0 0 4.8311853 0 0 0 0 0 4.8311853 0 0 0 4.8311853 0 0 0 0 0 0 4.8311853 0 0 0 0 0 0 0 0 4.8311853 0 0 0 0 4.8311243 0 0 0 0.00010108948 0 0 0 4.8311853 0 0 4.8311853"
            style="font-weight:500;-inkscape-font-specification:'Roboto Medium'"
-           id="tspan471068">Comparison of veracity score between the first and second sequence with respect to device.</tspan><tspan
+           id="tspan167211">Comparison of veracity score between the first and second sequence with respect to device.</tspan><tspan
            dx="0 4.8311849 0 0 0 0 0 0 0 0 0 0 -0.00011062622"
-           id="tspan471070"> Participants </tspan></tspan><tspan
+           id="tspan167213"> Participants </tspan></tspan><tspan
          x="1525.9395"
          y="2300.3485"
-         id="tspan471076"><tspan
+         id="tspan167219"><tspan
            dx="0 0 0 0 0 0 0 0 0 0.1752553 0 0 0 0 0 0.1752553 0 0 0 0 0 0 0 0 0 0 0.17524004 0 0 0.17527056 0 0 0 0 0.17524004 0 0 0 0 0 0 0 0.17524004 0 0 0 0 0 0 0 0.17524004 0 0 0 0.17524004 0 0 0 0 0 0 0 0 0 0 0 0 0.17528009 0 0 0 0 0.17524004 0 0 0 0 0 0 0 0 0 0 0 0.17530107 0 0 0.17530107 0 0 0 0 0 0 0 0 0 0 0 0 0 0.17530107 0 0 0 0 0 0 0.17530107"
-           id="tspan471074">improved their proportion of true answers between the experiments. This improvement is significantly higher in </tspan></tspan><tspan
+           id="tspan167217">improved their proportion of true answers between the experiments. This improvement is significantly higher in </tspan></tspan><tspan
          x="1525.9395"
          y="2332.6151"
-         id="tspan471078">VR than with 2d screens. (MWUt: p=0.023).
+         id="tspan167221">VR than with 2d screens. (MWUt: p=0.023).
 </tspan></text>
     <g
        id="g58969"
@@ -1494,15 +1455,15 @@
     <text
        xml:space="preserve"
        id="text75455"
-       style="display:inline;font-size:93.3333px;line-height:1;font-family:sans-serif;white-space:pre;shape-inside:url(#rect75457)"
+       style="font-size:93.3333px;line-height:1;font-family:sans-serif;white-space:pre;shape-inside:url(#rect75457);display:inline"
        x="165.0668"
        y="0"
        transform="matrix(0.2645837,0,0,0.26458333,-7.0783448e-4,-19.050002)"><tspan
          x="1966.2294"
          y="595.99419"
-         id="tspan471082"><tspan
+         id="tspan167225"><tspan
            style="font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;text-anchor:middle"
-           id="tspan471080">VR vs Computer</tspan></tspan></text>
+           id="tspan167223">VR vs Computer</tspan></tspan></text>
     <g
        id="g213665"
        transform="translate(0,-0.39687345)">
@@ -1674,22 +1635,22 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:1.1;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:justify;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect100295);display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"><tspan
          x="1527.918"
          y="667.57992"
-         id="tspan471086"><tspan
+         id="tspan167229"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16274309 0 0 0 0 0 0 0 0.16272783 0 0 0 0 0.16272783 0 0 0 0 0 0 0 0 0 0.16272783 0 0 0.16272783 0 0 0 0 0 0 0 0 0 0.16272783 0 0 0 0 0 0 0 0.16272783 0 0 0 0 0 0 0 0 0 0.16272783 0 0.16272783 0 0 0.16272783 0 0 0 0.16272783 0 0 0 0 0 0 0.16272783 0 0 0.16272783 0 0 0 0 0.16272783 0 0 0 0 0 0 0.16272783 0 0 0.16272783 0 0 0 0.16272783"
-           id="tspan471084">Participant’s answers were evaluated by different scoring functions : 1) the number of true shapes in the shape </tspan></tspan><tspan
+           id="tspan167227">Participant’s answers were evaluated by different scoring functions : 1) the number of true shapes in the shape </tspan></tspan><tspan
          x="1527.918"
          y="699.84652"
-         id="tspan471090"><tspan
+         id="tspan167233"><tspan
            dx="0 0 0 0 0 0 0 0 0 5.9987493 0 0 5.9987569 0 0 0 5.9987569 0 0 0 0 0 0 0 0 0 0 0 0 5.9987569 0 0 5.9987264 0 0 0 5.9987569 0 0 0 0 0 0 0 5.9987264 0 0 0 0 0 0 5.9987874 0 0 0 0 5.9987264 0 0 5.9987874 0 0 0 0 0 0 5.9987264 0 0 0 0 0 0 0 0 5.9987264 0 0 0 0 5.9986653 0 0 0 0 0 0 0 5.9987874 0 0 5.9987874 0 0 0 5.9987874 0 0 0 0 0 0 -0.00010299683"
-           id="tspan471088">selected by the participant, 2) the longest streak (LS) of sorted adjacent true shapes, 3) the Levenshtein </tspan></tspan><tspan
+           id="tspan167231">selected by the participant, 2) the longest streak (LS) of sorted adjacent true shapes, 3) the Levenshtein </tspan></tspan><tspan
          x="1527.918"
          y="732.11312"
-         id="tspan471094"><tspan
+         id="tspan167237"><tspan
            dx="0 0 0 0 0 0 0 0 0 0.15609026 0 0 0 0 0 0 0 0.15609026 0 0 0 0.156075 0 0 0 0 0 0 0 0 0 0 0 0 0 0.156075 0 0 0 0 0 0 0.156075 0 0 0 0.156075 0 0 0 0.156075 0 0 0 0 0 0 0 0.156075 0 0 0 0 0 0 0.156075 0 0 0 0.156075 0 0 0.156075 0 0 0 0.156075 0 0 0 0.15613604 0 0 0.15601397 0 0 0 0.15601397 0 0 0 0 0 0 0 0 0 0.15601397 0.00010108948 0 0.15601397 0 0 0 0 0.15601397"
-           id="tspan471092">distance between the participant’s answer and the correct answer and 4) the sum of the distances of each true </tspan></tspan><tspan
+           id="tspan167235">distance between the participant’s answer and the correct answer and 4) the sum of the distances of each true </tspan></tspan><tspan
          x="1527.918"
          y="764.37973"
-         id="tspan471096">shape to its correct positions, named “veracity score”.
+         id="tspan167239">shape to its correct positions, named “veracity score”.
 </tspan></text>
     <text
        xml:space="preserve"
@@ -1698,30 +1659,30 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:1.1;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:justify;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect109514);display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"><tspan
          x="1527.918"
          y="1698.9881"
-         id="tspan471102"><tspan
+         id="tspan167245"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 11.983315 0 0 11.983331 0 0 0 0 0 0 11.983315 0 0 0 0 0 0 0 11.983315 0 0 0 0 0 0 0 0 11.983346 0 0 0 11.983285 0 0 11.983285 0 0 0 0 11.983285 0 0 0 0 0 0 0 11.983285 0 0 11.983346 0 0 0 0 0 0 0 0 0 0 11.983285"
            style="font-weight:500;-inkscape-font-specification:'Roboto Medium'"
-           id="tspan471098">Comparison of scores between Computer and VR with respect to experiment order.</tspan><tspan
+           id="tspan167241">Comparison of scores between Computer and VR with respect to experiment order.</tspan><tspan
            dx="0 11.983284 0 0.00010108948 0 11.983284 0 0 0 0 0 0 11.983284"
-           id="tspan471100"> For almost all </tspan></tspan><tspan
+           id="tspan167243"> For almost all </tspan></tspan><tspan
          x="1527.918"
          y="1731.2547"
-         id="tspan471106"><tspan
+         id="tspan167249"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 0 1.1460042 0 0 1.1460042 0 0 0 0 0 0 0 1.1460042 0 0 1.1460042 0 0 0 0 0 0 0 0 0 0 0 1.1460347 0 0 0 0 0 0 0 0 0 0 1.1460042 0 0 0 0 0 0 0 0 0 0 0 0 0 1.1460042 0 1.1460042 0 0 0 0 1.1460042 0 0 0 0 0 0 1.1460042 0 1.1460042 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.1460042 0 0 0 0 0 0 0 0 1.1460042"
-           id="tspan471104">experiments we observe no significant difference (Mann-Whitney U test (MWUt) : p-values&lt;0.05). However, for </tspan></tspan><tspan
+           id="tspan167247">experiments we observe no significant difference (Mann-Whitney U test (MWUt) : p-values&lt;0.05). However, for </tspan></tspan><tspan
          x="1527.918"
          y="1763.5213"
-         id="tspan471110"><tspan
+         id="tspan167253"><tspan
            dx="0 0 0 0 6.9140325 0 0 0 0 0 6.9140325 0 0 0 0 0 0 0 0 0 0 0 6.9140401 0 0 0 0 0 0 0 0 0 0 0 0 6.9140096 0 0 0 6.9140401 0 0 0 0 0 0 0 0 0 0 0 0 0 6.9140096 0 0 0 0 0 6.9140706 0 0 0 0 0 0 0 0 6.9140706 0 0 0 0 0 0 6.9140096 0 0 6.9140706 0 0 6.9140706 -0.00011062622 0 0 0 6.9140706 0 0 0 0 0 0 0 -0.00011062622 6.9140706 0 0 0 0 0 0 6.9140706"
-           id="tspan471108">the first experiment, participants had significantly lower Veracity Scores in VR than Computer (MWUt: p-</tspan></tspan><tspan
+           id="tspan167251">the first experiment, participants had significantly lower Veracity Scores in VR than Computer (MWUt: p-</tspan></tspan><tspan
          x="1527.918"
          y="1795.7879"
-         id="tspan471114"><tspan
+         id="tspan167257"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.57718134 0 0 0 0 0.5771718 0 0 0 0 0.57715654 0 0 0 0 0 0 0 0 0.57715654 0 0.57718706 0 0 0 0 0 0.57721758 0 0 0 0 0 0 0 0 0 0 0 0.57721758 0 0 0 0 0 0 0 0 0.57715654 0 0 0 0.57715654 0 0 0 0.57715654 0 0 0 0 0 0 0.57721758 0 0 0 0 0 0 0 0 0 0 0 0.57715654 0 0 0 0 0 0.57715654 0 0 0 0 0 0 0 0.57715654"
-           id="tspan471112">value=0.023). They also obtained a lower Levenshtein distance for the second experiment, which however was </tspan></tspan><tspan
+           id="tspan167255">value=0.023). They also obtained a lower Levenshtein distance for the second experiment, which however was </tspan></tspan><tspan
          x="1527.918"
          y="1828.0545"
-         id="tspan471116">just above the p-value threshold for significance (MWUt: p=0.06).</tspan></text>
+         id="tspan167259">just above the p-value threshold for significance (MWUt: p=0.06).</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,0,-3.3363775)"
@@ -1729,30 +1690,30 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:1.1;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:justify;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect79415);display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"><tspan
          x="1525.9395"
          y="2268.0819"
-         id="tspan471120"><tspan
+         id="tspan167263"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 5.5263453 0 0 5.5263453 0 0 0 5.52633 0 0 0 0 0 0 0 0 0 0 0 0 5.5263453 0 0 5.5263453 0 0 0 5.5263758 0 0 0 0 0 0 0 5.5263758 0 0 0 0 0 0 5.5263758 0 0 0 0 5.5263147 0 0 0 0 0 5.5263147 0 0 0 0 5.5263758 0 0 0 0 0 0 0 5.5263758 0 0 0 5.5263758 0 0 0 0 0.00010681152 0 0 0 5.5263758 0 0 0 -0.00010299683 5.5263758 0 0 0 5.5263758"
            style="font-weight:500;-inkscape-font-specification:'Roboto Medium'"
-           id="tspan471118">Comparison of the distribution of the longest streak (LS) taken both forward and backward with the null </tspan></tspan><tspan
+           id="tspan167261">Comparison of the distribution of the longest streak (LS) taken both forward and backward with the null </tspan></tspan><tspan
          x="1525.9395"
          y="2300.3485"
-         id="tspan471126"><tspan
+         id="tspan167269"><tspan
            style="font-weight:500;-inkscape-font-specification:'Roboto Medium'"
-           id="tspan471122">distribution</tspan><tspan
+           id="tspan167265">distribution</tspan><tspan
            dx="0 0 6.8433461 0 0 0 0 6.8433309 0 0 0 0 0 0 0 0 0 0 0 0 6.8433461 0 0 0 0 0 0 0 6.8433614 0 0 0 0 6.8433919 0 0 6.8433309 0 0 0 6.8433614 0 0 0 0 0 0 6.8433614 0 0 0 0 0 0 6.8433003 0 0 6.8433003 0 0 0 0 6.8433003 0 0 0 6.8433614 0 0 6.8433614 0 0 6.8433003 0 0 0 0 0 6.8433614 0 -0.0001335144 0 -0.0001335144 0 0 6.8432393 0 0 6.8432393"
-           id="tspan471124">. Null distribution sampled with 10 000 random draws. We find the LS of false shapes to be </tspan></tspan><tspan
+           id="tspan167267">. Null distribution sampled with 10 000 random draws. We find the LS of false shapes to be </tspan></tspan><tspan
          x="1525.9395"
          y="2332.6151"
-         id="tspan471130"><tspan
+         id="tspan167273"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.27053118 0 0 0 0 0 0 0.27053118 0 0 0 0 0.27054644 0 0 0 0 0 0.27051592 0 0 0 0.27054644 0 0 0 0 0.27051592 0 0 0 0 0 0 0 0 0 0 0.27051592 0 0 0 0 0 0 0.27051592 0 0 0 0 0 0 0 0 0.27055597 0 0 0 0 0.27051592 0 0 0 0 0 0 0 0 0.27051592 0 0 0 -0.00011062622 0 0 0 0 0 0 0 0 0.27051592 0 0 0 0 0 0.27051592 0 0 0 0 0.27063799"
-           id="tspan471128">significantly longer than under the null hypothesis (MWUt: p=0.01). This suggests participants might have used </tspan></tspan><tspan
+           id="tspan167271">significantly longer than under the null hypothesis (MWUt: p=0.01). This suggests participants might have used </tspan></tspan><tspan
          x="1525.9395"
          y="2364.8817"
-         id="tspan471134"><tspan
+         id="tspan167277"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 5.3689198 0 0 0 5.3689351 0 0 0 0 5.3689351 0 0 0 0 5.3689046 0 0 0 0 0 0 0 0 5.3689351 0 0 0 0 0 0 5.3689656 0 0 0 0 5.3689656 0 0 0 0 0 0 0 5.3689656 0 0 0 0 0 0 0 5.3689656 0 0 5.3689046 0 0 0 0 0 0 0 5.3689656 5.3689046 0 0 0 0 5.3689046 0.00010108948 0 5.3689046 0 0 0 0 0 5.3689046 0 0 0 0 0 0 0 5.3689046 0 0.00010108948 0 0 0 0 0 0 5.3689046"
-           id="tspan471132">primarily the fact that adjacent shapes look similar instead of relying  only on their memory. However, no </tspan></tspan><tspan
+           id="tspan167275">primarily the fact that adjacent shapes look similar instead of relying  only on their memory. However, no </tspan></tspan><tspan
          x="1525.9395"
          y="2397.1483"
-         id="tspan471136">significant difference was found between the null hypothesis and LS of true shapes.</tspan></text>
+         id="tspan167279">significant difference was found between the null hypothesis and LS of true shapes.</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,0,185.20848)"
@@ -1760,32 +1721,32 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;line-height:1.1;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:justify;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect104056);display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"><tspan
          x="1525.9395"
          y="2268.0819"
-         id="tspan471142"><tspan
+         id="tspan167285"><tspan
            dx="0 0 0 0 0 0 0 0 0 10.035249 0 0 0 0 0 0 0 10.035241 0 0 0 10.035256 0 0 0 0 0 0 0 0 10.035256 0 0 0 0 0 10.035256 0 0 10.035287 0 0 10.035287 0 0 0 10.035226 0 0 0 0 0 0 0 0 10.035226 0 0 0 0 10.035287 0 0 0 0 0 0 0 10.035287 0 0 10.035287 0 0 0 0 0 0 0 10.035287 0 0 0 0.00010108948"
            style="font-weight:500;-inkscape-font-specification:'Roboto Medium'"
-           id="tspan471138">Relation between the veracity score in VR and computer with respect to dataset used.</tspan><tspan
+           id="tspan167281">Relation between the veracity score in VR and computer with respect to dataset used.</tspan><tspan
            dx="0 10.035286 0 0 0 0 0 0 0 10.035164 0.00010108948 10.035164"
-           id="tspan471140"> Dataset 1 is </tspan></tspan><tspan
+           id="tspan167283"> Dataset 1 is </tspan></tspan><tspan
          x="1525.9395"
          y="2300.3485"
-         id="tspan471146"><tspan
+         id="tspan167289"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.2139211 0 0 0 0 0 0 0 0 0 0 1.2139058 0 0 0 0 1.2139058 0 0 0 0 0 0 1.2139058 0 0 0 0 0 0 0 0 1.2138753 0 0 0 0 0 0 1.2139363 0 0 0 0 0 0 1.2139363 0 0 0 0 0 0 0 0 0 1.2138753 0 0 0 1.2138753 0 0 0 0 0 0 0 1.2138753 0 0 1.2138753 0 0 0 1.2138753 0 0 0 0 0 0 0 0 1.2138753 0 0 0 0 0 1.2138753 0 0 1.2138753"
-           id="tspan471144">significantly associated with higher veracity scores (MWUt: p=0.005). For dataset 2, the veracity score of each </tspan></tspan><tspan
+           id="tspan167287">significantly associated with higher veracity scores (MWUt: p=0.005). For dataset 2, the veracity score of each </tspan></tspan><tspan
          x="1525.9395"
          y="2332.6151"
-         id="tspan471150"><tspan
+         id="tspan167293"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 0 3.7471547 0 0 3.7471547 0 0 3.7471547 0 0 0 3.7471395 0 0 0 0 3.7471395 0 3.74717 0 0 3.7471395 0 0 0 0 0 0 3.7472005 0 0 0 0 0 3.7471395 0 0 3.7471395 0 0 0 0 0 0 0 0 0 0 3.7471395 0 0 0 0 0 0 0 0 0 0 3.7472005 0 0 0 0 0 0 0 0 3.7470784 0 0.00010108948 -0.00011062622 0 0 0 0 0 0 0 0 0 3.7470784 0 0 0 0 0 0 0 3.7470784"
-           id="tspan471148">participant in VR and with a 2d screen could be positively correlated (pearson correlation: r=0.42, p=0.064). </tspan></tspan><tspan
+           id="tspan167291">participant in VR and with a 2d screen could be positively correlated (pearson correlation: r=0.42, p=0.064). </tspan></tspan><tspan
          x="1525.9395"
          y="2364.8817"
-         id="tspan471154"><tspan
+         id="tspan167297"><tspan
            dx="0 0 0 0 0 4.013783 0 0 0 0 0 4.0137715 0 0 0 0 0 0 0 4.0138021 0 0 0 0 4.0138021 0 0 0 0 0 0 0 0 0 0 0 0 4.0138021 0 0 0 0 0 0 0 0 0 4.0138021 0 0 0 0 0 0 4.0138021 0 0 0 0 4.013741 0 0 0 0 0 0 0 4.013741 0 0 0 0 0 0 0 0 0 0 0 0 0 4.0138021 0 0 4.0138021 0 0 0 4.0138021 0 0 0 0 0 0 4.0138021 0 0 0 -0.00010299683 0 4.01372 0.00010108948"
-           id="tspan471152">This would suggest some participants performed better than others, independently of the device used. The </tspan></tspan><tspan
+           id="tspan167295">This would suggest some participants performed better than others, independently of the device used. The </tspan></tspan><tspan
          x="1525.9395"
          y="2397.1483"
-         id="tspan471158"><tspan
+         id="tspan167301"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00011062622 0 0 0 0 0 0 0.00010108948"
-           id="tspan471156">extraneous factors responsible for the general success of participants are, as yet, unknown.</tspan></tspan></text>
+           id="tspan167299">extraneous factors responsible for the general success of participants are, as yet, unknown.</tspan></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1801,26 +1762,36 @@
        y="0"><tspan
          x="74.916016"
          y="1276.6222"
-         id="tspan471162"><tspan
+         id="tspan167305"><tspan
            dx="0 0 0 0 0 0 2.8310933 0 0 0 0 0 2.8310933 0 0 0 0 0 0 0 0 0 0 0 0 2.8310933 0 0 0 0 0 0 0 0 0 0 2.8310933 0 0 0 0 0 0 2.8311238 0 0 2.8310628 0 2.8310628 0 0 0 0 0 0 0 0 0 2.8311238 0 0 0 0 2.8310628 0 0 0 0 0 0 2.8311238 0 0 2.8311238 0 0 0 0 0.00010108948 2.8310628 0 0 0.0001001358 -0.00010299683 0 0 -0.00010299683 2.8311849 0 0 2.8310628 0 0 0.00010108948 0 0 0 0 0 0 0 2.8310628"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471160">Light Sheet Fluorescence Microscopy (LFSM) is a technique that allows 3D video imaging of biological  </tspan></tspan><tspan
+           id="tspan167303">Light Sheet Fluorescence Microscopy (LFSM) is a technique that allows 3D video imaging of biological  </tspan></tspan><tspan
          x="74.916016"
          y="1309.1753"
-         id="tspan471170"><tspan
+         id="tspan167317"><tspan
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471164">samples</tspan><tspan
+           id="tspan167307">samples</tspan><tspan
            style="font-size:65%;baseline-shift:super"
-           id="tspan471166">1</tspan><tspan
-           dx="0 0 1.6828637 0 0 1.6828847 0 0 0 0 1.6828847 0 0 0 0 1.6828542 0 0 0 0 0 1.6829 0 0 0 0 0 0 0 0 1.6828694 0 0 0 1.6828694 0 0 0 0 1.6828694 0 0 0 0 0 0 0 0 1.6828694 0 0 0 0 0 0 0 0 0 1.6828694 0 0 1.6828694 0 0 0 0 0 0 -0.00010299683 1.6828084 0 0 1.6828084 0 0 0 0 0.00011920929 0 0 1.6829305 0 0 0 0 -0.00012493134 1.6828084 0 0 0.00011348724"
+           id="tspan167309">1</tspan><tspan
+           dx="0 0 1.461863 0 0 1.461884 0 0 0 0 1.4618688 0 0 0 0 1.461884 0 0 0 0 0 1.461884 0 0 0 0 0 0 0 0 1.461884 0 0 0 1.4618535 0 0 0 0 1.4618535 0 0 0 0 0 0 0 0 1.461884 0 0 0 0 0 0 0 0 0 1.461884"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471168">. To this day, these datasets are most commonly displayed on desktop 2D screens while Virtual </tspan></tspan><tspan
+           id="tspan167311">. To this day, these datasets are most commonly displayed on </tspan><tspan
+           dx="1.461884 0 0 0 0 0 0 0 1.4618616 0 0 1.4618616"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167313">desktop 2D screens</tspan><tspan
+           dx="0 1.4619222 0 0 0 0 0 1.4618001 0.00010299683"
+           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
+           id="tspan167315"> while Virtual </tspan></tspan><tspan
          x="74.916016"
          y="1341.7284"
-         id="tspan471174"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00010490417"
+         id="tspan167325"><tspan
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471172">Reality (VR) could provide more intuitive analytics capacity for 3D + time datasets.
+           id="tspan167319">Reality (VR) could provide </tspan><tspan
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167321">more intuitive analytics</tspan><tspan
+           dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00011062622"
+           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
+           id="tspan167323"> capacity for 3D + time datasets.
 </tspan></tspan></text>
     <text
        xml:space="preserve"
@@ -1831,30 +1802,36 @@
        y="0"><tspan
          x="74.916016"
          y="1276.6222"
-         id="tspan471178"><tspan
-           dx="0 0 0 0 0 0 0 0 1.7043614 0 0 1.7043691 0 0 0 1.7043691 1.7043538 0 0 0 0 0 1.7043538 0 0 1.7043538 0 0 0 0 0 0 0 1.7043538 0 0 0 0 0 0 0 0 0 0 1.7043538 0 0 0 0 0 0 0 0 0 0 0 0 0 1.7043538 0 0 1.7043538 0 0 0 0 0 0 0 1.7043538 0 0 0 0 0 0 0 1.7043538 0 0 0 0 1.7043538 0 0 0 0 0 0 0 1.7043538 0 0 0 0 0 1.7043538 0 0.00010108948 1.7043538"
+         id="tspan167333"><tspan
+           dx="0 0 0 0 0 0 0 0 1.3811955 0 0 1.3811879 0 0 0 1.3812032 1.3812032 0 0 0 0 0 1.3812032"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471176">Indeed, VR was  found to enhance scientific investigation in various sectors that require users to interact </tspan></tspan><tspan
+           id="tspan167327">Indeed, VR was  found to </tspan><tspan
+           dx="1.3811727 0 0 0 0 0 0 0 1.3812037 0 0 0 0 0 0 0 0 0 0 1.3811731"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167329">enhance scientific investigation</tspan><tspan
+           dx="0 1.3811727 0 0 1.3811727 0 0 0 0 0 0 0 1.3812337 0 0 0 0 0 0 0 1.3811727 0 0 0 0 1.3812337 0 0 0 0 0 0 0 1.3811116 0 0 0 0 0 1.3811116 0 0 1.3812337"
+           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
+           id="tspan167331"> in various sectors that require users to interact </tspan></tspan><tspan
          x="74.916016"
          y="1309.1753"
-         id="tspan471186"><tspan
-           dx="0 0 0 0 2.679173 0 0 0 0 0 0 0 0 0 0 2.6791768 0 0 2.6791768 0 2.6791768 0 0 0 0 2.6791768"
+         id="tspan167341"><tspan
+           dx="0 0 0 0 2.0852056 0 0 0 0 0 0 0 0 0 0 2.0851979 0 0 2.0851827 0 2.0851827 0 0 0 0 2.0851827"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471180">and comprehend 3D + time datasets</tspan><tspan
+           id="tspan167335">and comprehend 3D + time datasets</tspan><tspan
            style="font-size:65%;baseline-shift:super"
-           id="tspan471182">2,3,4</tspan><tspan
-           dx="0 0 2.6792073 0 0 2.6791463 0 0 0 0 2.6791463 0 0 0 0 0 0 0 0 2.6791463 0 0 0 2.6791463 0 0 0 0 0 0 2.6791463 0 0 0 0 0 0 0 0 0 0 2.6792073 0 0 0 2.6792684 0 0 0 0 0 0 0 2.6791463 0 0 0 0 0 0 0 0 0 2.6790853"
+           id="tspan167337">2,3,4</tspan><tspan
+           dx="0 0 2.0852132 0 0 2.0852132 0 0 0 0 2.0851521 0 0 0 0 0 0 0 0 2.0852132 0 0 0 2.0851521 0 0 0 0 0 0 2.0852132 0 0 0 0 0 0 0 0 0 0 2.0851521 0 0 0 2.0852742 0 0 0 0 0 0 0 2.0851521 0 0 0 0 0 0 0 0 0 2.0852132"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471184">. In this context, our mentor researcher Leo Blondel developed a </tspan></tspan><tspan
+           id="tspan167339">. In this context, our mentor researcher Leo Blondel developed a </tspan></tspan><tspan
          x="74.916016"
          y="1341.7284"
-         id="tspan471194"><tspan
+         id="tspan167349"><tspan
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471188">VR software for visualizing large 3D+time microscopy datasets produced by LFSM</tspan><tspan
+           id="tspan167343">VR software for visualizing large 3D+time microscopy datasets produced by LFSM</tspan><tspan
            style="font-size:65%;baseline-shift:super"
-           id="tspan471190">5</tspan><tspan
+           id="tspan167345">5</tspan><tspan
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471192">.
+           id="tspan167347">.
 </tspan></tspan></text>
     <text
        xml:space="preserve"
@@ -1865,22 +1842,22 @@
        y="0"><tspan
          x="74.916016"
          y="1276.6222"
-         id="tspan471198"><tspan
-           dx="0 0 0 0 1.0236974 0 0 0 0 0 0 0 1.0236897 0 0 0 0 0 1.023705 0 0 1.0237203 0 0 0 0 0 0 0 0 0 1.0237203 0 0 0 1.0236897 0 0 0 0 0 0 1.0236897 0 0 1.0237508 0 0 0 0 0 1.0236897 0 1.0236897 0 0 1.0236897 0 0 0 0 0 0 0 1.0236897 0 0 1.0236897 0 1.0236897 0 0 0 0 1.0237508 0 0 1.0236897 0 0 0 0 0 0 1.0236897 0 0 1.0236897 0 1.0236897 0 0 0 0 0 0 1.0236897 0 0 0 0 0 0 0 1.0236897"
-           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471196">Our project aimed at measuring the impact of using a VR headset or a flat 2D screen on a user’s ability to </tspan></tspan><tspan
+         id="tspan167353"><tspan
+           dx="0 0 0 0 0.53740025 0 0 0 0 0 0 0 0.53739262 0 0 0 0 0 0.53740788 0 0 0.53739262 0 0 0 0 0 0 0 0 0 0.53739262 0 0 0 0.53739262 0 0 0 0 0 0 0.53742313 0 0 0.5373621 0 0 0 0 0 0.53742313 0 0.53742313 0 0 0.5373621 0 0 0 0 0 0 0 0.5373621 0 0 0.53742313 0 0.53742313 0 0 0 0 0.5373621 0 0 0.5373621 0 0 0 0 0 0 0.5373621 0 0 0.53748417 0 0.5373621 0 0 0 0 0 0 0.5373621 0 0 0 0 0 0 0 0.53748417"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-align:justify"
+           id="tspan167351">Our project aimed at measuring the impact of using a VR headset or a flat 2D screen on a user’s ability to </tspan></tspan><tspan
          x="74.916016"
          y="1309.1753"
-         id="tspan471202"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 15.664856 0 0 15.664848 0 0 0 0 0 0 0 0 0 0 0 0 0 15.664833 0 0 0 0 0 0 0 15.664864 0 0 0 0 0 0 0 0 0 0 0 0 0 15.664864 0 0 15.664803 0 0 0 15.664864 0 0 0 0 0 15.664864 0 0 0 0 0 0 0 0 0.0001001358 0 0 0 0 15.664803 0 0 0 0 0 0 15.664803 0 0 0 0 0 0 0 0 -0.00010490417"
-           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471200">interpret 3D time-evolving objects corresponding to the shape encapsulating moving particles.
+         id="tspan167357"><tspan
+           dx="0 0 0 0 0 0 0 0 0 0 14.242593 0 0 14.242593 0 0 0 0 0 0 0 0 0 0 0 0 0 14.242593 0 0 0 0 0 0 0 14.242593 0 0 0 0 0 0 0 0 0 0 0 0 0 14.242623 0 0 14.242562 0 0 0 14.242562 0 0 0 0 0 14.242562 0 0 0 0 0 0 0 0 0 0 0 0 0 14.242562 0 0 0 0 0 0 14.242562 0.00010108948"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-align:justify"
+           id="tspan167355">interpret 3D time-evolving objects corresponding to the shape encapsulating moving particles.
 </tspan></tspan><tspan
          x="74.916016"
          y="1341.7284"
-         id="tspan471206"><tspan
-           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471204">
+         id="tspan167361"><tspan
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-align:justify"
+           id="tspan167359">
 </tspan></tspan></text>
     <text
        xml:space="preserve"
@@ -1891,33 +1868,49 @@
        y="0"><tspan
          x="74.916016"
          y="1276.6222"
-         id="tspan471210"><tspan
+         id="tspan167365"><tspan
            dx="0 0 0 1.4837842 0 0 0 1.483788 0 0 0 0 0 0 0 0 1.483788 0 0 0 0 0 0 0 1.4837728 0 0 0 0 0 0 0 0 0 0 0 0 0 1.4838033 0 0 0 1.4837728 0 0 0 1.4837728 0 0 0 0 0 0 1.4838338 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.4837728 0 0 1.4837728 0 0 0 0 0 1.4838338 0 0 0 0 0 1.4837728 0 0 -0.00010490417 0 0 0 0 0 0 0 0 0 0 1.4837728 0 0 0 1.4837728 0 0 0 1.4837728"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471208">VR and computer results distributions did not differ significantly. In fact, these distributions did not prove </tspan></tspan><tspan
+           id="tspan167363">VR and computer results distributions did not differ significantly. In fact, these distributions did not prove </tspan></tspan><tspan
          x="74.916016"
          y="1309.1753"
-         id="tspan471214"><tspan
-           dx="0 0 0 1.3401418 0 0 1.3401418 0 0 0 0 0 0 0 0 0 0 0 0 0 1.3401418 0 0 0 0 0 0 0 0 0 1.3401265 0 0 0 0 1.340157 0 0 0 0 0 0 0 0 1.340157 0 0 1.340096 0 0 0 1.340157 0 0 0 0 1.340096 0 0 0 0 0 0 0 0 0 0 0 0 0 1.3401361 0 0 0 0 0 0 0 0 0 0 1.340157 0 0 1.340096 0 0 0 0 0 0 0 0 0 0 -0.00011062622 1.3402181 0 0.00011062622 -0.00010299683 0.0001001358 0 0 1.340096"
+         id="tspan167373"><tspan
+           dx="0 0 0 1.1529202 0 0 1.1529241 0 0 0 0 0 0 0 0 0 0 0 0 0 1.1529164 0 0 0 0 0 0 0 0 0 1.1529317 0 0 0 0 1.1529012 0 0 0 0 0 0 0 0 1.1529012 0 0 1.1529012 0 0 0 1.1529012 0 0 0 0 1.1529012 0 0 0 0 0 0 0 0 0 0 0 0 0 1.1528802"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471212">to be significantly different when compared to the null distribution. Therefore, no significant impact could </tspan></tspan><tspan
+           id="tspan167367">to be significantly different when compared to the null distribution. Therefore, </tspan><tspan
+           dx="1.1529012 0 0 1.1529016 0 0 0 0 0 0 0 0 0 0 0 1.1529016"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167369">no significant impact</tspan><tspan
+           dx="0 1.1529622"
+           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
+           id="tspan167371"> could </tspan></tspan><tspan
          x="74.916016"
          y="1341.7284"
-         id="tspan471218"><tspan
+         id="tspan167377"><tspan
            dx="0 0 0 2.0647054 0 0 0 0 0 0 0 0 2.0647054 0 0 2.0647054 0 0 0 2.0647054 0 0 0 0 0 0 2.0647054 0 0 0 0 0 0 0 2.0647054 0 0 2.0647054 0 0 0 0 0 2.0647054 0 0 0 2.0647054 0 0 0 0 0 0 0 2.0647054 0 0 2.0647054 0 0 0 0 0 0 2.0647054 0 0 0 0 0 2.0647054 0 0 0 0 2.0647054 0 0 0 0 0 2.0647054 0 -0.00010299683 0 2.0647054 0 0 2.0647054 0 0 2.0647054 0 0 0 2.0647054 -0.00010299683"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471216">be assessed on the user’s ability to track the changes in global shape when using the VR or the desktop </tspan></tspan><tspan
+           id="tspan167375">be assessed on the user’s ability to track the changes in global shape when using the VR or the desktop </tspan></tspan><tspan
          x="74.916016"
          y="1374.2815"
-         id="tspan471222"><tspan
-           dx="0 0 0 0 0 0 0 0 0.93450975 0 0 0.93450212 0 0 0 0.93451738 0 0 0 0 0 0 0 0 0 0.93451738 0 0 0 0 0 0 0 0 0.93448687 0 0.93451738 0 0 0 0 0 0 0 0 0 0 0 0.93451738 0 0 0 0.93451738 0 0 0 0 0 0 0 0.93451738 0 0 0 0 0 0 0 0 0 0 0 0.93451738 0 0 0.93451738 0 0 0 0 -0.00010490417 0 0.93445635 0 0 0 0 0 0 0 0.93445635 0 0.00010108948 0.93445635 0 0 0 0 0.93445635 0 0 0 0 0.93445635"
+         id="tspan167385"><tspan
+           dx="0 0 0 0 0 0 0 0 0.8440938 0 0 0.8440938 0 0 0 0.8440938 0 0 0 0 0 0 0 0 0 0.8440938 0 0 0 0 0 0 0 0 0.8440938 0 0.8440938 0 0 0 0 0 0 0 0 0 0 0 0.84406328 0 0 0 0.84406328"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471220">version of our software. However, a significant and notable progression in users’ ability to tell true shapes </tspan></tspan><tspan
+           id="tspan167379">version of our software. However, a significant and notable </tspan><tspan
+           dx="0.84406328"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167381">progression</tspan><tspan
+           dx="0 0.84406328 0 0 0.84406328 0 0 0 0 0 0 0.84412432 0 0 0 0 0 0 0 0.84406328 0 0 0.84400225 0 0 0 0 0.84412432 0 -0.00011062622 0 0 0.84412432"
+           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
+           id="tspan167383"> in users’ ability to tell true shapes </tspan></tspan><tspan
          x="74.916016"
          y="1406.8346"
-         id="tspan471226"><tspan
+         id="tspan167393"><tspan
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471224">from false was observed in the VR version. 
+           id="tspan167387">from false was observed in the </tspan><tspan
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167389">VR version</tspan><tspan
+           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
+           id="tspan167391">. 
 </tspan></tspan></text>
     <text
        xml:space="preserve"
@@ -1928,117 +1921,169 @@
        y="0"><tspan
          x="74.916016"
          y="1276.6222"
-         id="tspan471230"><tspan
-           dx="0 0 0 0.71300173 0 0 0 0 0 0 0 0.71300554 0 0 0 0 0 0.71300554 0 0 0.71299028 0 0.71299028 0 0 0 0 0 0.71299028 0 0 0 0 0 0 0 0 0.7130208 0 0 0.71295977 0 0 0 0 0 0 0 0 0 0 0 0 0 0.7130208 0 0 0 0 0 0 0 0.7130208 0 0 0 0 0 0 0 0 0 0.71299982 0 0 0 0 0 0.7130208 0 0 0 0 0 0 -0.00011062622 0 0.7130208 0 0 0 0.7130208"
+         id="tspan167401"><tspan
+           dx="0 0 0 0.58716631 0 0 0 0 0 0 0 0.58716631 0 0 0 0 0 0.58716631 0 0 0.58716631"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471228">We exposed users to a video sequence of time-evolving complex datasets. These datasets are composed </tspan></tspan><tspan
+           id="tspan167395">We exposed users to a </tspan><tspan
+           dx="0.58716631 0 0 0 0 0 0.58716679"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167397">video sequence</tspan><tspan
+           dx="0 0.58713579 0 0 0.58719683 0 0 0 0 0 0 0 0 0 0 0 0 0 0.58713579 0 0 0 0 0 0 0 0.58713579 0 0 0 0 0 0 0 0 0 0.58717585 0 0 0 0 0 0.58719683 0 0 0 0 0 0 0 0 0.58719683 0 0 0 0.58713579"
+           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
+           id="tspan167399"> of time-evolving complex datasets. These datasets are composed </tspan></tspan><tspan
          x="74.916016"
          y="1309.1753"
-         id="tspan471234"><tspan
+         id="tspan167405"><tspan
            dx="0 0 0 4.087069 0 0 0 0 0 4.0870671 0 0 0 0 0 0 0 0 0 4.0870748 0 0 0 0 0 0 0 0 0 4.0870442 0 0 0 0 0 0 4.0870748 0 0 0 0 0 4.0870442 0 0 0 0 0 0 0 4.0871053 0 0 0 0 0 0 0 0 0 4.0870442 0 0 0 0 0 0 0 0 0 4.0870442 0 0 0 0 0 4.0870442 0 0 0 0 4.0870442 0 0 0 0 0 4.0870442 0 0 4.0871663 0 0 -0.00010490417 0 0 0 0 4.0870442"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471232">of small cell-like particles moving along complex organized patterns. Users were asked to observe the </tspan></tspan><tspan
+           id="tspan167403">of small cell-like particles moving along complex organized patterns. Users were asked to observe the </tspan></tspan><tspan
          x="74.916016"
          y="1341.7284"
-         id="tspan471238"><tspan
+         id="tspan167409"><tspan
            dx="0 0 0 0 0 0 0 1.9629369 0 0 0 0 0 1.9629445 0 0 0 0 0 1.9629292 0 0 1.9629292 0 0 0 1.9629292 0 0 0 0 0 0 0 0 0 0 1.9629388 0 0 0 0 1.9629598 0 0 0 0 1.9629598 0 0 0 0 1.9629598 0 0 0 0 0 1.9629598 0 1.9629598 0 0 0 1.9629598 0 0 1.9629598 0 0 1.9628987 0 0 1.9629598 0 0 0 -0.00010299683 0 0 0 1.9630208 0 0 0 0 0 1.9628987 0 0 1.9630208 0 -0.00010299683 0 0 0 1.9630208"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471236">global shape drawn by the particles. They were then shown a set of 14 3D meshes. Seven of these were </tspan></tspan><tspan
+           id="tspan167407">global shape drawn by the particles. They were then shown a set of 14 3D meshes. Seven of these were </tspan></tspan><tspan
          x="74.916016"
          y="1374.2815"
-         id="tspan471242"><tspan
+         id="tspan167413"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 1.7473226 0 0 0 0 1.7473226 0 0 0 1.7473378 0 0 0 0 0 0 0 0 0 1.7473531 0 0 0 0 0 1.7473226 0 0 0 0 0 0 0 0 1.7473226 0 0 1.7473226 0 0 1.7473226 0 0 0 0 0 1.7473226 0 0 0 0 0 0 0 0 1.7473226 0 0 0 0 0 1.7473226 0 0 0 1.7473226 0 0 0 0 0 1.7473836 0 0 0 0 0 -0.00010299683 1.7474446 0 0 0 0 0 0 1.7473226 0 0 0 0 0 0 0 1.7473226"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471240">extracted from the sequence, later referred to as “true shapes”, while the later called “false shapes” were </tspan></tspan><tspan
+           id="tspan167411">extracted from the sequence, later referred to as “true shapes”, while the later called “false shapes” were </tspan></tspan><tspan
          x="74.916016"
          y="1406.8346"
-         id="tspan471246"><tspan
-           dx="0 0 0 0 0 0 0 0 0 11.637825 0 0 0 0 0 0 0 0 0 0 11.637825 0 0 0 0 0 0 0 0 0 0 0 0 11.637856 0 0 0 0 11.637825 0 0 0 0 0 11.637825 0 0 11.637825 0 0 0 0 11.637825 0 0 0 11.637825 0 0 0 0 11.637825 0 0 0 0 0 0 11.637825 0 0 11.637825 0 0 0 11.637825 0 0 0 0 0 0 0 0.00010108948 -0.00010299683 0 0 0 0 11.637825"
+         id="tspan167421"><tspan
+           dx="0 0 0 0 0 0 0 0 0 11.453835 0 0 0 0 0 0 0 0 0 0 11.453835 0 0 0 0 0 0 0 0 0 0 0 0 11.453835 0 0 0 0 11.453865 0 0 0 0 0 11.453865"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471244">randomly generated. Participants were asked to sort the true shapes in the chronological order </tspan></tspan><tspan
+           id="tspan167415">randomly generated. Participants were asked to </tspan><tspan
+           dx="11.453865 0 0 0 0 11.453866 0 0 0 11.453805 0 0 0 0 11.453866"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167417">sort the true shapes</tspan><tspan
+           dx="0 11.453804 0 0 11.453804 0 0 0 11.453804 0 0 0 0 0 0 0 0 0 0 0 0 0 11.453804"
+           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
+           id="tspan167419"> in the chronological order </tspan></tspan><tspan
          x="74.916016"
          y="1439.3877"
-         id="tspan471250"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 6.9618306 0 0 6.9618154 0 0 0 6.9618306 0 0 0 0 0 0 0 0 6.9618306 0 0 0 0 0 0 0 0 0 6.9617791 0 0 0 0 6.9618611 0 0 0 0 0 0 0 0 0 6.9618001 0 0 0 6.9618001 0 0 0 0 0 0 0 0 6.9618001 0 0 0 0 0 6.9619222 0 0 6.9618001 0 0 6.9618001 0 0 0 6.9618001 0 0 0 0 0 6.9618001 0 0 6.9618001"
+         id="tspan167427"><tspan
+           dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 6.802361 0 0 6.802361 0 0 0 6.8023458 0 0 0 0 0 0 0 0 6.8023763 0 0 0 0 0 0 0 0 0 6.8023553 0 0 0 0 6.8023763 0 0 0 0 0 0 0 0 0 6.8023763 0 0 0 6.8023763"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471248">corresponding to the observed sequence. This procedure was executed twice in VR and twice on a </tspan></tspan><tspan
+           id="tspan167423">corresponding to the observed sequence. This procedure was executed </tspan><tspan
+           dx="6.8023152 0 0 0 0 0 6.8023767 0 0 6.8024378 0 0 6.8023767 0 0 0 6.8023157 0 0 0 0 0 6.8023767 0 0 6.8023767"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167425">twice in VR and twice on a </tspan></tspan><tspan
          x="74.916016"
          y="1471.9408"
-         id="tspan471254"><tspan
+         id="tspan167433"><tspan
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167429">desktop 2D screen</tspan><tspan
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471252">desktop 2D screen for each participant with two different datasets.</tspan></tspan></text>
+           id="tspan167431"> for each participant with two different datasets.</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text11421"
-       style="display:inline;font-size:93.3333px;line-height:1;font-family:sans-serif;white-space:pre;shape-inside:url(#rect11423)"
+       style="font-size:93.3333px;line-height:1;font-family:sans-serif;white-space:pre;shape-inside:url(#rect11423);display:inline"
        x="165.0668"
        y="0"
        transform="matrix(0.26458333,0,0,0.26458333,0,-19.050002)"><tspan
          x="623.59576"
          y="595.99419"
-         id="tspan471258"><tspan
+         id="tspan167437"><tspan
            style="font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;text-anchor:middle"
-           id="tspan471256">Abstract</tspan></tspan></text>
+           id="tspan167435">Abstract</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,0,-19.050002)"
        id="text290562"
-       style="display:inline;font-size:36px;line-height:1.1;font-family:sans-serif;white-space:pre;shape-inside:url(#rect290564)"
+       style="font-size:36px;line-height:1.1;font-family:sans-serif;white-space:pre;shape-inside:url(#rect290564);display:inline"
        x="0"
        y="0"><tspan
          x="74.916016"
          y="671.66914"
-         id="tspan471262"><tspan
-           dx="0 0 0 0 0 0 0 6.1855469 0 0 6.1855469 0 0 0 0 0 0 6.1855469 0 0 0 0 0 0 0 0 0 0 6.1855469 0 0 0 0 0 0 0 0 0 0 0 6.1855469 0 0 0 0 0 0 0 0 0 0 6.1855469 0 0 0 0 6.1855469 0 0 0 6.1855469 0 0 6.1855469 0 0 0 0 0 0 0 0 0 0 0 0 6.1855469"
+         id="tspan167443"><tspan
+           dx="0 0 0 0 0 0 0 5.7794952 0 0 5.7794952 0 0 0 0 0 0 5.77948 0 0 0 0 0 0 0 0 0 0 5.7795105 0 0 0 0 0 0 0 0 0 0 0 5.77948 0 0 0 0 0 0 0 0 0 0 5.77948 0 0 0 0 5.77948 0 0 0 5.779541"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471260">Thanks to keener microscopy techniques, microscopy data are of increasingly high </tspan></tspan><tspan
+           id="tspan167439">Thanks to keener microscopy techniques, microscopy data are of </tspan><tspan
+           dx="5.7794189 0 0 0 0 0 0 0 0 0 0 0 0 5.779541"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167441">increasingly high </tspan></tspan><tspan
          x="74.916016"
          y="711.62068"
-         id="tspan471266"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 0 0 0.66619873 0 0 0 0 0 0 0 0 0.66619873 0 0 0.66616821 0 0 0 0 0.66619873 0 0 0 0 0.66619873 0 0 0.6661377 0 0 0 0 0 0 0.66619873 0 0 0 0 0 0 0 0 0.66619873 0 0 0 0 0 0 0 0 0 0.66619873 0 0 0 0 0 0 0 0 0 0 0 0 0 0.66625977 0 0 0 0 0 0 0.6661377"
+         id="tspan167453"><tspan
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167445">complexity</tspan><tspan
+           dx="0 0 4.7406311 0 0 0 0 0 0 0 0 4.7406311 0 0 4.7406158 0 0 0 0 4.7406311 0 0 0 0 4.7406311 0 0 4.7406006 0 0 0 0 0 0 4.7406616"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471264">complexity. Analysis of this data by humans requires sharpened visualization tools. To </tspan></tspan><tspan
+           id="tspan167447">. Analysis of this data by humans requires </tspan><tspan
+           dx="4.7406006 0 0 0 0 0 0 0 0 0 4.7406616 0 0 0 0 0 0 0 0 0 0 0 0 0 4.7406616"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167449">sharpened visualization tools</tspan><tspan
+           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
+           id="tspan167451">. </tspan></tspan><tspan
          x="74.916016"
          y="751.57222"
-         id="tspan471270"><tspan
-           dx="0 0 0 0 0 4.176239 0 0 0 4.176239 0 0 0 0 0 0 0 4.176239 0 0 0 0 0 0 0 4.176239 0 0 0 0 4.176239 0 0 0 0 0 4.1762085 0 0 4.1762695 0 4.1762085 0 0 0 0 4.1762695 0 0 4.1762085 0 0 0 0 0 0 0 0 0 4.1762695 0 0 4.1762085 0 0 4.1762695 0 0 0 0 0 0 0 0 4.1762695 0 0 0 4.1761475 0 0 0 0 4.1762695 0 0 4.1762695"
+         id="tspan167461"><tspan
+           dx="0 0 0 0.9813385 0 0 0 0 0.9813385"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471268">this end Virtual Reality (VR) could be a tool of interest, as it immerses the user in a </tspan></tspan><tspan
+           id="tspan167455">To this end </tspan><tspan
+           dx="0.9813385 0 0 0 0 0 0 0 0.9813385"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167457">Virtual Reality</tspan><tspan
+           dx="0 0.98132324 0 0 0 0 0.98132324 0 0 0 0 0 0.98135376 0 0 0.98132324 0 0.98132324 0 0 0 0 0.98132324 0 0 0.98129272 0 0 0 0 0 0 0 0 0 0.98135376 0 0 0.98132324 0 0 0.98132324 0 0 0 0 0 0 0 0 0.98126221 0 0 0 0.98138428 0 0 0 0 0.98132324 0 0 0.98132324"
+           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
+           id="tspan167459"> (VR) could be a tool of interest, as it immerses the user in a </tspan></tspan><tspan
          x="74.916016"
          y="791.52376"
-         id="tspan471274"><tspan
+         id="tspan167465"><tspan
            dx="0 0 0 0 0 0 0 0 4.0284119 0 0 0 0 0 0 0 0 0 0 0 4.0284119 0 0 0 0 0 4.0284119 0 0 0 0 4.0284119 0 0 0 4.0283813 0 0 0 0 0 4.0284424 0 0 4.0283813 0 0 0 0 0 0 0 0 0 4.0284424 0 0 4.0283813 0 0 0 0 0 0 0 0 0 0 4.0283203 0 0 0 0 0 0 0 0 0 4.0284424"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471272">virtual environment along with its data. We conducted an experiment comparing the </tspan></tspan><tspan
+           id="tspan167463">virtual environment along with its data. We conducted an experiment comparing the </tspan></tspan><tspan
          x="74.916016"
          y="831.47529"
-         id="tspan471278"><tspan
-           dx="0 0 0 0 0 0 0 0 5.8395615 0 0 5.8395538 0 5.8395691 0 0 0 0 5.8395386 0 0 5.8395691 0 0 0 0 0 0 0 0 5.8395691 0 0 0 5.8395386 0 0 0 0 0 0 5.8395386 0 0 5.8395996 0 0 0 0 0 0 0 5.8395386 0 0 0 0 0 5.8395996 0 0 5.8395996 0 0 5.8394775 0 0 0 0 0 0 0 0 0 0 0 5.8395996"
+         id="tspan167477"><tspan
+           dx="0 0 0 0 0 0 0 0 5.221817 0 0 5.221817 0 5.221817 0 0 0 0 5.2218018"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471276">ability of a user to memorize and recall 3D objects using VR or traditional desktop </tspan></tspan><tspan
+           id="tspan167467">ability of a user to </tspan><tspan
+           dx="5.2218323 0 0 0 0 0 0 0 0 5.2218323 0 0 0 5.2218323 0 0 0 0 0 0 5.2218018 0 0 5.2217712"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167469">memorize and recall 3D objects</tspan><tspan
+           dx="0 5.2218018"
+           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
+           id="tspan167471"> using </tspan><tspan
+           dx="5.2218018 0 0 5.2218018 0 0 5.2218628 0 0 0 0 0 0 0 0 0 0 0 5.2218628"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167473">VR or traditional desktop</tspan><tspan
+           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
+           id="tspan167475"> </tspan></tspan><tspan
          x="74.916016"
          y="871.42683"
-         id="tspan471282"><tspan
+         id="tspan167481"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 0 5.4789124 0 0 5.4788971 0 0 0 0 0 0 0 0 0 0 5.4788818 0 0 0 0 0 5.4789429 0 0 5.4788818 0 0 0 0 0 0 0 5.4788818 0 0 0 0 0 0 0 0 0 0 5.4789429 0 0 5.4788818 0 0 0 5.4788818 0 0 0 0 0 5.4788818"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471280">visualizers we developed. These 3D objects correspond to the shape encapsulating </tspan></tspan><tspan
+           id="tspan167479">visualizers we developed. These 3D objects correspond to the shape encapsulating </tspan></tspan><tspan
          x="74.916016"
          y="911.37837"
-         id="tspan471286"><tspan
-           dx="0 0 0 0 0 0 7.2367172 0 0 0 0 0 0 7.2367096 0 0 0 0 0 0 0 0 0 0 7.2366943 0 0 0 0 7.2367249 0 0 0 0 0 0 0 7.2366943 0 0 0 0 0 0 0 7.2366943 0 0 7.2367554 0 0 0 0 0 0 0 0 0 0 0 7.2366943 0 0 0 0 0 0 0 0 0 0 7.2366943 0 0 0 0 0 0 0 7.2366943"
+         id="tspan167489"><tspan
+           dx="0 0 0 0 0 0 6.7181625 0 0 0 0 0 0 6.7181549 0 0 0 0 0 0 0 0 0 0 6.7181396 0 0 0 0 6.7181702 0 0 0 0 0 0 0 6.7181396"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471284">small moving particles. This process yielded no significant difference between the </tspan></tspan><tspan
+           id="tspan167483">small moving particles. This process yielded </tspan><tspan
+           dx="6.7181396 0 0 6.7181396 0 0 0 0 0 0 0 0 0 0 0 6.7181396"
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167485">no significant difference</tspan><tspan
+           dx="0 6.7181396 0 0 0 0 0 0 0 6.7181396"
+           style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
+           id="tspan167487"> between the </tspan></tspan><tspan
          x="74.916016"
          y="951.32991"
-         id="tspan471290"><tspan
+         id="tspan167493"><tspan
            dx="0 0 0 0 0 0 0 14.157227 0 0 0 0 0 0 0 14.157227 0 0 0 14.157227 0 0 0 14.157227 0 0 0 0 14.157227 0 0 0 0 0 0 0 0 0 0 0 0 0 14.157227 0 0 0 0 0 0 0 0 0 0 0 0 14.157227 0 0 14.157227 0 0 0 0 0 0 0 0 14.157227 0 14.157227"
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471288">user’s results and the null distribution. Nonetheless, we observed a significant </tspan></tspan><tspan
+           id="tspan167491">user’s results and the null distribution. Nonetheless, we observed a significant </tspan></tspan><tspan
          x="74.916016"
          y="991.28145"
-         id="tspan471294"><tspan
+         id="tspan167499"><tspan
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan167495">progression in VR</tspan><tspan
            style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:justify"
-           id="tspan471292">progression in VR not observed when using the desktop version of our software.
+           id="tspan167497"> not observed when using the desktop version of our software.
 </tspan></tspan></text>
     <g
        id="g25826"
@@ -2120,14 +2165,14 @@
          transform="matrix(0.7868853,0,0,0.7868853,45.545693,600.73284)"><tspan
            x="131.57594"
            y="51.542061"
-           id="tspan471298"><tspan
+           id="tspan167503"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471296">VR </tspan></tspan><tspan
+             id="tspan167501">VR </tspan></tspan><tspan
            x="131.57594"
            y="62.228713"
-           id="tspan471302"><tspan
+           id="tspan167507"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471300">experiment</tspan></tspan></text>
+             id="tspan167505">experiment</tspan></tspan></text>
       <g
          id="g100948"
          transform="matrix(0.7296815,0,0,0.7296815,113.04915,592.34741)">
@@ -2145,11 +2190,11 @@
            style="font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect94253);fill:#e9e9f2;fill-opacity:1"><tspan
              x="410"
              y="340.39062"
-             id="tspan471308"><tspan
+             id="tspan167513"><tspan
                style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
-               id="tspan471304">×</tspan><tspan
+               id="tspan167509">×</tspan><tspan
                style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
-               id="tspan471306">2</tspan></tspan></text>
+               id="tspan167511">2</tspan></tspan></text>
       </g>
       <text
          xml:space="preserve"
@@ -2160,14 +2205,14 @@
          transform="matrix(0.7868853,0,0,0.7868853,100.3429,558.57474)"><tspan
            x="133.41745"
            y="106.19283"
-           id="tspan471312"><tspan
+           id="tspan167517"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471310">Computer </tspan></tspan><tspan
+             id="tspan167515">Computer </tspan></tspan><tspan
            x="133.41745"
            y="116.87949"
-           id="tspan471316"><tspan
+           id="tspan167521"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471314">tutorial</tspan></tspan></text>
+             id="tspan167519">tutorial</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-size:10.5833px;line-height:1;font-family:sans-serif;white-space:pre;inline-size:85.8904;fill:#e9e9f2;stroke-width:0.264583"
@@ -2177,14 +2222,14 @@
          transform="matrix(0.7868853,0,0,0.7868853,158.53852,557.76961)"><tspan
            x="133.41745"
            y="106.19283"
-           id="tspan471320"><tspan
+           id="tspan167525"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471318">Computer </tspan></tspan><tspan
+             id="tspan167523">Computer </tspan></tspan><tspan
            x="133.41745"
            y="116.87949"
-           id="tspan471324"><tspan
+           id="tspan167529"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471322">experiment</tspan></tspan></text>
+             id="tspan167527">experiment</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-size:10.5833px;line-height:1;font-family:sans-serif;white-space:pre;inline-size:72.1353;fill:#e9e9f2;stroke-width:0.264583"
@@ -2194,14 +2239,14 @@
          transform="matrix(0.7868853,0,0,0.7868853,-26.65709,590.32475)"><tspan
            x="133.41745"
            y="106.19283"
-           id="tspan471328"><tspan
+           id="tspan167533"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471326">Computer </tspan></tspan><tspan
+             id="tspan167531">Computer </tspan></tspan><tspan
            x="133.41745"
            y="116.87949"
-           id="tspan471332"><tspan
+           id="tspan167537"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471330">tutorial</tspan></tspan></text>
+             id="tspan167535">tutorial</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-size:10.5833px;line-height:1;font-family:sans-serif;white-space:pre;inline-size:85.8904;fill:#e9e9f2;stroke-width:0.264583"
@@ -2211,14 +2256,14 @@
          transform="matrix(0.7868853,0,0,0.7868853,31.538524,589.51961)"><tspan
            x="133.41745"
            y="106.19283"
-           id="tspan471336"><tspan
+           id="tspan167541"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471334">Computer </tspan></tspan><tspan
+             id="tspan167539">Computer </tspan></tspan><tspan
            x="133.41745"
            y="116.87949"
-           id="tspan471340"><tspan
+           id="tspan167545"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471338">experiment</tspan></tspan></text>
+             id="tspan167543">experiment</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-size:8.32784px;line-height:1.25;font-family:sans-serif;fill:#e9e9f2;stroke-width:0.208196"
@@ -2239,14 +2284,14 @@
          transform="matrix(0.7868853,0,0,0.7868853,172.5457,632.48284)"><tspan
            x="131.57594"
            y="51.542061"
-           id="tspan471344"><tspan
+           id="tspan167549"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471342">VR </tspan></tspan><tspan
+             id="tspan167547">VR </tspan></tspan><tspan
            x="131.57594"
            y="62.228713"
-           id="tspan471348"><tspan
+           id="tspan167553"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471346">experiment</tspan></tspan></text>
+             id="tspan167551">experiment</tspan></tspan></text>
       <rect
          style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.382098;stroke-miterlimit:10;-inkscape-stroke:none;paint-order:markers fill stroke;stop-color:#000000"
          id="rect86551"
@@ -2263,14 +2308,14 @@
          transform="translate(3.432784,558.90239)"><tspan
            x="26.702312"
            y="98.332275"
-           id="tspan471352"><tspan
+           id="tspan167557"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471350">Starting </tspan></tspan><tspan
+             id="tspan167555">Starting </tspan></tspan><tspan
            x="26.702312"
            y="106.74144"
-           id="tspan471356"><tspan
+           id="tspan167561"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471354">survey</tspan></tspan></text>
+             id="tspan167559">survey</tspan></tspan></text>
       <rect
          style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.382098;stroke-miterlimit:10;-inkscape-stroke:none;paint-order:markers fill stroke;stop-color:#000000"
          id="rect90021"
@@ -2287,14 +2332,14 @@
          transform="translate(315.64112,558.90238)"><tspan
            x="26.702312"
            y="98.332275"
-           id="tspan471360"><tspan
+           id="tspan167565"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471358">Ending </tspan></tspan><tspan
+             id="tspan167563">Ending </tspan></tspan><tspan
            x="26.702312"
            y="106.74144"
-           id="tspan471364"><tspan
+           id="tspan167569"><tspan
              style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';text-align:center;text-anchor:middle"
-             id="tspan471362">survey</tspan></tspan></text>
+             id="tspan167567">survey</tspan></tspan></text>
       <g
          id="g100956"
          transform="matrix(0.7296815,0,0,0.7296815,239.07233,592.34741)">
@@ -2312,11 +2357,11 @@
            style="font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect100958);fill:#e9e9f2;fill-opacity:1"><tspan
              x="410"
              y="340.39062"
-             id="tspan471370"><tspan
+             id="tspan167575"><tspan
                style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
-               id="tspan471366">×</tspan><tspan
+               id="tspan167571">×</tspan><tspan
                style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
-               id="tspan471368">2</tspan></tspan></text>
+               id="tspan167573">2</tspan></tspan></text>
       </g>
       <g
          id="g100966"
@@ -2335,11 +2380,11 @@
            style="font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect100976);fill:#e9e9f2;fill-opacity:1"><tspan
              x="410"
              y="340.39062"
-             id="tspan471376"><tspan
+             id="tspan167581"><tspan
                style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
-               id="tspan471372">×</tspan><tspan
+               id="tspan167577">×</tspan><tspan
                style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
-               id="tspan471374">2</tspan></tspan></text>
+               id="tspan167579">2</tspan></tspan></text>
       </g>
       <g
          id="g100974"
@@ -2358,11 +2403,11 @@
            style="font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect100978);fill:#e9e9f2;fill-opacity:1"><tspan
              x="410"
              y="340.39062"
-             id="tspan471382"><tspan
+             id="tspan167587"><tspan
                style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
-               id="tspan471378">×</tspan><tspan
+               id="tspan167583">×</tspan><tspan
                style="font-weight:bold;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
-               id="tspan471380">2</tspan></tspan></text>
+               id="tspan167585">2</tspan></tspan></text>
       </g>
       <path
          style="fill:none;stroke:#404040;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
@@ -3074,9 +3119,9 @@
        y="0"><tspan
          x="687.38901"
          y="595.99419"
-         id="tspan471386"><tspan
+         id="tspan167591"><tspan
            style="font-family:'Archivo Narrow';-inkscape-font-specification:'Archivo Narrow';text-align:center;text-anchor:middle"
-           id="tspan471384">Intro</tspan></tspan></text>
+           id="tspan167589">Intro</tspan></tspan></text>
     <g
        id="g38219"
        transform="translate(0,70.908334)"
@@ -3206,6 +3251,61 @@
            x="126.94886"
            y="605.35748"
            id="tspan180710">VR experiment</tspan></text>
+    </g>
+    <g
+       id="g43759"
+       transform="translate(-47.625001)"
+       style="display:inline">
+      <g
+         id="g273777"
+         transform="translate(-4.7844567)">
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,-632.01422,-19.054729)"
+           id="text14716"
+           style="font-size:24px;line-height:1;font-family:sans-serif;white-space:pre;shape-inside:url(#rect14718)"><tspan
+             x="3040.8379"
+             y="3118.9707"
+             id="tspan167595"><tspan
+               style="font-family:Roboto;-inkscape-font-specification:Roboto"
+               id="tspan167593">https://github.com/drblobfish/score-diving-4th-dim
+</tspan></tspan><tspan
+             x="3040.8379"
+             y="3143.2051"
+             id="tspan167599"><tspan
+               style="font-family:Roboto;-inkscape-font-specification:Roboto"
+               id="tspan167597">https://www.zotero.org/groups/4625494/score-4d-microscopy/library
+</tspan></tspan><tspan
+             x="3040.8379"
+             y="3167.4395"
+             id="tspan167603"><tspan
+               style="font-family:Roboto;-inkscape-font-specification:Roboto"
+               id="tspan167601">https://projects.learningplanetinstitute.org/projects/rRiHhgY3/summary</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,-674.34758,-19.054729)"
+           id="text26320"
+           style="font-size:24px;line-height:1;font-family:sans-serif;white-space:pre;shape-inside:url(#rect26322)"
+           x="115.63523"
+           y="0"><tspan
+             x="3128.457"
+             y="3118.9707"
+             id="tspan167607"><tspan
+               style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:end;text-anchor:end"
+               id="tspan167605">Code : 
+</tspan></tspan><tspan
+             x="3052.2383"
+             y="3143.2051"
+             id="tspan167611"><tspan
+               style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:end;text-anchor:end"
+               id="tspan167609">Bibliography : 
+</tspan></tspan><tspan
+             x="3067.2617"
+             y="3167.4395"
+             id="tspan167615"><tspan
+               style="font-family:Roboto;-inkscape-font-specification:Roboto;text-align:end;text-anchor:end"
+               id="tspan167613">CRI project :  </tspan></tspan></text>
+      </g>
     </g>
   </g>
 </svg>
