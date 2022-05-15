@@ -1,0 +1,91 @@
+{
+    "time": "4/30/2022 1:13:27 PM",
+    "experimentID": "14",
+    "chosenDataset": 1,
+    "Pairs": [
+        {
+            "slotIndex": 0,
+            "answer": "false1(Clone)"
+        },
+        {
+            "slotIndex": 1,
+            "answer": "false3(Clone)"
+        },
+        {
+            "slotIndex": 2,
+            "answer": "false7(Clone)"
+        },
+        {
+            "slotIndex": 3,
+            "answer": "false6(Clone)"
+        },
+        {
+            "slotIndex": 4,
+            "answer": "true1(Clone)"
+        },
+        {
+            "slotIndex": 5,
+            "answer": "false2(Clone)"
+        }
+    ],
+    "InspectionTimes": [
+        {
+            "observationTime": 0.0,
+            "name": "true1(Clone)"
+        },
+        {
+            "observationTime": 0.0,
+            "name": "true2(Clone)"
+        },
+        {
+            "observationTime": 0.0,
+            "name": "true3(Clone)"
+        },
+        {
+            "observationTime": 0.0,
+            "name": "true4(Clone)"
+        },
+        {
+            "observationTime": 0.0,
+            "name": "true5(Clone)"
+        },
+        {
+            "observationTime": 0.0,
+            "name": "true6(Clone)"
+        },
+        {
+            "observationTime": 0.0,
+            "name": "true7(Clone)"
+        },
+        {
+            "observationTime": 0.0,
+            "name": "false1(Clone)"
+        },
+        {
+            "observationTime": 0.0,
+            "name": "false2(Clone)"
+        },
+        {
+            "observationTime": 0.0,
+            "name": "false3(Clone)"
+        },
+        {
+            "observationTime": 0.0,
+            "name": "false4(Clone)"
+        },
+        {
+            "observationTime": 1.9333173036575318,
+            "name": "false5(Clone)"
+        },
+        {
+            "observationTime": 0.0,
+            "name": "false6(Clone)"
+        },
+        {
+            "observationTime": 0.0,
+            "name": "false7(Clone)"
+        }
+    ],
+    "pauseTime": 109.546630859375,
+    "sortingTime": 104.65023040771485
+}

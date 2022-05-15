@@ -1,0 +1,95 @@
+{
+    "time": "4/28/2022 11:21:32 AM",
+    "experimentID": "7",
+    "chosenDataset": 1,
+    "Pairs": [
+        {
+            "slotIndex": 0,
+            "answer": "false1(Clone)"
+        },
+        {
+            "slotIndex": 1,
+            "answer": "true2(Clone)"
+        },
+        {
+            "slotIndex": 2,
+            "answer": "true5(Clone)"
+        },
+        {
+            "slotIndex": 3,
+            "answer": "true3(Clone)"
+        },
+        {
+            "slotIndex": 4,
+            "answer": "false7(Clone)"
+        },
+        {
+            "slotIndex": 5,
+            "answer": "true7(Clone)"
+        },
+        {
+            "slotIndex": 6,
+            "answer": "true4(Clone)"
+        }
+    ],
+    "InspectionTimes": [
+        {
+            "observationTime": 4.79994010925293,
+            "name": "true1(Clone)"
+        },
+        {
+            "observationTime": 10.866510391235352,
+            "name": "true2(Clone)"
+        },
+        {
+            "observationTime": 18.999622344970704,
+            "name": "true3(Clone)"
+        },
+        {
+            "observationTime": 6.166555404663086,
+            "name": "true4(Clone)"
+        },
+        {
+            "observationTime": 11.88316535949707,
+            "name": "true5(Clone)"
+        },
+        {
+            "observationTime": 0.0,
+            "name": "true6(Clone)"
+        },
+        {
+            "observationTime": 13.099799156188965,
+            "name": "true7(Clone)"
+        },
+        {
+            "observationTime": 9.783247947692871,
+            "name": "false1(Clone)"
+        },
+        {
+            "observationTime": 2.3332760334014894,
+            "name": "false2(Clone)"
+        },
+        {
+            "observationTime": 3.8499345779418947,
+            "name": "false3(Clone)"
+        },
+        {
+            "observationTime": 5.966565132141113,
+            "name": "false4(Clone)"
+        },
+        {
+            "observationTime": 6.999866008758545,
+            "name": "false5(Clone)"
+        },
+        {
+            "observationTime": 6.399872779846191,
+            "name": "false6(Clone)"
+        },
+        {
+            "observationTime": 10.233183860778809,
+            "name": "false7(Clone)"
+        }
+    ],
+    "pauseTime": 87.04796600341797,
+    "sortingTime": 341.22509765625
+}

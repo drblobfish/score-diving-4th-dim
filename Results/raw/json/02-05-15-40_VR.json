@@ -1,0 +1,38 @@
+{
+    "time": "5/2/2022 3:40:35 PM",
+    "experimentID": "25",
+    "chosenDataset": 1,
+    "Pairs": [
+        {
+            "slotIndex": 0,
+            "answer": "true1(Clone)"
+        },
+        {
+            "slotIndex": 1,
+            "answer": "false2(Clone)"
+        },
+        {
+            "slotIndex": 2,
+            "answer": "false7(Clone)"
+        },
+        {
+            "slotIndex": 3,
+            "answer": "true4(Clone)"
+        },
+        {
+            "slotIndex": 4,
+            "answer": "true3(Clone)"
+        },
+        {
+            "slotIndex": 5,
+            "answer": "false4(Clone)"
+        },
+        {
+            "slotIndex": 6,
+            "answer": "false1(Clone)"
+        }
+    ],
+    "InspectionTimes": [],
+    "pauseTime": 95.8652114868164,
+    "sortingTime": 264.06793212890627
+}
