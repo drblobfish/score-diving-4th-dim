@@ -6,11 +6,13 @@ This repository contains the code of the custom softwares used for the experimen
 
 ## Links
 
-Our protocol is available [here](https://docs.google.com/document/d/1nIPCcI1o5f8sB7eeenndRpnXQNSKvKGWUfrj1_Wj8oY/edit?usp=sharing).
+Our poster can be found [in pdf format here](https://drblobfish.github.io/assets/pdf/score/poster.pdf).
 
 Our bibliography is available in [this zotero library](https://www.zotero.org/groups/4625494/score-4d-microscopy/library).
 
-More information can be found on our [CRI project page](https://projects.cri-paris.org/projects/rRiHhgY3/summary)
+More information can be found on our [CRI project page](https://projects.cri-paris.org/projects/rRiHhgY3/summary).
+
+For reference, our initial protocol (as of january 2022) is available [here](https://docs.google.com/document/d/1nIPCcI1o5f8sB7eeenndRpnXQNSKvKGWUfrj1_Wj8oY/edit?usp=sharing).
 
 ## Files
 
